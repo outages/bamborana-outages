@@ -4,9 +4,24 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-12-01T10:25:21.590-08:00"
+    "updated_at": "2020-12-01T10:29:22.513-08:00"
   },
   "components": [
+    {
+      "id": "3j21h38n1rd1",
+      "name": "TD",
+      "status": "operational",
+      "created_at": "2018-09-17T14:58:10.538-07:00",
+      "updated_at": "2020-07-30T16:49:47.422-07:00",
+      "position": 1,
+      "description": "Credit card processing for TD merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
@@ -23,13 +38,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3j21h38n1rd1",
-      "name": "TD",
+      "id": "tpvhhtslhvh3",
+      "name": "First Data",
       "status": "operational",
-      "created_at": "2018-09-17T14:58:10.538-07:00",
-      "updated_at": "2020-07-30T16:49:47.422-07:00",
-      "position": 1,
-      "description": "Credit card processing for TD merchants",
+      "created_at": "2018-09-28T13:22:39.441-07:00",
+      "updated_at": "2020-07-29T00:03:04.821-07:00",
+      "position": 2,
+      "description": "Credit card processing for First Data merchants",
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
@@ -61,21 +76,6 @@
         "zf6c01sl8prx",
         "9bd3lt5dj8yk"
       ]
-    },
-    {
-      "id": "tpvhhtslhvh3",
-      "name": "First Data",
-      "status": "operational",
-      "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2020-07-29T00:03:04.821-07:00",
-      "position": 2,
-      "description": "Credit card processing for First Data merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
     },
     {
       "id": "yn0x5x1xp24s",
@@ -138,21 +138,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lrvwsh919pgt",
-      "name": "Fraud Defence",
-      "status": "operational",
-      "created_at": "2018-10-15T20:10:52.835-07:00",
-      "updated_at": "2020-10-06T23:26:49.873-07:00",
-      "position": 5,
-      "description": "Fraud defence related products and services such as eID verify and CAV.",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "2lwzc7k0f33q",
       "name": "Chase Paymentech",
       "status": "operational",
@@ -168,13 +153,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jbg5nd57jz6q",
-      "name": "Merchant Portal",
+      "id": "lrvwsh919pgt",
+      "name": "Fraud Defence",
       "status": "operational",
-      "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2020-11-09T08:46:48.626-08:00",
-      "position": 6,
-      "description": "https://web.na.bambora.com/admin",
+      "created_at": "2018-10-15T20:10:52.835-07:00",
+      "updated_at": "2020-10-06T23:26:49.873-07:00",
+      "position": 5,
+      "description": "Fraud defence related products and services such as eID verify and CAV.",
       "showcase": false,
       "start_date": null,
       "group_id": null,
@@ -198,16 +183,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "zf6c01sl8prx",
-      "name": "Desjardins",
-      "status": "operational",
-      "created_at": "2018-09-28T13:28:43.233-07:00",
-      "updated_at": "2020-07-29T00:03:04.932-07:00",
-      "position": 7,
-      "description": "Credit card processing for Desjardins merchants",
+      "id": "jbg5nd57jz6q",
+      "name": "Merchant Portal",
+      "status": "degraded_performance",
+      "created_at": "2018-09-12T15:38:07.395-07:00",
+      "updated_at": "2020-12-01T10:29:22.472-08:00",
+      "position": 6,
+      "description": "https://web.na.bambora.com/admin",
       "showcase": false,
       "start_date": null,
-      "group_id": "2k8htkqk5ghw",
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -223,6 +208,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "zf6c01sl8prx",
+      "name": "Desjardins",
+      "status": "operational",
+      "created_at": "2018-09-28T13:28:43.233-07:00",
+      "updated_at": "2020-07-29T00:03:04.932-07:00",
+      "position": 7,
+      "description": "Credit card processing for Desjardins merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -249,7 +249,7 @@
       "name": "Monthly Statement Delay",
       "status": "investigating",
       "created_at": "2020-12-01T10:25:21.459-08:00",
-      "updated_at": "2020-12-01T10:25:21.587-08:00",
+      "updated_at": "2020-12-01T10:29:22.506-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -257,6 +257,46 @@
       "started_at": "2020-12-01T10:25:21.449-08:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "9rx7s9f0m7zt",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "d8rfl6x3dw4l",
+          "created_at": "2020-12-01T10:29:22.503-08:00",
+          "updated_at": "2020-12-01T10:29:22.503-08:00",
+          "display_at": "2020-12-01T10:29:22.503-08:00",
+          "affected_components": [
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "2vcjcc5zn9cp",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "d8rfl6x3dw4l",
+          "created_at": "2020-12-01T10:28:42.586-08:00",
+          "updated_at": "2020-12-01T10:28:42.586-08:00",
+          "display_at": "2020-12-01T10:28:42.586-08:00",
+          "affected_components": [
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "q22w2r0d9y1x",
           "status": "investigating",
@@ -280,13 +320,13 @@
       ],
       "components": [
         {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
+          "id": "jbg5nd57jz6q",
+          "name": "Merchant Portal",
           "status": "degraded_performance",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2020-12-01T10:25:21.520-08:00",
-          "position": 1,
-          "description": "Intermittent errors on transaction adjustments (example: PAC and Refunds). \r\n\r\n*Note: Transaction usually works upon retry.",
+          "created_at": "2018-09-12T15:38:07.395-07:00",
+          "updated_at": "2020-12-01T10:29:22.472-08:00",
+          "position": 6,
+          "description": "https://web.na.bambora.com/admin",
           "showcase": false,
           "start_date": null,
           "group_id": null,
