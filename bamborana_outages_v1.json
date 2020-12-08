@@ -4,32 +4,17 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2020-12-07T10:51:43.087-08:00"
+    "updated_at": "2020-12-08T10:34:43.293-08:00"
   },
   "components": [
     {
-      "id": "3j21h38n1rd1",
-      "name": "TD",
-      "status": "operational",
-      "created_at": "2018-09-17T14:58:10.538-07:00",
-      "updated_at": "2020-07-30T16:49:47.422-07:00",
-      "position": 1,
-      "description": "Credit card processing for TD merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2020-12-01T10:25:21.520-08:00",
+      "updated_at": "2020-12-08T10:34:43.289-08:00",
       "position": 1,
-      "description": "Intermittent errors on transaction adjustments (example: PAC and Refunds). \r\n\r\n*Note: Transaction usually works upon retry.",
+      "description": null,
       "showcase": false,
       "start_date": null,
       "group_id": null,
@@ -38,13 +23,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "tpvhhtslhvh3",
-      "name": "First Data",
+      "id": "3j21h38n1rd1",
+      "name": "TD",
       "status": "operational",
-      "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2020-07-29T00:03:04.821-07:00",
-      "position": 2,
-      "description": "Credit card processing for First Data merchants",
+      "created_at": "2018-09-17T14:58:10.538-07:00",
+      "updated_at": "2020-07-30T16:49:47.422-07:00",
+      "position": 1,
+      "description": "Credit card processing for TD merchants",
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
@@ -76,6 +61,21 @@
         "zf6c01sl8prx",
         "9bd3lt5dj8yk"
       ]
+    },
+    {
+      "id": "tpvhhtslhvh3",
+      "name": "First Data",
+      "status": "operational",
+      "created_at": "2018-09-28T13:22:39.441-07:00",
+      "updated_at": "2020-07-29T00:03:04.821-07:00",
+      "position": 2,
+      "description": "Credit card processing for First Data merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
     },
     {
       "id": "yn0x5x1xp24s",
@@ -138,21 +138,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "2lwzc7k0f33q",
-      "name": "Chase Paymentech",
-      "status": "operational",
-      "created_at": "2018-09-28T13:27:29.111-07:00",
-      "updated_at": "2020-07-29T00:03:04.883-07:00",
-      "position": 5,
-      "description": "Credit card payments for Chase Paymentech merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "lrvwsh919pgt",
       "name": "Fraud Defence",
       "status": "operational",
@@ -168,13 +153,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "k7n48rhgv5lh",
-      "name": "TSYS (Vital)",
+      "id": "2lwzc7k0f33q",
+      "name": "Chase Paymentech",
       "status": "operational",
-      "created_at": "2018-09-28T13:28:13.647-07:00",
-      "updated_at": "2020-07-29T00:03:04.907-07:00",
-      "position": 6,
-      "description": "Credit card processing for TSYS merchants",
+      "created_at": "2018-09-28T13:27:29.111-07:00",
+      "updated_at": "2020-07-29T00:03:04.883-07:00",
+      "position": 5,
+      "description": "Credit card payments for Chase Paymentech merchants",
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
@@ -198,16 +183,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "x73lwmcxxgmk",
-      "name": "Customer Care",
+      "id": "k7n48rhgv5lh",
+      "name": "TSYS (Vital)",
       "status": "operational",
-      "created_at": "2018-10-15T20:11:49.056-07:00",
-      "updated_at": "2019-09-18T08:49:16.048-07:00",
-      "position": 7,
-      "description": "Customer care channels including email and telephone.",
+      "created_at": "2018-09-28T13:28:13.647-07:00",
+      "updated_at": "2020-07-29T00:03:04.907-07:00",
+      "position": 6,
+      "description": "Credit card processing for TSYS merchants",
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -223,6 +208,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "x73lwmcxxgmk",
+      "name": "Customer Care",
+      "status": "operational",
+      "created_at": "2018-10-15T20:11:49.056-07:00",
+      "updated_at": "2019-09-18T08:49:16.048-07:00",
+      "position": 7,
+      "description": "Customer care channels including email and telephone.",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -246,7 +246,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
