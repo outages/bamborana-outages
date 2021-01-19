@@ -4,24 +4,9 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-01-18T14:23:49.535-08:00"
+    "updated_at": "2021-01-18T17:20:45.256-08:00"
   },
   "components": [
-    {
-      "id": "lmm3y57mtffz",
-      "name": "Credit and Debit Card Payments",
-      "status": "partial_outage",
-      "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-01-18T13:28:14.932-08:00",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "3j21h38n1rd1",
       "name": "TD",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "lmm3y57mtffz",
+      "name": "Credit and Debit Card Payments",
+      "status": "operational",
+      "created_at": "2018-09-12T15:38:07.373-07:00",
+      "updated_at": "2021-01-18T17:20:45.202-08:00",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -78,21 +78,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jn3qknr2znhd",
-      "name": "Batch and Bank to Bank Payments",
-      "status": "operational",
-      "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2021-01-18T00:35:44.079-08:00",
-      "position": 3,
-      "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "yn0x5x1xp24s",
       "name": "Global Payments",
       "status": "operational",
@@ -103,6 +88,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "jn3qknr2znhd",
+      "name": "Batch and Bank to Bank Payments",
+      "status": "operational",
+      "created_at": "2018-09-28T13:19:54.879-07:00",
+      "updated_at": "2021-01-18T00:35:44.079-08:00",
+      "position": 3,
+      "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -198,21 +198,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "zf6c01sl8prx",
-      "name": "Desjardins",
-      "status": "operational",
-      "created_at": "2018-09-28T13:28:43.233-07:00",
-      "updated_at": "2021-01-18T00:35:44.178-08:00",
-      "position": 7,
-      "description": "Credit card processing for Desjardins merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "x73lwmcxxgmk",
       "name": "Customer Care",
       "status": "operational",
@@ -223,6 +208,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "zf6c01sl8prx",
+      "name": "Desjardins",
+      "status": "operational",
+      "created_at": "2018-09-28T13:28:43.233-07:00",
+      "updated_at": "2021-01-18T00:35:44.178-08:00",
+      "position": 7,
+      "description": "Credit card processing for Desjardins merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -323,61 +323,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2021-01-18T13:28:14.932-08:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    },
-    {
-      "id": "fffwqq4d2zbk",
-      "name": "Tokenization Services Issues",
-      "status": "monitoring",
-      "created_at": "2021-01-18T13:28:14.898-08:00",
-      "updated_at": "2021-01-18T13:28:15.009-08:00",
-      "monitoring_at": "2021-01-18T13:28:14.998-08:00",
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/ct55gh39ymcp",
-      "started_at": "2021-01-18T13:28:14.892-08:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "fct6k3393jqt",
-          "status": "monitoring",
-          "body": "We experience failures on our tokenization service starting at 11:50AM PST. Incident was resolved at 12:55 PM PST. We currently monitoring.",
-          "incident_id": "fffwqq4d2zbk",
-          "created_at": "2021-01-18T13:28:14.998-08:00",
-          "updated_at": "2021-01-18T13:28:14.998-08:00",
-          "display_at": "2021-01-18T13:28:14.998-08:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "partial_outage",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2021-01-18T13:28:14.932-08:00",
+          "updated_at": "2021-01-18T17:20:45.202-08:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -393,6 +341,6 @@
   "scheduled_maintenances": [],
   "status": {
     "indicator": "minor",
-    "description": "Minor Service Outage"
+    "description": "Partially Degraded Service"
   }
 }
