@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-02-11T07:23:55.255-08:00"
+    "updated_at": "2021-02-11T08:33:05.050-08:00"
   },
   "components": [
     {
@@ -243,107 +243,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "wgwcs9xx8l0s",
-      "name": "Delayed Recurring Billing and Other Tasks",
-      "status": "monitoring",
-      "created_at": "2021-02-11T06:45:54.555-08:00",
-      "updated_at": "2021-02-11T07:18:34.348-08:00",
-      "monitoring_at": "2021-02-11T07:18:34.332-08:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/44d609clyf1c",
-      "started_at": "2021-02-11T06:45:54.548-08:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "y0ywsh3lp6m4",
-          "status": "monitoring",
-          "body": "Our team has identified a cause and implement a fix for the incident. All tasks are running as schedule now and we will be monitoring closely for the next few hours.\n\nThank you for your patience.",
-          "incident_id": "wgwcs9xx8l0s",
-          "created_at": "2021-02-11T07:18:34.332-08:00",
-          "updated_at": "2021-02-11T07:18:34.332-08:00",
-          "display_at": "2021-02-11T07:18:34.332-08:00",
-          "affected_components": [
-            {
-              "code": "md5ddnfxqw6t",
-              "name": "Acquirers - Elavon",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "k7n48rhgv5lh",
-              "name": "Acquirers - TSYS (Vital)",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "mhwtkn03k3p9",
-          "status": "investigating",
-          "body": "Several automated tasks from February 10th-11th were unsuccessful. The team is investigating.",
-          "incident_id": "wgwcs9xx8l0s",
-          "created_at": "2021-02-11T06:45:54.628-08:00",
-          "updated_at": "2021-02-11T06:45:54.628-08:00",
-          "display_at": "2021-02-11T06:45:54.628-08:00",
-          "affected_components": [
-            {
-              "code": "md5ddnfxqw6t",
-              "name": "Acquirers - Elavon",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "k7n48rhgv5lh",
-              "name": "Acquirers - TSYS (Vital)",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "k7n48rhgv5lh",
-          "name": "TSYS (Vital)",
-          "status": "operational",
-          "created_at": "2018-09-28T13:28:13.647-07:00",
-          "updated_at": "2021-02-11T07:18:34.304-08:00",
-          "position": 6,
-          "description": "Credit card processing for TSYS merchants",
-          "showcase": false,
-          "start_date": null,
-          "group_id": "2k8htkqk5ghw",
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "md5ddnfxqw6t",
-          "name": "Elavon",
-          "status": "operational",
-          "created_at": "2018-09-28T13:26:57.554-07:00",
-          "updated_at": "2021-02-11T07:18:34.288-08:00",
-          "position": 4,
-          "description": "Credit card payments for Elavon merchants",
-          "showcase": false,
-          "start_date": null,
-          "group_id": "2k8htkqk5ghw",
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
