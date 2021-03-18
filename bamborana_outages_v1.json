@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-03-18T03:23:41.844-07:00"
+    "updated_at": "2021-03-18T03:46:23.078-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-03-18T02:46:07.481-07:00",
+      "updated_at": "2021-03-18T03:46:23.023-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -249,7 +249,7 @@
       "name": "Merchant Portal Connectivity Issues",
       "status": "monitoring",
       "created_at": "2021-03-18T02:26:31.032-07:00",
-      "updated_at": "2021-03-18T02:46:07.531-07:00",
+      "updated_at": "2021-03-18T03:46:23.067-07:00",
       "monitoring_at": "2021-03-18T02:26:31.096-07:00",
       "resolved_at": null,
       "impact": "minor",
@@ -257,6 +257,32 @@
       "started_at": "2021-03-18T02:26:31.025-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "80mw0wvr752x",
+          "status": "monitoring",
+          "body": "Our team has implemented a fix and our systems are fully operational.",
+          "incident_id": "ctkmkyl85611",
+          "created_at": "2021-03-18T03:46:23.063-07:00",
+          "updated_at": "2021-03-18T03:46:23.063-07:00",
+          "display_at": "2021-03-18T03:46:23.063-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "75gmfccdk2qy",
           "status": "monitoring",
@@ -329,9 +355,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2021-03-18T02:46:07.481-07:00",
+          "updated_at": "2021-03-18T03:46:23.023-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -346,7 +372,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
