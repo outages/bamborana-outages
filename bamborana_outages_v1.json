@@ -4,30 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-03-19T12:52:49.791-07:00"
+    "updated_at": "2021-03-22T09:48:13.231-07:00"
   },
   "components": [
     {
-      "id": "lmm3y57mtffz",
-      "name": "Credit and Debit Card Payments",
-      "status": "operational",
-      "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-03-18T03:46:23.023-07:00",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3j21h38n1rd1",
       "name": "TD",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-17T14:58:10.538-07:00",
-      "updated_at": "2021-03-02T14:56:35.414-08:00",
+      "updated_at": "2021-03-22T09:48:13.044-07:00",
       "position": 1,
       "description": "Credit card processing for TD merchants",
       "showcase": false,
@@ -38,9 +23,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "lmm3y57mtffz",
+      "name": "Credit and Debit Card Payments",
+      "status": "degraded_performance",
+      "created_at": "2018-09-12T15:38:07.373-07:00",
+      "updated_at": "2021-03-22T09:48:13.011-07:00",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "2k8htkqk5ghw",
       "name": "Acquirers",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:22:15.087-07:00",
       "updated_at": "2018-11-09T14:47:59.115-08:00",
       "position": 2,
@@ -65,9 +65,9 @@
     {
       "id": "tpvhhtslhvh3",
       "name": "First Data",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2021-01-18T00:35:44.050-08:00",
+      "updated_at": "2021-03-22T09:48:13.063-07:00",
       "position": 2,
       "description": "Credit card processing for First Data merchants",
       "showcase": false,
@@ -80,9 +80,9 @@
     {
       "id": "yn0x5x1xp24s",
       "name": "Global Payments",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:26:14.363-07:00",
-      "updated_at": "2021-02-26T14:18:55.032-08:00",
+      "updated_at": "2021-03-22T09:48:13.080-07:00",
       "position": 3,
       "description": "Credit card processing for Global Payments merchants",
       "showcase": false,
@@ -108,21 +108,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "md5ddnfxqw6t",
-      "name": "Elavon",
-      "status": "operational",
-      "created_at": "2018-09-28T13:26:57.554-07:00",
-      "updated_at": "2021-02-11T07:18:34.288-08:00",
-      "position": 4,
-      "description": "Credit card payments for Elavon merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "d4bgz01l6nt2",
       "name": "Onboarding",
       "status": "operational",
@@ -133,6 +118,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "md5ddnfxqw6t",
+      "name": "Elavon",
+      "status": "degraded_performance",
+      "created_at": "2018-09-28T13:26:57.554-07:00",
+      "updated_at": "2021-03-22T09:48:13.124-07:00",
+      "position": 4,
+      "description": "Credit card payments for Elavon merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -155,26 +155,11 @@
     {
       "id": "2lwzc7k0f33q",
       "name": "Chase Paymentech",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:27:29.111-07:00",
-      "updated_at": "2021-01-18T00:35:44.120-08:00",
+      "updated_at": "2021-03-22T09:48:13.142-07:00",
       "position": 5,
       "description": "Credit card payments for Chase Paymentech merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "k7n48rhgv5lh",
-      "name": "TSYS (Vital)",
-      "status": "operational",
-      "created_at": "2018-09-28T13:28:13.647-07:00",
-      "updated_at": "2021-02-11T07:18:34.304-08:00",
-      "position": 6,
-      "description": "Credit card processing for TSYS merchants",
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
@@ -198,6 +183,36 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "k7n48rhgv5lh",
+      "name": "TSYS (Vital)",
+      "status": "degraded_performance",
+      "created_at": "2018-09-28T13:28:13.647-07:00",
+      "updated_at": "2021-03-22T09:48:13.158-07:00",
+      "position": 6,
+      "description": "Credit card processing for TSYS merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "zf6c01sl8prx",
+      "name": "Desjardins",
+      "status": "degraded_performance",
+      "created_at": "2018-09-28T13:28:43.233-07:00",
+      "updated_at": "2021-03-22T09:48:13.174-07:00",
+      "position": 7,
+      "description": "Credit card processing for Desjardins merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "x73lwmcxxgmk",
       "name": "Customer Care",
       "status": "operational",
@@ -208,21 +223,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "zf6c01sl8prx",
-      "name": "Desjardins",
-      "status": "operational",
-      "created_at": "2018-09-28T13:28:43.233-07:00",
-      "updated_at": "2021-01-18T00:35:44.178-08:00",
-      "position": 7,
-      "description": "Credit card processing for Desjardins merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -243,10 +243,210 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "q0vwfr1bcrdf",
+      "name": "Transactions Dropped",
+      "status": "investigating",
+      "created_at": "2021-03-22T09:48:12.934-07:00",
+      "updated_at": "2021-03-22T09:48:13.228-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/pr4gc7c18075",
+      "started_at": "2021-03-22T09:48:12.918-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "1msjvnbkr853",
+          "status": "investigating",
+          "body": "We have implemented a fix and are monitoring",
+          "incident_id": "q0vwfr1bcrdf",
+          "created_at": "2021-03-22T09:48:13.225-07:00",
+          "updated_at": "2021-03-22T09:48:13.225-07:00",
+          "display_at": "2021-03-22T09:48:13.225-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "md5ddnfxqw6t",
+              "name": "Acquirers - Elavon",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "2lwzc7k0f33q",
+              "name": "Acquirers - Chase Paymentech",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "k7n48rhgv5lh",
+              "name": "Acquirers - TSYS (Vital)",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zf6c01sl8prx",
+              "name": "Acquirers - Desjardins",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "zf6c01sl8prx",
+          "name": "Desjardins",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:28:43.233-07:00",
+          "updated_at": "2021-03-22T09:48:13.174-07:00",
+          "position": 7,
+          "description": "Credit card processing for Desjardins merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "k7n48rhgv5lh",
+          "name": "TSYS (Vital)",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:28:13.647-07:00",
+          "updated_at": "2021-03-22T09:48:13.158-07:00",
+          "position": 6,
+          "description": "Credit card processing for TSYS merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "2lwzc7k0f33q",
+          "name": "Chase Paymentech",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:27:29.111-07:00",
+          "updated_at": "2021-03-22T09:48:13.142-07:00",
+          "position": 5,
+          "description": "Credit card payments for Chase Paymentech merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "md5ddnfxqw6t",
+          "name": "Elavon",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:26:57.554-07:00",
+          "updated_at": "2021-03-22T09:48:13.124-07:00",
+          "position": 4,
+          "description": "Credit card payments for Elavon merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "yn0x5x1xp24s",
+          "name": "Global Payments",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:26:14.363-07:00",
+          "updated_at": "2021-03-22T09:48:13.080-07:00",
+          "position": 3,
+          "description": "Credit card processing for Global Payments merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "tpvhhtslhvh3",
+          "name": "First Data",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:22:39.441-07:00",
+          "updated_at": "2021-03-22T09:48:13.063-07:00",
+          "position": 2,
+          "description": "Credit card processing for First Data merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3j21h38n1rd1",
+          "name": "TD",
+          "status": "degraded_performance",
+          "created_at": "2018-09-17T14:58:10.538-07:00",
+          "updated_at": "2021-03-22T09:48:13.044-07:00",
+          "position": 1,
+          "description": "Credit card processing for TD merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "degraded_performance",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2021-03-22T09:48:13.011-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
