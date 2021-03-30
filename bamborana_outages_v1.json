@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-03-30T08:32:55.790-07:00"
+    "updated_at": "2021-03-30T10:44:00.853-07:00"
   },
   "components": [
     {
@@ -243,80 +243,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "5lqkbc7ybtsm",
-      "name": "Recurring Billing delayed",
-      "status": "monitoring",
-      "created_at": "2021-03-30T07:38:56.036-07:00",
-      "updated_at": "2021-03-30T08:32:55.788-07:00",
-      "monitoring_at": "2021-03-30T08:32:55.773-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/57d0zcfh2ggb",
-      "started_at": "2021-03-30T07:38:56.032-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "39d4h2tw0tcy",
-          "status": "monitoring",
-          "body": "We have completed the outstanding recurring billing transactions that were not complete last night. We continue to monitor for any additional issues.",
-          "incident_id": "5lqkbc7ybtsm",
-          "created_at": "2021-03-30T08:32:55.773-07:00",
-          "updated_at": "2021-03-30T08:32:55.773-07:00",
-          "display_at": "2021-03-30T08:32:55.773-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "zg2th9t2rzh1",
-          "status": "identified",
-          "body": "We have received reports of some recurring billing transactions not completing overnight. We have identified the issue and are in the process of re running these transactions.",
-          "incident_id": "5lqkbc7ybtsm",
-          "created_at": "2021-03-30T07:38:56.104-07:00",
-          "updated_at": "2021-03-30T07:38:56.104-07:00",
-          "display_at": "2021-03-30T07:38:56.104-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "operational",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2021-03-30T08:32:55.741-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
