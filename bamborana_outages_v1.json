@@ -4,9 +4,24 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-03-22T12:33:41.587-07:00"
+    "updated_at": "2021-03-30T07:38:56.108-07:00"
   },
   "components": [
+    {
+      "id": "lmm3y57mtffz",
+      "name": "Credit and Debit Card Payments",
+      "status": "degraded_performance",
+      "created_at": "2018-09-12T15:38:07.373-07:00",
+      "updated_at": "2021-03-30T07:38:56.063-07:00",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
     {
       "id": "3j21h38n1rd1",
       "name": "TD",
@@ -23,16 +38,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lmm3y57mtffz",
-      "name": "Credit and Debit Card Payments",
+      "id": "tpvhhtslhvh3",
+      "name": "First Data",
       "status": "operational",
-      "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-03-22T12:33:41.333-07:00",
-      "position": 1,
-      "description": null,
+      "created_at": "2018-09-28T13:22:39.441-07:00",
+      "updated_at": "2021-03-22T12:33:41.391-07:00",
+      "position": 2,
+      "description": "Credit card processing for First Data merchants",
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -63,16 +78,16 @@
       ]
     },
     {
-      "id": "tpvhhtslhvh3",
-      "name": "First Data",
+      "id": "jn3qknr2znhd",
+      "name": "Batch and Bank to Bank Payments",
       "status": "operational",
-      "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2021-03-22T12:33:41.391-07:00",
-      "position": 2,
-      "description": "Credit card processing for First Data merchants",
+      "created_at": "2018-09-28T13:19:54.879-07:00",
+      "updated_at": "2021-03-02T08:29:52.226-08:00",
+      "position": 3,
+      "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
       "start_date": null,
-      "group_id": "2k8htkqk5ghw",
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -93,16 +108,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jn3qknr2znhd",
-      "name": "Batch and Bank to Bank Payments",
+      "id": "md5ddnfxqw6t",
+      "name": "Elavon",
       "status": "operational",
-      "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2021-03-02T08:29:52.226-08:00",
-      "position": 3,
-      "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+      "created_at": "2018-09-28T13:26:57.554-07:00",
+      "updated_at": "2021-03-22T12:33:41.442-07:00",
+      "position": 4,
+      "description": "Credit card payments for Elavon merchants",
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -118,21 +133,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "md5ddnfxqw6t",
-      "name": "Elavon",
-      "status": "operational",
-      "created_at": "2018-09-28T13:26:57.554-07:00",
-      "updated_at": "2021-03-22T12:33:41.442-07:00",
-      "position": 4,
-      "description": "Credit card payments for Elavon merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -168,21 +168,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jbg5nd57jz6q",
-      "name": "Merchant Portal",
-      "status": "operational",
-      "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2021-03-02T08:29:52.242-08:00",
-      "position": 6,
-      "description": "https://web.na.bambora.com/admin",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "k7n48rhgv5lh",
       "name": "TSYS (Vital)",
       "status": "operational",
@@ -198,16 +183,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "zf6c01sl8prx",
-      "name": "Desjardins",
+      "id": "jbg5nd57jz6q",
+      "name": "Merchant Portal",
       "status": "operational",
-      "created_at": "2018-09-28T13:28:43.233-07:00",
-      "updated_at": "2021-03-22T12:33:41.511-07:00",
-      "position": 7,
-      "description": "Credit card processing for Desjardins merchants",
+      "created_at": "2018-09-12T15:38:07.395-07:00",
+      "updated_at": "2021-03-02T08:29:52.242-08:00",
+      "position": 6,
+      "description": "https://web.na.bambora.com/admin",
       "showcase": false,
       "start_date": null,
-      "group_id": "2k8htkqk5ghw",
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -228,6 +213,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "zf6c01sl8prx",
+      "name": "Desjardins",
+      "status": "operational",
+      "created_at": "2018-09-28T13:28:43.233-07:00",
+      "updated_at": "2021-03-22T12:33:41.511-07:00",
+      "position": 7,
+      "description": "Credit card processing for Desjardins merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "9bd3lt5dj8yk",
       "name": "Interac Online",
       "status": "operational",
@@ -243,10 +243,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "5lqkbc7ybtsm",
+      "name": "Recurring Billing delayed",
+      "status": "identified",
+      "created_at": "2021-03-30T07:38:56.036-07:00",
+      "updated_at": "2021-03-30T07:38:56.106-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/57d0zcfh2ggb",
+      "started_at": "2021-03-30T07:38:56.032-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "zg2th9t2rzh1",
+          "status": "identified",
+          "body": "We have received reports of some recurring billing transactions not completing overnight. We have identified the issue and are in the process of re running these transactions.",
+          "incident_id": "5lqkbc7ybtsm",
+          "created_at": "2021-03-30T07:38:56.104-07:00",
+          "updated_at": "2021-03-30T07:38:56.104-07:00",
+          "display_at": "2021-03-30T07:38:56.104-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "degraded_performance",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2021-03-30T07:38:56.063-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
