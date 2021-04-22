@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-04-22T05:52:03.421-07:00"
+    "updated_at": "2021-04-22T06:40:15.967-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-04-22T05:22:11.887-07:00",
+      "updated_at": "2021-04-22T06:40:15.824-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "3j21h38n1rd1",
       "name": "TD",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-17T14:58:10.538-07:00",
-      "updated_at": "2021-04-22T05:22:11.908-07:00",
+      "updated_at": "2021-04-22T06:40:15.848-07:00",
       "position": 1,
       "description": "Credit card processing for TD merchants",
       "showcase": false,
@@ -40,7 +40,7 @@
     {
       "id": "2k8htkqk5ghw",
       "name": "Acquirers",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-28T13:22:15.087-07:00",
       "updated_at": "2018-11-09T14:47:59.115-08:00",
       "position": 2,
@@ -65,9 +65,9 @@
     {
       "id": "tpvhhtslhvh3",
       "name": "First Data",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2021-04-22T05:22:11.921-07:00",
+      "updated_at": "2021-04-22T06:40:15.869-07:00",
       "position": 2,
       "description": "Credit card processing for First Data merchants",
       "showcase": false,
@@ -95,9 +95,9 @@
     {
       "id": "yn0x5x1xp24s",
       "name": "Global Payments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-28T13:26:14.363-07:00",
-      "updated_at": "2021-04-22T05:22:11.941-07:00",
+      "updated_at": "2021-04-22T06:40:15.890-07:00",
       "position": 3,
       "description": "Credit card processing for Global Payments merchants",
       "showcase": false,
@@ -185,9 +185,9 @@
     {
       "id": "jbg5nd57jz6q",
       "name": "Merchant Portal",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2021-04-22T05:22:11.952-07:00",
+      "updated_at": "2021-04-22T06:40:15.915-07:00",
       "position": 6,
       "description": "https://web.na.bambora.com/admin",
       "showcase": false,
@@ -249,7 +249,7 @@
       "name": "Processing delays",
       "status": "monitoring",
       "created_at": "2021-04-22T05:22:11.857-07:00",
-      "updated_at": "2021-04-22T05:52:03.418-07:00",
+      "updated_at": "2021-04-22T06:40:15.957-07:00",
       "monitoring_at": "2021-04-22T05:52:03.405-07:00",
       "resolved_at": null,
       "impact": "minor",
@@ -257,6 +257,50 @@
       "started_at": "2021-04-22T05:22:11.847-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "zl2stpqbz40z",
+          "status": "monitoring",
+          "body": "We experienced a partial system outage today between 2:05 - 5:35 am pst. During this window payment processing and access to the portal was impacted. We have implemented a fix that was successful and we will continue to monitor the results.",
+          "incident_id": "s915m5vnk2z4",
+          "created_at": "2021-04-22T06:40:15.953-07:00",
+          "updated_at": "2021-04-22T06:40:15.953-07:00",
+          "display_at": "2021-04-22T06:40:15.953-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "582mlgrvcb3q",
           "status": "monitoring",
@@ -394,9 +438,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2021-04-22T05:22:11.952-07:00",
+          "updated_at": "2021-04-22T06:40:15.915-07:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -409,9 +453,9 @@
         {
           "id": "yn0x5x1xp24s",
           "name": "Global Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-28T13:26:14.363-07:00",
-          "updated_at": "2021-04-22T05:22:11.941-07:00",
+          "updated_at": "2021-04-22T06:40:15.890-07:00",
           "position": 3,
           "description": "Credit card processing for Global Payments merchants",
           "showcase": false,
@@ -424,9 +468,9 @@
         {
           "id": "tpvhhtslhvh3",
           "name": "First Data",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-28T13:22:39.441-07:00",
-          "updated_at": "2021-04-22T05:22:11.921-07:00",
+          "updated_at": "2021-04-22T06:40:15.869-07:00",
           "position": 2,
           "description": "Credit card processing for First Data merchants",
           "showcase": false,
@@ -439,9 +483,9 @@
         {
           "id": "3j21h38n1rd1",
           "name": "TD",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-17T14:58:10.538-07:00",
-          "updated_at": "2021-04-22T05:22:11.908-07:00",
+          "updated_at": "2021-04-22T06:40:15.848-07:00",
           "position": 1,
           "description": "Credit card processing for TD merchants",
           "showcase": false,
@@ -454,9 +498,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2021-04-22T05:22:11.887-07:00",
+          "updated_at": "2021-04-22T06:40:15.824-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -471,7 +515,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
