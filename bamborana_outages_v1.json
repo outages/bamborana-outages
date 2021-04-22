@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-04-19T12:52:03.603-07:00"
+    "updated_at": "2021-04-22T05:52:03.421-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-03-30T08:32:55.741-07:00",
+      "updated_at": "2021-04-22T05:22:11.887-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -25,9 +25,9 @@
     {
       "id": "3j21h38n1rd1",
       "name": "TD",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-17T14:58:10.538-07:00",
-      "updated_at": "2021-03-22T12:33:41.357-07:00",
+      "updated_at": "2021-04-22T05:22:11.908-07:00",
       "position": 1,
       "description": "Credit card processing for TD merchants",
       "showcase": false,
@@ -38,24 +38,9 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "tpvhhtslhvh3",
-      "name": "First Data",
-      "status": "operational",
-      "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2021-03-22T12:33:41.391-07:00",
-      "position": 2,
-      "description": "Credit card processing for First Data merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "2k8htkqk5ghw",
       "name": "Acquirers",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:22:15.087-07:00",
       "updated_at": "2018-11-09T14:47:59.115-08:00",
       "position": 2,
@@ -78,6 +63,21 @@
       ]
     },
     {
+      "id": "tpvhhtslhvh3",
+      "name": "First Data",
+      "status": "degraded_performance",
+      "created_at": "2018-09-28T13:22:39.441-07:00",
+      "updated_at": "2021-04-22T05:22:11.921-07:00",
+      "position": 2,
+      "description": "Credit card processing for First Data merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
       "status": "operational",
@@ -95,26 +95,11 @@
     {
       "id": "yn0x5x1xp24s",
       "name": "Global Payments",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:26:14.363-07:00",
-      "updated_at": "2021-03-22T12:33:41.417-07:00",
+      "updated_at": "2021-04-22T05:22:11.941-07:00",
       "position": 3,
       "description": "Credit card processing for Global Payments merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "md5ddnfxqw6t",
-      "name": "Elavon",
-      "status": "operational",
-      "created_at": "2018-09-28T13:26:57.554-07:00",
-      "updated_at": "2021-03-22T12:33:41.442-07:00",
-      "position": 4,
-      "description": "Credit card payments for Elavon merchants",
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
@@ -138,16 +123,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lrvwsh919pgt",
-      "name": "Fraud Defence",
+      "id": "md5ddnfxqw6t",
+      "name": "Elavon",
       "status": "operational",
-      "created_at": "2018-10-15T20:10:52.835-07:00",
-      "updated_at": "2021-01-18T00:35:44.132-08:00",
-      "position": 5,
-      "description": "Fraud defence related products and services such as eID verify and CAV.",
+      "created_at": "2018-09-28T13:26:57.554-07:00",
+      "updated_at": "2021-03-22T12:33:41.442-07:00",
+      "position": 4,
+      "description": "Credit card payments for Elavon merchants",
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -163,6 +148,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "lrvwsh919pgt",
+      "name": "Fraud Defence",
+      "status": "operational",
+      "created_at": "2018-10-15T20:10:52.835-07:00",
+      "updated_at": "2021-01-18T00:35:44.132-08:00",
+      "position": 5,
+      "description": "Fraud defence related products and services such as eID verify and CAV.",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -185,9 +185,9 @@
     {
       "id": "jbg5nd57jz6q",
       "name": "Merchant Portal",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2021-03-02T08:29:52.242-08:00",
+      "updated_at": "2021-04-22T05:22:11.952-07:00",
       "position": 6,
       "description": "https://web.na.bambora.com/admin",
       "showcase": false,
@@ -243,10 +243,235 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "s915m5vnk2z4",
+      "name": "Processing delays",
+      "status": "monitoring",
+      "created_at": "2021-04-22T05:22:11.857-07:00",
+      "updated_at": "2021-04-22T05:52:03.418-07:00",
+      "monitoring_at": "2021-04-22T05:52:03.405-07:00",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/r7109vr1kms2",
+      "started_at": "2021-04-22T05:22:11.847-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "582mlgrvcb3q",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "s915m5vnk2z4",
+          "created_at": "2021-04-22T05:52:03.405-07:00",
+          "updated_at": "2021-04-22T05:52:03.405-07:00",
+          "display_at": "2021-04-22T05:52:03.405-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "jb2kxh34wfhf",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "s915m5vnk2z4",
+          "created_at": "2021-04-22T05:46:09.189-07:00",
+          "updated_at": "2021-04-22T05:46:09.189-07:00",
+          "display_at": "2021-04-22T05:46:09.189-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "26749rjsd5p7",
+          "status": "investigating",
+          "body": "We are currently investigating this issue.",
+          "incident_id": "s915m5vnk2z4",
+          "created_at": "2021-04-22T05:22:11.985-07:00",
+          "updated_at": "2021-04-22T05:22:11.985-07:00",
+          "display_at": "2021-04-22T05:22:11.985-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jbg5nd57jz6q",
+          "name": "Merchant Portal",
+          "status": "degraded_performance",
+          "created_at": "2018-09-12T15:38:07.395-07:00",
+          "updated_at": "2021-04-22T05:22:11.952-07:00",
+          "position": 6,
+          "description": "https://web.na.bambora.com/admin",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "yn0x5x1xp24s",
+          "name": "Global Payments",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:26:14.363-07:00",
+          "updated_at": "2021-04-22T05:22:11.941-07:00",
+          "position": 3,
+          "description": "Credit card processing for Global Payments merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "tpvhhtslhvh3",
+          "name": "First Data",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:22:39.441-07:00",
+          "updated_at": "2021-04-22T05:22:11.921-07:00",
+          "position": 2,
+          "description": "Credit card processing for First Data merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3j21h38n1rd1",
+          "name": "TD",
+          "status": "degraded_performance",
+          "created_at": "2018-09-17T14:58:10.538-07:00",
+          "updated_at": "2021-04-22T05:22:11.908-07:00",
+          "position": 1,
+          "description": "Credit card processing for TD merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "degraded_performance",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2021-04-22T05:22:11.887-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
