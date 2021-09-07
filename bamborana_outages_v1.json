@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-09-07T12:59:37.928-07:00"
+    "updated_at": "2021-09-07T14:04:29.398-07:00"
   },
   "components": [
     {
@@ -249,7 +249,7 @@
       "name": "3D Secure failing for Mastercard transactions",
       "status": "identified",
       "created_at": "2021-09-01T22:19:51.368-07:00",
-      "updated_at": "2021-09-07T12:59:37.919-07:00",
+      "updated_at": "2021-09-07T14:04:29.391-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -257,6 +257,32 @@
       "started_at": "2021-09-01T22:19:51.363-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "phd250vr0hrn",
+          "status": "identified",
+          "body": "Our Master Security Officer has submitted the Certificate Signing Request (CSR) to Mastercard.  \nWe are currently waiting for Mastercard  to review our request and issue a new certificate.",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-07T14:04:29.388-07:00",
+          "updated_at": "2021-09-07T14:04:29.388-07:00",
+          "display_at": "2021-09-07T14:04:29.388-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "6ly5plscz2tt",
           "status": "identified",
