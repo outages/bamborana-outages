@@ -4,30 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-09-10T15:43:19.797-07:00"
+    "updated_at": "2021-09-10T10:17:40.693-07:00"
   },
   "components": [
     {
-      "id": "lmm3y57mtffz",
-      "name": "Credit and Debit Card Payments",
-      "status": "operational",
-      "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-09-10T15:43:19.741-07:00",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "3j21h38n1rd1",
       "name": "TD",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-17T14:58:10.538-07:00",
-      "updated_at": "2021-09-10T15:43:19.721-07:00",
+      "updated_at": "2021-09-02T10:07:17.592-07:00",
       "position": 1,
       "description": "Credit card processing for TD merchants",
       "showcase": false,
@@ -38,9 +23,24 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "lmm3y57mtffz",
+      "name": "Credit and Debit Card Payments",
+      "status": "degraded_performance",
+      "created_at": "2018-09-12T15:38:07.373-07:00",
+      "updated_at": "2021-09-01T22:19:51.400-07:00",
+      "position": 1,
+      "description": null,
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "2k8htkqk5ghw",
       "name": "Acquirers",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:22:15.087-07:00",
       "updated_at": "2018-11-09T14:47:59.115-08:00",
       "position": 2,
@@ -243,10 +243,306 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "gdjjm17w5k9f",
+      "name": "3D Secure failing for Mastercard transactions",
+      "status": "monitoring",
+      "created_at": "2021-09-01T22:19:51.368-07:00",
+      "updated_at": "2021-09-10T10:17:40.689-07:00",
+      "monitoring_at": "2021-09-10T10:09:54.000-07:00",
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/t5lbjwrcj6n3",
+      "started_at": "2021-09-02T07:59:03.000-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "k1bkyxcrvnd9",
+          "status": "monitoring",
+          "body": "The new certificates have been imported.  We have confirmed Mastercard 3DS approvals.\n\nTeams will continue to monitor",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-10T10:09:54.530-07:00",
+          "updated_at": "2021-09-10T10:17:40.594-07:00",
+          "display_at": "2021-09-10T10:09:54.000-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xctkkkrq665q",
+          "status": "identified",
+          "body": "This incident has been escalated with Mastercard.  An issue with their application has been reported.  Mastercard support has advised after the issue is resolved, our request will be processed.",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-09T15:28:54.679-07:00",
+          "updated_at": "2021-09-09T15:28:54.679-07:00",
+          "display_at": "2021-09-09T15:28:54.679-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "phd250vr0hrn",
+          "status": "identified",
+          "body": "Our Master Security Officer has submitted the Certificate Signing Request (CSR) to Mastercard.  \nWe are currently waiting for Mastercard  to review our request and issue a new certificate.",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-07T14:04:29.388-07:00",
+          "updated_at": "2021-09-07T14:04:29.388-07:00",
+          "display_at": "2021-09-07T14:04:29.388-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "6ly5plscz2tt",
+          "status": "identified",
+          "body": "A Certificate Signing Request (CSR) has been filled out by Bambora Security.  It has been forwarded to our Master Security Officer in Stockholm who will submit the request to Mastercard.  \n\nThere is currently no ETA available.",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-07T12:59:37.916-07:00",
+          "updated_at": "2021-09-07T12:59:37.916-07:00",
+          "display_at": "2021-09-07T12:59:37.916-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "xs882ylc8lrk",
+          "status": "identified",
+          "body": "Mastercard has confirmed that they are no longer supporting SHA1 client certificates.  We have requested the new certificates and are currently waiting for a response.",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-07T07:43:01.930-07:00",
+          "updated_at": "2021-09-07T07:43:01.930-07:00",
+          "display_at": "2021-09-07T07:43:01.930-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "9773vlt0bgs3",
+          "status": "investigating",
+          "body": "Our vendor for 3DS software has advised that new certificates have been issued by Mastercard. We have requested the new CA certificates from Mastercard support.",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-03T07:20:54.903-07:00",
+          "updated_at": "2021-09-03T07:20:54.903-07:00",
+          "display_at": "2021-09-03T07:20:54.903-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "1d46b0qjxrrb",
+          "status": "investigating",
+          "body": "Mastercard support advised their internal teams are still investigating.  An estimated time of resolution has not been provided.",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-02T15:33:42.376-07:00",
+          "updated_at": "2021-09-02T15:33:42.376-07:00",
+          "display_at": "2021-09-02T15:33:42.376-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "0kq6g9lxb670",
+          "status": "investigating",
+          "body": "Teams have identified a possible certificate issue with Mastercard.  Mastercard support is investigating.  \n\nFurther updates will be provided as they become available.",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-02T10:07:17.631-07:00",
+          "updated_at": "2021-09-02T10:07:17.631-07:00",
+          "display_at": "2021-09-02T10:07:17.631-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8lfyrr1ftyfr",
+          "status": "investigating",
+          "body": "A technical bridge has been opened for further troubleshooting.  Mastercard has also been engaged to assist in the investigation.",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-02T07:59:03.481-07:00",
+          "updated_at": "2021-09-02T07:59:51.575-07:00",
+          "display_at": "2021-09-02T07:59:03.000-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "phllfwltzps6",
+          "status": "investigating",
+          "body": "We are currently not able to connect to Mastercard 3D secure. The connection failure causes all Mastercard  transactions to bypass the liability shift for merchants with 3D secure enabled. Our team is investigating the issue and we will provide an update as soon as it is available.",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-01T22:19:51.445-07:00",
+          "updated_at": "2021-09-01T22:19:51.445-07:00",
+          "display_at": "2021-09-01T22:19:51.445-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "degraded_performance",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2021-09-01T22:19:51.400-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3j21h38n1rd1",
+          "name": "TD",
+          "status": "degraded_performance",
+          "created_at": "2018-09-17T14:58:10.538-07:00",
+          "updated_at": "2021-09-02T10:07:17.592-07:00",
+          "position": 1,
+          "description": "Credit card processing for TD merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
