@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-09-09T15:28:54.697-07:00"
+    "updated_at": "2021-09-10T10:17:40.693-07:00"
   },
   "components": [
     {
@@ -247,16 +247,42 @@
     {
       "id": "gdjjm17w5k9f",
       "name": "3D Secure failing for Mastercard transactions",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2021-09-01T22:19:51.368-07:00",
-      "updated_at": "2021-09-09T15:28:54.683-07:00",
-      "monitoring_at": null,
+      "updated_at": "2021-09-10T10:17:40.689-07:00",
+      "monitoring_at": "2021-09-10T10:09:54.000-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/t5lbjwrcj6n3",
-      "started_at": "2021-09-01T22:19:51.363-07:00",
+      "started_at": "2021-09-02T07:59:03.000-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "k1bkyxcrvnd9",
+          "status": "monitoring",
+          "body": "The new certificates have been imported.  We have confirmed Mastercard 3DS approvals.\n\nTeams will continue to monitor",
+          "incident_id": "gdjjm17w5k9f",
+          "created_at": "2021-09-10T10:09:54.530-07:00",
+          "updated_at": "2021-09-10T10:17:40.594-07:00",
+          "display_at": "2021-09-10T10:09:54.000-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xctkkkrq665q",
           "status": "identified",
