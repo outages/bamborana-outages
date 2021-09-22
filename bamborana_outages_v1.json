@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-09-22T12:55:01.155-07:00"
+    "updated_at": "2021-09-22T14:34:14.239-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-09-22T09:38:23.343-07:00",
+      "updated_at": "2021-09-22T14:34:14.180-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -243,123 +243,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "6qf6sk420l0p",
-      "name": "Intermittent 3D Secure",
-      "status": "monitoring",
-      "created_at": "2021-09-22T09:38:23.311-07:00",
-      "updated_at": "2021-09-22T12:55:01.147-07:00",
-      "monitoring_at": "2021-09-22T10:20:29.046-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/x698qm0glrh7",
-      "started_at": "2021-09-22T09:38:23.306-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "qpglx4s7jc2w",
-          "status": "monitoring",
-          "body": "Upon further investigation, it has been determined the escalation was not related to 3D Secure.  Transactions continue to complete successfully.\n\nTeams will continue to monitor.",
-          "incident_id": "6qf6sk420l0p",
-          "created_at": "2021-09-22T12:55:01.144-07:00",
-          "updated_at": "2021-09-22T12:55:01.144-07:00",
-          "display_at": "2021-09-22T12:55:01.144-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "c2pb2g56w6vn",
-          "status": "investigating",
-          "body": "We have additional reports of intermittent 3D Secure connections.  Our team is investigating the issue.",
-          "incident_id": "6qf6sk420l0p",
-          "created_at": "2021-09-22T12:25:41.600-07:00",
-          "updated_at": "2021-09-22T12:29:13.358-07:00",
-          "display_at": "2021-09-22T12:25:41.000-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5mtcbdkqprk8",
-          "status": "monitoring",
-          "body": "The affected application has been restarted.  Transactions are successfully completing.  Teams will continue to monitor.",
-          "incident_id": "6qf6sk420l0p",
-          "created_at": "2021-09-22T10:20:29.046-07:00",
-          "updated_at": "2021-09-22T10:20:29.046-07:00",
-          "display_at": "2021-09-22T10:20:29.046-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "4t2mn8m05xcd",
-          "status": "investigating",
-          "body": "We are receiving reports of intermittent 3D Secure connections.  Our team is investigating the issue.",
-          "incident_id": "6qf6sk420l0p",
-          "created_at": "2021-09-22T09:38:23.393-07:00",
-          "updated_at": "2021-09-22T09:38:23.393-07:00",
-          "display_at": "2021-09-22T09:38:23.393-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2021-09-22T09:38:23.343-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
