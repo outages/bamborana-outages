@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-09-22T12:29:13.369-07:00"
+    "updated_at": "2021-09-22T12:55:01.155-07:00"
   },
   "components": [
     {
@@ -247,9 +247,9 @@
     {
       "id": "6qf6sk420l0p",
       "name": "Intermittent 3D Secure",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-09-22T09:38:23.311-07:00",
-      "updated_at": "2021-09-22T12:29:13.362-07:00",
+      "updated_at": "2021-09-22T12:55:01.147-07:00",
       "monitoring_at": "2021-09-22T10:20:29.046-07:00",
       "resolved_at": null,
       "impact": "minor",
@@ -257,6 +257,26 @@
       "started_at": "2021-09-22T09:38:23.306-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "qpglx4s7jc2w",
+          "status": "monitoring",
+          "body": "Upon further investigation, it has been determined the escalation was not related to 3D Secure.  Transactions continue to complete successfully.\n\nTeams will continue to monitor.",
+          "incident_id": "6qf6sk420l0p",
+          "created_at": "2021-09-22T12:55:01.144-07:00",
+          "updated_at": "2021-09-22T12:55:01.144-07:00",
+          "display_at": "2021-09-22T12:55:01.144-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "c2pb2g56w6vn",
           "status": "investigating",
