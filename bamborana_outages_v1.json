@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-10-21T06:31:27.578-07:00"
+    "updated_at": "2021-10-21T07:14:37.327-07:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-10-21T06:11:44.593-07:00",
+      "updated_at": "2021-10-21T07:14:37.280-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -243,83 +243,10 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "759vwl18wx3q",
-      "name": "Single Use Token Errors",
-      "status": "identified",
-      "created_at": "2021-10-21T06:11:44.562-07:00",
-      "updated_at": "2021-10-21T06:31:27.571-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/9s2k9s0l9j9t",
-      "started_at": "2021-10-21T06:11:44.557-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "dmt2hlm1jx1f",
-          "status": "identified",
-          "body": "The issue has been identified and a fix is being implemented.",
-          "incident_id": "759vwl18wx3q",
-          "created_at": "2021-10-21T06:31:27.569-07:00",
-          "updated_at": "2021-10-21T06:31:27.569-07:00",
-          "display_at": "2021-10-21T06:31:27.569-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "yqrr82z56xyn",
-          "status": "investigating",
-          "body": "We are currently investigating an issue where calls to our APIs using single use tokens are failing. We will provide an update within the next 30 minutes.",
-          "incident_id": "759vwl18wx3q",
-          "created_at": "2021-10-21T06:11:44.636-07:00",
-          "updated_at": "2021-10-21T06:11:44.636-07:00",
-          "display_at": "2021-10-21T06:11:44.636-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2021-10-21T06:11:44.593-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
