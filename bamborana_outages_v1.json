@@ -4,24 +4,9 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-10-20T15:50:18.817-07:00"
+    "updated_at": "2021-10-21T06:24:24.143-07:00"
   },
   "components": [
-    {
-      "id": "lmm3y57mtffz",
-      "name": "Credit and Debit Card Payments",
-      "status": "operational",
-      "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-10-20T13:57:41.815-07:00",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "3j21h38n1rd1",
       "name": "TD",
@@ -38,16 +23,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "tpvhhtslhvh3",
-      "name": "First Data",
-      "status": "operational",
-      "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2021-05-19T11:03:49.221-07:00",
-      "position": 2,
-      "description": "Credit card processing for First Data merchants",
+      "id": "lmm3y57mtffz",
+      "name": "Credit and Debit Card Payments",
+      "status": "degraded_performance",
+      "created_at": "2018-09-12T15:38:07.373-07:00",
+      "updated_at": "2021-10-21T06:11:44.593-07:00",
+      "position": 1,
+      "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "2k8htkqk5ghw",
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -78,13 +63,13 @@
       ]
     },
     {
-      "id": "yn0x5x1xp24s",
-      "name": "Global Payments",
+      "id": "tpvhhtslhvh3",
+      "name": "First Data",
       "status": "operational",
-      "created_at": "2018-09-28T13:26:14.363-07:00",
-      "updated_at": "2021-05-19T11:03:49.234-07:00",
-      "position": 3,
-      "description": "Credit card processing for Global Payments merchants",
+      "created_at": "2018-09-28T13:22:39.441-07:00",
+      "updated_at": "2021-05-19T11:03:49.221-07:00",
+      "position": 2,
+      "description": "Credit card processing for First Data merchants",
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
@@ -108,16 +93,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d4bgz01l6nt2",
-      "name": "Onboarding",
+      "id": "yn0x5x1xp24s",
+      "name": "Global Payments",
       "status": "operational",
-      "created_at": "2018-09-28T13:30:37.183-07:00",
-      "updated_at": "2021-01-18T00:35:44.091-08:00",
-      "position": 4,
-      "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
+      "created_at": "2018-09-28T13:26:14.363-07:00",
+      "updated_at": "2021-05-19T11:03:49.234-07:00",
+      "position": 3,
+      "description": "Credit card processing for Global Payments merchants",
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -138,16 +123,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "2lwzc7k0f33q",
-      "name": "Chase Paymentech",
+      "id": "d4bgz01l6nt2",
+      "name": "Onboarding",
       "status": "operational",
-      "created_at": "2018-09-28T13:27:29.111-07:00",
-      "updated_at": "2021-05-19T11:03:49.262-07:00",
-      "position": 5,
-      "description": "Credit card payments for Chase Paymentech merchants",
+      "created_at": "2018-09-28T13:30:37.183-07:00",
+      "updated_at": "2021-01-18T00:35:44.091-08:00",
+      "position": 4,
+      "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
       "showcase": false,
       "start_date": null,
-      "group_id": "2k8htkqk5ghw",
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -163,6 +148,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "2lwzc7k0f33q",
+      "name": "Chase Paymentech",
+      "status": "operational",
+      "created_at": "2018-09-28T13:27:29.111-07:00",
+      "updated_at": "2021-05-19T11:03:49.262-07:00",
+      "position": 5,
+      "description": "Credit card payments for Chase Paymentech merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -198,21 +198,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "zf6c01sl8prx",
-      "name": "Desjardins",
-      "status": "operational",
-      "created_at": "2018-09-28T13:28:43.233-07:00",
-      "updated_at": "2021-05-19T11:03:49.289-07:00",
-      "position": 7,
-      "description": "Credit card processing for Desjardins merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "x73lwmcxxgmk",
       "name": "Customer Care",
       "status": "operational",
@@ -223,6 +208,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "zf6c01sl8prx",
+      "name": "Desjardins",
+      "status": "operational",
+      "created_at": "2018-09-28T13:28:43.233-07:00",
+      "updated_at": "2021-05-19T11:03:49.289-07:00",
+      "position": 7,
+      "description": "Credit card processing for Desjardins merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -243,10 +243,63 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "759vwl18wx3q",
+      "name": "Single Use Token Errors",
+      "status": "investigating",
+      "created_at": "2021-10-21T06:11:44.562-07:00",
+      "updated_at": "2021-10-21T06:11:44.638-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/9s2k9s0l9j9t",
+      "started_at": "2021-10-21T06:11:44.557-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "yqrr82z56xyn",
+          "status": "investigating",
+          "body": "We are currently investigating an issue where calls to our APIs using single use tokens are failing. We will provide an update within the next 30 minutes.",
+          "incident_id": "759vwl18wx3q",
+          "created_at": "2021-10-21T06:11:44.636-07:00",
+          "updated_at": "2021-10-21T06:11:44.636-07:00",
+          "display_at": "2021-10-21T06:11:44.636-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "degraded_performance",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2021-10-21T06:11:44.593-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
