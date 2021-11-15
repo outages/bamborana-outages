@@ -4,24 +4,9 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-11-15T11:47:41.698-08:00"
+    "updated_at": "2021-11-15T12:23:49.679-08:00"
   },
   "components": [
-    {
-      "id": "3j21h38n1rd1",
-      "name": "TD",
-      "status": "operational",
-      "created_at": "2018-09-17T14:58:10.538-07:00",
-      "updated_at": "2021-09-10T15:43:19.721-07:00",
-      "position": 1,
-      "description": "Credit card processing for TD merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
@@ -33,6 +18,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "3j21h38n1rd1",
+      "name": "TD",
+      "status": "operational",
+      "created_at": "2018-09-17T14:58:10.538-07:00",
+      "updated_at": "2021-09-10T15:43:19.721-07:00",
+      "position": 1,
+      "description": "Credit card processing for TD merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -78,21 +78,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jn3qknr2znhd",
-      "name": "Batch and Bank to Bank Payments",
-      "status": "operational",
-      "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2021-03-02T08:29:52.226-08:00",
-      "position": 3,
-      "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "yn0x5x1xp24s",
       "name": "Global Payments",
       "status": "operational",
@@ -103,6 +88,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "jn3qknr2znhd",
+      "name": "Batch and Bank to Bank Payments",
+      "status": "operational",
+      "created_at": "2018-09-28T13:19:54.879-07:00",
+      "updated_at": "2021-03-02T08:29:52.226-08:00",
+      "position": 3,
+      "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -138,6 +138,21 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "2lwzc7k0f33q",
+      "name": "Chase Paymentech",
+      "status": "operational",
+      "created_at": "2018-09-28T13:27:29.111-07:00",
+      "updated_at": "2021-05-19T11:03:49.262-07:00",
+      "position": 5,
+      "description": "Credit card payments for Chase Paymentech merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "lrvwsh919pgt",
       "name": "Fraud Defence",
       "status": "operational",
@@ -153,16 +168,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "2lwzc7k0f33q",
-      "name": "Chase Paymentech",
-      "status": "operational",
-      "created_at": "2018-09-28T13:27:29.111-07:00",
-      "updated_at": "2021-05-19T11:03:49.262-07:00",
-      "position": 5,
-      "description": "Credit card payments for Chase Paymentech merchants",
+      "id": "jbg5nd57jz6q",
+      "name": "Merchant Portal",
+      "status": "degraded_performance",
+      "created_at": "2018-09-12T15:38:07.395-07:00",
+      "updated_at": "2021-11-15T12:21:04.997-08:00",
+      "position": 6,
+      "description": "https://web.na.bambora.com/admin",
       "showcase": false,
       "start_date": null,
-      "group_id": "2k8htkqk5ghw",
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -183,16 +198,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jbg5nd57jz6q",
-      "name": "Merchant Portal",
+      "id": "zf6c01sl8prx",
+      "name": "Desjardins",
       "status": "operational",
-      "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2021-04-22T06:40:15.915-07:00",
-      "position": 6,
-      "description": "https://web.na.bambora.com/admin",
+      "created_at": "2018-09-28T13:28:43.233-07:00",
+      "updated_at": "2021-05-19T11:03:49.289-07:00",
+      "position": 7,
+      "description": "Credit card processing for Desjardins merchants",
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -208,21 +223,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "zf6c01sl8prx",
-      "name": "Desjardins",
-      "status": "operational",
-      "created_at": "2018-09-28T13:28:43.233-07:00",
-      "updated_at": "2021-05-19T11:03:49.289-07:00",
-      "position": 7,
-      "description": "Credit card processing for Desjardins merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -249,7 +249,7 @@
       "name": "web.na.bambora.com is currently unavailable",
       "status": "monitoring",
       "created_at": "2021-11-15T11:24:18.684-08:00",
-      "updated_at": "2021-11-15T11:47:41.695-08:00",
+      "updated_at": "2021-11-15T12:21:05.041-08:00",
       "monitoring_at": "2021-11-15T11:47:41.678-08:00",
       "resolved_at": null,
       "impact": "major",
@@ -257,6 +257,32 @@
       "started_at": "2021-11-15T11:24:18.634-08:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "7w9dj4z7xbhx",
+          "status": "monitoring",
+          "body": "We are continuing to monitor for any further issues.",
+          "incident_id": "lmfyk9p5xxpq",
+          "created_at": "2021-11-15T12:21:05.038-08:00",
+          "updated_at": "2021-11-15T12:21:05.038-08:00",
+          "display_at": "2021-11-15T12:21:05.038-08:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "hjdbmvgw18db",
           "status": "monitoring",
@@ -367,13 +393,13 @@
           "only_show_if_degraded": false
         },
         {
-          "id": "x73lwmcxxgmk",
-          "name": "Customer Care",
+          "id": "jbg5nd57jz6q",
+          "name": "Merchant Portal",
           "status": "degraded_performance",
-          "created_at": "2018-10-15T20:11:49.056-07:00",
-          "updated_at": "2021-11-15T11:26:11.376-08:00",
-          "position": 7,
-          "description": "Customer care channels including email and telephone.",
+          "created_at": "2018-09-12T15:38:07.395-07:00",
+          "updated_at": "2021-11-15T12:21:04.997-08:00",
+          "position": 6,
+          "description": "https://web.na.bambora.com/admin",
           "showcase": false,
           "start_date": null,
           "group_id": null,
