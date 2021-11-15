@@ -4,24 +4,9 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-11-15T11:26:39.351-08:00"
+    "updated_at": "2021-11-15T11:47:41.698-08:00"
   },
   "components": [
-    {
-      "id": "lmm3y57mtffz",
-      "name": "Credit and Debit Card Payments",
-      "status": "operational",
-      "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2021-11-09T09:04:15.481-08:00",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "3j21h38n1rd1",
       "name": "TD",
@@ -38,16 +23,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "tpvhhtslhvh3",
-      "name": "First Data",
-      "status": "operational",
-      "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2021-05-19T11:03:49.221-07:00",
-      "position": 2,
-      "description": "Credit card processing for First Data merchants",
+      "id": "lmm3y57mtffz",
+      "name": "Credit and Debit Card Payments",
+      "status": "degraded_performance",
+      "created_at": "2018-09-12T15:38:07.373-07:00",
+      "updated_at": "2021-11-15T11:47:41.637-08:00",
+      "position": 1,
+      "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "2k8htkqk5ghw",
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -78,13 +63,13 @@
       ]
     },
     {
-      "id": "yn0x5x1xp24s",
-      "name": "Global Payments",
+      "id": "tpvhhtslhvh3",
+      "name": "First Data",
       "status": "operational",
-      "created_at": "2018-09-28T13:26:14.363-07:00",
-      "updated_at": "2021-05-19T11:03:49.234-07:00",
-      "position": 3,
-      "description": "Credit card processing for Global Payments merchants",
+      "created_at": "2018-09-28T13:22:39.441-07:00",
+      "updated_at": "2021-05-19T11:03:49.221-07:00",
+      "position": 2,
+      "description": "Credit card processing for First Data merchants",
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
@@ -108,16 +93,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d4bgz01l6nt2",
-      "name": "Onboarding",
+      "id": "yn0x5x1xp24s",
+      "name": "Global Payments",
       "status": "operational",
-      "created_at": "2018-09-28T13:30:37.183-07:00",
-      "updated_at": "2021-01-18T00:35:44.091-08:00",
-      "position": 4,
-      "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
+      "created_at": "2018-09-28T13:26:14.363-07:00",
+      "updated_at": "2021-05-19T11:03:49.234-07:00",
+      "position": 3,
+      "description": "Credit card processing for Global Payments merchants",
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -138,16 +123,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "2lwzc7k0f33q",
-      "name": "Chase Paymentech",
+      "id": "d4bgz01l6nt2",
+      "name": "Onboarding",
       "status": "operational",
-      "created_at": "2018-09-28T13:27:29.111-07:00",
-      "updated_at": "2021-05-19T11:03:49.262-07:00",
-      "position": 5,
-      "description": "Credit card payments for Chase Paymentech merchants",
+      "created_at": "2018-09-28T13:30:37.183-07:00",
+      "updated_at": "2021-01-18T00:35:44.091-08:00",
+      "position": 4,
+      "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
       "showcase": false,
       "start_date": null,
-      "group_id": "2k8htkqk5ghw",
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -163,6 +148,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "2lwzc7k0f33q",
+      "name": "Chase Paymentech",
+      "status": "operational",
+      "created_at": "2018-09-28T13:27:29.111-07:00",
+      "updated_at": "2021-05-19T11:03:49.262-07:00",
+      "position": 5,
+      "description": "Credit card payments for Chase Paymentech merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -198,21 +198,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "zf6c01sl8prx",
-      "name": "Desjardins",
-      "status": "operational",
-      "created_at": "2018-09-28T13:28:43.233-07:00",
-      "updated_at": "2021-05-19T11:03:49.289-07:00",
-      "position": 7,
-      "description": "Credit card processing for Desjardins merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "x73lwmcxxgmk",
       "name": "Customer Care",
       "status": "degraded_performance",
@@ -223,6 +208,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "zf6c01sl8prx",
+      "name": "Desjardins",
+      "status": "operational",
+      "created_at": "2018-09-28T13:28:43.233-07:00",
+      "updated_at": "2021-05-19T11:03:49.289-07:00",
+      "position": 7,
+      "description": "Credit card processing for Desjardins merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -247,16 +247,42 @@
     {
       "id": "lmfyk9p5xxpq",
       "name": "web.na.bambora.com is currently unavailable",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2021-11-15T11:24:18.684-08:00",
-      "updated_at": "2021-11-15T11:26:39.345-08:00",
-      "monitoring_at": null,
+      "updated_at": "2021-11-15T11:47:41.695-08:00",
+      "monitoring_at": "2021-11-15T11:47:41.678-08:00",
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/vb8zmfgyyccs",
       "started_at": "2021-11-15T11:24:18.634-08:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "hjdbmvgw18db",
+          "status": "monitoring",
+          "body": "The root cause appears to be a circuit issue with our vendor.  Impact was mitigated when our technical teams switched over to the redundant link.  \n\nTransactions are completing successfully.  Teams will continue to monitor.",
+          "incident_id": "lmfyk9p5xxpq",
+          "created_at": "2021-11-15T11:47:41.678-08:00",
+          "updated_at": "2021-11-15T11:47:41.678-08:00",
+          "display_at": "2021-11-15T11:47:41.678-08:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "x73lwmcxxgmk",
+              "name": "Customer Care",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "wbpqk07frkrk",
           "status": "investigating",
@@ -328,9 +354,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2021-11-09T09:04:15.481-08:00",
+          "updated_at": "2021-11-15T11:47:41.637-08:00",
           "position": 1,
           "description": null,
           "showcase": false,
