@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2021-11-19T11:52:41.065-08:00"
+    "updated_at": "2021-11-19T15:53:36.104-08:00"
   },
   "components": [
     {
@@ -168,21 +168,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jbg5nd57jz6q",
-      "name": "Merchant Portal",
-      "status": "operational",
-      "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2021-11-15T17:53:11.544-08:00",
-      "position": 6,
-      "description": "https://web.na.bambora.com/admin",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "k7n48rhgv5lh",
       "name": "TSYS (Vital)",
       "status": "operational",
@@ -198,6 +183,36 @@
       "only_show_if_degraded": false
     },
     {
+      "id": "jbg5nd57jz6q",
+      "name": "Merchant Portal",
+      "status": "operational",
+      "created_at": "2018-09-12T15:38:07.395-07:00",
+      "updated_at": "2021-11-15T17:53:11.544-08:00",
+      "position": 6,
+      "description": "https://web.na.bambora.com/admin",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "x73lwmcxxgmk",
+      "name": "Customer Care",
+      "status": "operational",
+      "created_at": "2018-10-15T20:11:49.056-07:00",
+      "updated_at": "2021-11-19T15:53:36.098-08:00",
+      "position": 7,
+      "description": "Customer care channels including email and telephone.",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "zf6c01sl8prx",
       "name": "Desjardins",
       "status": "operational",
@@ -208,21 +223,6 @@
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
-      "id": "x73lwmcxxgmk",
-      "name": "Customer Care",
-      "status": "degraded_performance",
-      "created_at": "2018-10-15T20:11:49.056-07:00",
-      "updated_at": "2021-11-15T11:26:11.376-08:00",
-      "position": 7,
-      "description": "Customer care channels including email and telephone.",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -246,7 +246,7 @@
   "incidents": [],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
