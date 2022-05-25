@@ -4,15 +4,30 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-05-24T21:30:38.318-07:00"
+    "updated_at": "2022-05-25T09:05:13.597-07:00"
   },
   "components": [
     {
+      "id": "3j21h38n1rd1",
+      "name": "TD",
+      "status": "operational",
+      "created_at": "2018-09-17T14:58:10.538-07:00",
+      "updated_at": "2022-05-24T21:30:38.013-07:00",
+      "position": 1,
+      "description": "Credit card processing for TD merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2022-05-24T21:30:37.992-07:00",
+      "updated_at": "2022-05-25T09:05:13.532-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -23,13 +38,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "3j21h38n1rd1",
-      "name": "TD",
+      "id": "tpvhhtslhvh3",
+      "name": "First Data",
       "status": "operational",
-      "created_at": "2018-09-17T14:58:10.538-07:00",
-      "updated_at": "2022-05-24T21:30:38.013-07:00",
-      "position": 1,
-      "description": "Credit card processing for TD merchants",
+      "created_at": "2018-09-28T13:22:39.441-07:00",
+      "updated_at": "2022-05-24T21:30:38.038-07:00",
+      "position": 2,
+      "description": "Credit card processing for First Data merchants",
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
@@ -63,26 +78,11 @@
       ]
     },
     {
-      "id": "tpvhhtslhvh3",
-      "name": "First Data",
-      "status": "operational",
-      "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2022-05-24T21:30:38.038-07:00",
-      "position": 2,
-      "description": "Credit card processing for First Data merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2022-05-24T21:30:38.077-07:00",
+      "updated_at": "2022-05-25T09:05:13.543-07:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -108,21 +108,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "d4bgz01l6nt2",
-      "name": "Onboarding",
-      "status": "operational",
-      "created_at": "2018-09-28T13:30:37.183-07:00",
-      "updated_at": "2022-05-24T21:30:38.115-07:00",
-      "position": 4,
-      "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "md5ddnfxqw6t",
       "name": "Elavon",
       "status": "operational",
@@ -133,6 +118,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "d4bgz01l6nt2",
+      "name": "Onboarding",
+      "status": "operational",
+      "created_at": "2018-09-28T13:30:37.183-07:00",
+      "updated_at": "2022-05-24T21:30:38.115-07:00",
+      "position": 4,
+      "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -170,9 +170,9 @@
     {
       "id": "jbg5nd57jz6q",
       "name": "Merchant Portal",
-      "status": "operational",
+      "status": "partial_outage",
       "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2022-05-24T21:30:38.171-07:00",
+      "updated_at": "2022-05-25T09:05:13.556-07:00",
       "position": 6,
       "description": "https://web.na.bambora.com/admin",
       "showcase": false,
@@ -243,7 +243,102 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "h35g6751pmg7",
+      "name": "Multiple issues with transaction processing",
+      "status": "investigating",
+      "created_at": "2022-05-25T09:05:13.500-07:00",
+      "updated_at": "2022-05-25T09:05:13.594-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "major",
+      "shortlink": "https://stspg.io/4ztlbvr97wpk",
+      "started_at": "2022-05-25T09:05:13.494-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "hhnvdw5z2d7z",
+          "status": "investigating",
+          "body": "We are aware there are multiple issues impacting payment processing.  We are aware and working on the issues.",
+          "incident_id": "h35g6751pmg7",
+          "created_at": "2022-05-25T09:05:13.592-07:00",
+          "updated_at": "2022-05-25T09:05:13.592-07:00",
+          "display_at": "2022-05-25T09:05:13.592-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "partial_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "partial_outage",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2022-05-25T09:05:13.532-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jn3qknr2znhd",
+          "name": "Batch and Bank to Bank Payments",
+          "status": "partial_outage",
+          "created_at": "2018-09-28T13:19:54.879-07:00",
+          "updated_at": "2022-05-25T09:05:13.543-07:00",
+          "position": 3,
+          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jbg5nd57jz6q",
+          "name": "Merchant Portal",
+          "status": "partial_outage",
+          "created_at": "2018-09-12T15:38:07.395-07:00",
+          "updated_at": "2022-05-25T09:05:13.556-07:00",
+          "position": 6,
+          "description": "https://web.na.bambora.com/admin",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ]
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "8h7xj4g5tfy6",
@@ -361,9 +456,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "operational",
+          "status": "partial_outage",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2022-05-24T21:30:37.992-07:00",
+          "updated_at": "2022-05-25T09:05:13.532-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -406,9 +501,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "partial_outage",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2022-05-24T21:30:38.077-07:00",
+          "updated_at": "2022-05-25T09:05:13.543-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -496,9 +591,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "operational",
+          "status": "partial_outage",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2022-05-24T21:30:38.171-07:00",
+          "updated_at": "2022-05-25T09:05:13.556-07:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -574,7 +669,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Minor Service Outage"
   }
 }
