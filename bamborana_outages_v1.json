@@ -4,24 +4,9 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-06-10T11:32:39.639-07:00"
+    "updated_at": "2022-06-10T12:36:32.973-07:00"
   },
   "components": [
-    {
-      "id": "lmm3y57mtffz",
-      "name": "Credit and Debit Card Payments",
-      "status": "operational",
-      "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2022-06-10T11:32:39.584-07:00",
-      "position": 1,
-      "description": null,
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
     {
       "id": "3j21h38n1rd1",
       "name": "TD",
@@ -38,16 +23,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "tpvhhtslhvh3",
-      "name": "First Data",
-      "status": "operational",
-      "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2022-05-25T23:00:44.074-07:00",
-      "position": 2,
-      "description": "Credit card processing for First Data merchants",
+      "id": "lmm3y57mtffz",
+      "name": "Credit and Debit Card Payments",
+      "status": "degraded_performance",
+      "created_at": "2018-09-12T15:38:07.373-07:00",
+      "updated_at": "2022-06-10T12:34:59.272-07:00",
+      "position": 1,
+      "description": null,
       "showcase": false,
       "start_date": null,
-      "group_id": "2k8htkqk5ghw",
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -78,13 +63,13 @@
       ]
     },
     {
-      "id": "yn0x5x1xp24s",
-      "name": "Global Payments",
+      "id": "tpvhhtslhvh3",
+      "name": "First Data",
       "status": "operational",
-      "created_at": "2018-09-28T13:26:14.363-07:00",
-      "updated_at": "2022-05-25T23:00:44.113-07:00",
-      "position": 3,
-      "description": "Credit card processing for Global Payments merchants",
+      "created_at": "2018-09-28T13:22:39.441-07:00",
+      "updated_at": "2022-05-25T23:00:44.074-07:00",
+      "position": 2,
+      "description": "Credit card processing for First Data merchants",
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
@@ -103,6 +88,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yn0x5x1xp24s",
+      "name": "Global Payments",
+      "status": "operational",
+      "created_at": "2018-09-28T13:26:14.363-07:00",
+      "updated_at": "2022-05-25T23:00:44.113-07:00",
+      "position": 3,
+      "description": "Credit card processing for Global Payments merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -138,21 +138,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "lrvwsh919pgt",
-      "name": "Fraud Defence",
-      "status": "operational",
-      "created_at": "2018-10-15T20:10:52.835-07:00",
-      "updated_at": "2022-05-25T23:00:44.218-07:00",
-      "position": 5,
-      "description": "Fraud defence related products and services such as eID verify and CAV.",
-      "showcase": false,
-      "start_date": null,
-      "group_id": null,
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "2lwzc7k0f33q",
       "name": "Chase Paymentech",
       "status": "degraded_performance",
@@ -168,13 +153,13 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jbg5nd57jz6q",
-      "name": "Merchant Portal",
+      "id": "lrvwsh919pgt",
+      "name": "Fraud Defence",
       "status": "operational",
-      "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2022-05-25T23:00:44.261-07:00",
-      "position": 6,
-      "description": "https://web.na.bambora.com/admin",
+      "created_at": "2018-10-15T20:10:52.835-07:00",
+      "updated_at": "2022-05-25T23:00:44.218-07:00",
+      "position": 5,
+      "description": "Fraud defence related products and services such as eID verify and CAV.",
       "showcase": false,
       "start_date": null,
       "group_id": null,
@@ -198,16 +183,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "zf6c01sl8prx",
-      "name": "Desjardins",
+      "id": "jbg5nd57jz6q",
+      "name": "Merchant Portal",
       "status": "operational",
-      "created_at": "2018-09-28T13:28:43.233-07:00",
-      "updated_at": "2022-05-25T23:00:44.321-07:00",
-      "position": 7,
-      "description": "Credit card processing for Desjardins merchants",
+      "created_at": "2018-09-12T15:38:07.395-07:00",
+      "updated_at": "2022-05-25T23:00:44.261-07:00",
+      "position": 6,
+      "description": "https://web.na.bambora.com/admin",
       "showcase": false,
       "start_date": null,
-      "group_id": "2k8htkqk5ghw",
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -223,6 +208,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "zf6c01sl8prx",
+      "name": "Desjardins",
+      "status": "operational",
+      "created_at": "2018-09-28T13:28:43.233-07:00",
+      "updated_at": "2022-05-25T23:00:44.321-07:00",
+      "position": 7,
+      "description": "Credit card processing for Desjardins merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -247,16 +247,68 @@
     {
       "id": "kqhcnjlt4k7b",
       "name": "Service Update",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2022-06-10T10:48:31.832-07:00",
-      "updated_at": "2022-06-10T11:32:39.631-07:00",
-      "monitoring_at": null,
+      "updated_at": "2022-06-10T12:36:32.966-07:00",
+      "monitoring_at": "2022-06-10T12:34:59.303-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/5stcqdnhstl1",
       "started_at": "2022-06-10T10:48:31.813-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "szl20ckytv5b",
+          "status": "monitoring",
+          "body": "Dear Worldline Customer,\n\nOur monitoring has alerted to a degradation in services affecting transaction completions on the Chase-Paymentech platform, Visa and other card brands networks.\n\nNote that all Worldline systems are operating at full capacity. This issue is specific to the Paymentech platform and Visa which are experiencing a confirmed network issue.",
+          "incident_id": "kqhcnjlt4k7b",
+          "created_at": "2022-06-10T12:36:32.964-07:00",
+          "updated_at": "2022-06-10T12:36:32.964-07:00",
+          "display_at": "2022-06-10T12:36:32.964-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "2lwzc7k0f33q",
+              "name": "Acquirers - Chase Paymentech",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "r3nhc9hdlgr3",
+          "status": "monitoring",
+          "body": "Dear Worldline Customer,\n\nOur monitoring has alerted to a degradation in services affecting transaction completions on the Chase-Paymentech platform as well as Visa and other Card brands. \n\nNote that all Worldline systems are operating at full capacity. This issue is specific to the Paymentech platform and Card Brand which are experiencing a confirmed network issue.",
+          "incident_id": "kqhcnjlt4k7b",
+          "created_at": "2022-06-10T12:34:59.303-07:00",
+          "updated_at": "2022-06-10T12:34:59.303-07:00",
+          "display_at": "2022-06-10T12:34:59.303-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "2lwzc7k0f33q",
+              "name": "Acquirers - Chase Paymentech",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "1xv1s3h910k4",
           "status": "investigating",
@@ -340,9 +392,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2022-06-10T11:32:39.584-07:00",
+          "updated_at": "2022-06-10T12:34:59.272-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
