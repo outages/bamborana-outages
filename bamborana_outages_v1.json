@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-06-28T09:23:44.656-07:00"
+    "updated_at": "2022-06-28T10:03:12.934-07:00"
   },
   "components": [
     {
@@ -243,107 +243,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "8g7f68v411r5",
-      "name": "Service Update",
-      "status": "monitoring",
-      "created_at": "2022-06-28T08:42:40.477-07:00",
-      "updated_at": "2022-06-28T08:54:07.473-07:00",
-      "monitoring_at": "2022-06-28T08:54:07.461-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/5k1ygbb85lqr",
-      "started_at": "2022-06-28T08:42:40.472-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "5mq63wyjr110",
-          "status": "monitoring",
-          "body": "Dear Worldline Customer,\n\nAll services have been restored and confirmed to be operating as expected. The Network Operations Center will continue to monitor the platform closely to ensure stability. This concludes notifications on this issue.\n\nSincerely,\nWorldline Customer Support",
-          "incident_id": "8g7f68v411r5",
-          "created_at": "2022-06-28T08:54:07.461-07:00",
-          "updated_at": "2022-06-28T08:54:07.461-07:00",
-          "display_at": "2022-06-28T08:54:07.461-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "9tcjjlcqdq2m",
-          "status": "investigating",
-          "body": "Dear Worldline Customer,\n\nOur monitoring has alerted to a degradation in services affected transaction throughput. The Incident team has convened and is troubleshooting. Updates will follow as information warrants.\n\nSincerely,\nWorldline Customer Support",
-          "incident_id": "8g7f68v411r5",
-          "created_at": "2022-06-28T08:42:40.551-07:00",
-          "updated_at": "2022-06-28T08:42:40.551-07:00",
-          "display_at": "2022-06-28T08:42:40.551-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "operational",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2022-06-28T08:54:07.428-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jbg5nd57jz6q",
-          "name": "Merchant Portal",
-          "status": "operational",
-          "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2022-06-28T08:54:07.438-07:00",
-          "position": 6,
-          "description": "https://web.na.bambora.com/admin",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [],
   "status": {
     "indicator": "none",
