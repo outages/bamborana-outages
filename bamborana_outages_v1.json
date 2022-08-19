@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-08-19T12:56:07.927-07:00"
+    "updated_at": "2022-08-19T15:12:11.338-07:00"
   },
   "components": [
     {
@@ -249,7 +249,7 @@
       "name": "Apple Pay Transaction Issues",
       "status": "investigating",
       "created_at": "2022-08-19T12:17:08.966-07:00",
-      "updated_at": "2022-08-19T12:17:09.098-07:00",
+      "updated_at": "2022-08-19T15:12:11.328-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -257,6 +257,44 @@
       "started_at": "2022-08-19T12:17:08.954-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "5wwkmf61bglb",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "hr7nchm68cx8",
+          "created_at": "2022-08-19T15:12:11.326-07:00",
+          "updated_at": "2022-08-19T15:12:11.326-07:00",
+          "display_at": "2022-08-19T15:12:11.326-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "fkzm7pwf1wdj",
           "status": "investigating",
