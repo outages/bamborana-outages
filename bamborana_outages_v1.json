@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2022-09-19T12:56:51.087-07:00"
+    "updated_at": "2022-09-23T10:47:55.856-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2022-08-19T21:04:29.509-07:00",
+      "updated_at": "2022-09-23T10:47:55.810-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -138,21 +138,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "2lwzc7k0f33q",
-      "name": "Chase Paymentech",
-      "status": "operational",
-      "created_at": "2018-09-28T13:27:29.111-07:00",
-      "updated_at": "2022-06-10T15:21:35.751-07:00",
-      "position": 5,
-      "description": "Credit card payments for Chase Paymentech merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "lrvwsh919pgt",
       "name": "Fraud Defence",
       "status": "operational",
@@ -168,16 +153,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "jbg5nd57jz6q",
-      "name": "Merchant Portal",
+      "id": "2lwzc7k0f33q",
+      "name": "Chase Paymentech",
       "status": "operational",
-      "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2022-06-28T08:54:07.438-07:00",
-      "position": 6,
-      "description": "https://web.na.bambora.com/admin",
+      "created_at": "2018-09-28T13:27:29.111-07:00",
+      "updated_at": "2022-06-10T15:21:35.751-07:00",
+      "position": 5,
+      "description": "Credit card payments for Chase Paymentech merchants",
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -193,6 +178,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "jbg5nd57jz6q",
+      "name": "Merchant Portal",
+      "status": "operational",
+      "created_at": "2018-09-12T15:38:07.395-07:00",
+      "updated_at": "2022-06-28T08:54:07.438-07:00",
+      "position": 6,
+      "description": "https://web.na.bambora.com/admin",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -245,129 +245,35 @@
   ],
   "incidents": [
     {
-      "id": "hr7nchm68cx8",
-      "name": "Apple Pay Transaction Issues",
-      "status": "monitoring",
-      "created_at": "2022-08-19T12:17:08.966-07:00",
-      "updated_at": "2022-08-19T21:04:29.584-07:00",
-      "monitoring_at": "2022-08-19T21:04:29.570-07:00",
+      "id": "hkj8rs2nxf1s",
+      "name": "Apple Pay Service Degradation",
+      "status": "identified",
+      "created_at": "2022-09-23T10:47:55.783-07:00",
+      "updated_at": "2022-09-23T10:47:55.854-07:00",
+      "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
-      "shortlink": "https://stspg.io/6301l4ctz2sj",
-      "started_at": "2022-08-19T12:17:08.954-07:00",
+      "shortlink": "https://stspg.io/r1j7543d6tkp",
+      "started_at": "2022-09-23T10:47:55.778-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
         {
-          "id": "pksn6gzw7l5n",
-          "status": "monitoring",
-          "body": "Mobile pay transactions are working as expected. The team is still investigating root cause and is closely monitoring the stability of the platform.",
-          "incident_id": "hr7nchm68cx8",
-          "created_at": "2022-08-19T21:04:29.570-07:00",
-          "updated_at": "2022-08-19T21:04:29.570-07:00",
-          "display_at": "2022-08-19T21:04:29.570-07:00",
+          "id": "qdd3g7hgtb95",
+          "status": "identified",
+          "body": "Apple has reported an issue with Apple Pay users being unable to add cards to their wallet and web transactions potentially failing. Apple Pay mobile transactions continue to process successfully at this time. We are monitoring the situation and will provide updates from Apple.",
+          "incident_id": "hkj8rs2nxf1s",
+          "created_at": "2022-09-23T10:47:55.851-07:00",
+          "updated_at": "2022-09-23T10:47:55.851-07:00",
+          "display_at": "2022-09-23T10:47:55.851-07:00",
           "affected_components": [
             {
               "code": "lmm3y57mtffz",
               "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "3j21h38n1rd1",
-              "name": "Acquirers - TD",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "tpvhhtslhvh3",
-              "name": "Acquirers - First Data",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            },
-            {
-              "code": "yn0x5x1xp24s",
-              "name": "Acquirers - Global Payments",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5wwkmf61bglb",
-          "status": "investigating",
-          "body": "We are continuing to investigate this issue.",
-          "incident_id": "hr7nchm68cx8",
-          "created_at": "2022-08-19T15:12:11.326-07:00",
-          "updated_at": "2022-08-19T15:12:11.326-07:00",
-          "display_at": "2022-08-19T15:12:11.326-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3j21h38n1rd1",
-              "name": "Acquirers - TD",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "tpvhhtslhvh3",
-              "name": "Acquirers - First Data",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "yn0x5x1xp24s",
-              "name": "Acquirers - Global Payments",
-              "old_status": "degraded_performance",
+              "old_status": "operational",
               "new_status": "degraded_performance"
             }
           ],
           "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "fkzm7pwf1wdj",
-          "status": "investigating",
-          "body": "We are currently experiencing issues with Apple Pay transactions failing. We are investigating the cause and will update as information becomes available.",
-          "incident_id": "hr7nchm68cx8",
-          "created_at": "2022-08-19T12:17:09.095-07:00",
-          "updated_at": "2022-08-19T12:17:09.095-07:00",
-          "display_at": "2022-08-19T12:17:09.095-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "3j21h38n1rd1",
-              "name": "Acquirers - TD",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "tpvhhtslhvh3",
-              "name": "Acquirers - First Data",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            },
-            {
-              "code": "yn0x5x1xp24s",
-              "name": "Acquirers - Global Payments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": false,
           "custom_tweet": null,
           "tweet_id": null
         }
@@ -376,59 +282,14 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2022-08-19T21:04:29.509-07:00",
+          "updated_at": "2022-09-23T10:47:55.810-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
           "start_date": null,
           "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "3j21h38n1rd1",
-          "name": "TD",
-          "status": "operational",
-          "created_at": "2018-09-17T14:58:10.538-07:00",
-          "updated_at": "2022-08-19T21:04:29.494-07:00",
-          "position": 1,
-          "description": "Credit card processing for TD merchants",
-          "showcase": false,
-          "start_date": null,
-          "group_id": "2k8htkqk5ghw",
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "tpvhhtslhvh3",
-          "name": "First Data",
-          "status": "operational",
-          "created_at": "2018-09-28T13:22:39.441-07:00",
-          "updated_at": "2022-08-19T21:04:29.525-07:00",
-          "position": 2,
-          "description": "Credit card processing for First Data merchants",
-          "showcase": false,
-          "start_date": null,
-          "group_id": "2k8htkqk5ghw",
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "yn0x5x1xp24s",
-          "name": "Global Payments",
-          "status": "operational",
-          "created_at": "2018-09-28T13:26:14.363-07:00",
-          "updated_at": "2022-08-19T21:04:29.541-07:00",
-          "position": 3,
-          "description": "Credit card processing for Global Payments merchants",
-          "showcase": false,
-          "start_date": null,
-          "group_id": "2k8htkqk5ghw",
           "page_id": "dm5h7g8csh93",
           "group": false,
           "only_show_if_degraded": false
@@ -438,7 +299,7 @@
   ],
   "scheduled_maintenances": [],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
