@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-02-08T14:43:25.695-08:00"
+    "updated_at": "2023-02-19T10:53:03.801-08:00"
   },
   "components": [
     {
@@ -78,21 +78,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "yn0x5x1xp24s",
-      "name": "Global Payments",
-      "status": "operational",
-      "created_at": "2018-09-28T13:26:14.363-07:00",
-      "updated_at": "2023-02-07T10:00:36.815-08:00",
-      "position": 3,
-      "description": "Credit card processing for Global Payments merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
       "status": "operational",
@@ -103,6 +88,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": null,
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "yn0x5x1xp24s",
+      "name": "Global Payments",
+      "status": "operational",
+      "created_at": "2018-09-28T13:26:14.363-07:00",
+      "updated_at": "2023-02-07T10:00:36.815-08:00",
+      "position": 3,
+      "description": "Credit card processing for Global Payments merchants",
+      "showcase": false,
+      "start_date": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -168,21 +168,6 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "k7n48rhgv5lh",
-      "name": "TSYS (Vital)",
-      "status": "operational",
-      "created_at": "2018-09-28T13:28:13.647-07:00",
-      "updated_at": "2023-02-07T10:00:36.961-08:00",
-      "position": 6,
-      "description": "Credit card processing for TSYS merchants",
-      "showcase": false,
-      "start_date": null,
-      "group_id": "2k8htkqk5ghw",
-      "page_id": "dm5h7g8csh93",
-      "group": false,
-      "only_show_if_degraded": false
-    },
-    {
       "id": "jbg5nd57jz6q",
       "name": "Merchant Portal",
       "status": "operational",
@@ -198,16 +183,16 @@
       "only_show_if_degraded": false
     },
     {
-      "id": "x73lwmcxxgmk",
-      "name": "Customer Care",
+      "id": "k7n48rhgv5lh",
+      "name": "TSYS (Vital)",
       "status": "operational",
-      "created_at": "2018-10-15T20:11:49.056-07:00",
-      "updated_at": "2023-02-07T10:00:36.987-08:00",
-      "position": 7,
-      "description": "Customer care channels including email and telephone.",
+      "created_at": "2018-09-28T13:28:13.647-07:00",
+      "updated_at": "2023-02-07T10:00:36.961-08:00",
+      "position": 6,
+      "description": "Credit card processing for TSYS merchants",
       "showcase": false,
       "start_date": null,
-      "group_id": null,
+      "group_id": "2k8htkqk5ghw",
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -223,6 +208,21 @@
       "showcase": false,
       "start_date": null,
       "group_id": "2k8htkqk5ghw",
+      "page_id": "dm5h7g8csh93",
+      "group": false,
+      "only_show_if_degraded": false
+    },
+    {
+      "id": "x73lwmcxxgmk",
+      "name": "Customer Care",
+      "status": "operational",
+      "created_at": "2018-10-15T20:11:49.056-07:00",
+      "updated_at": "2023-02-07T10:00:36.987-08:00",
+      "position": 7,
+      "description": "Customer care channels including email and telephone.",
+      "showcase": false,
+      "start_date": null,
+      "group_id": null,
       "page_id": "dm5h7g8csh93",
       "group": false,
       "only_show_if_degraded": false
@@ -341,21 +341,6 @@
       ],
       "components": [
         {
-          "id": "3j21h38n1rd1",
-          "name": "TD",
-          "status": "operational",
-          "created_at": "2018-09-17T14:58:10.538-07:00",
-          "updated_at": "2023-02-07T10:00:36.703-08:00",
-          "position": 1,
-          "description": "Credit card processing for TD merchants",
-          "showcase": false,
-          "start_date": null,
-          "group_id": "2k8htkqk5ghw",
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
           "status": "operational",
@@ -366,6 +351,21 @@
           "showcase": false,
           "start_date": null,
           "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3j21h38n1rd1",
+          "name": "TD",
+          "status": "operational",
+          "created_at": "2018-09-17T14:58:10.538-07:00",
+          "updated_at": "2023-02-07T10:00:36.703-08:00",
+          "position": 1,
+          "description": "Credit card processing for TD merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
           "page_id": "dm5h7g8csh93",
           "group": false,
           "only_show_if_degraded": false
@@ -416,21 +416,6 @@
           "only_show_if_degraded": false
         },
         {
-          "id": "d4bgz01l6nt2",
-          "name": "Onboarding",
-          "status": "operational",
-          "created_at": "2018-09-28T13:30:37.183-07:00",
-          "updated_at": "2023-02-07T10:00:36.834-08:00",
-          "position": 4,
-          "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
           "id": "md5ddnfxqw6t",
           "name": "Elavon",
           "status": "operational",
@@ -441,6 +426,21 @@
           "showcase": false,
           "start_date": null,
           "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "d4bgz01l6nt2",
+          "name": "Onboarding",
+          "status": "operational",
+          "created_at": "2018-09-28T13:30:37.183-07:00",
+          "updated_at": "2023-02-07T10:00:36.834-08:00",
+          "position": 4,
+          "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
           "page_id": "dm5h7g8csh93",
           "group": false,
           "only_show_if_degraded": false
