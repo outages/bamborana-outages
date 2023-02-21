@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-02-21T06:25:45.665-08:00"
+    "updated_at": "2023-02-21T07:58:08.996-08:00"
   },
   "components": [
     {
@@ -250,7 +250,7 @@
       "name": "Maintenance Scheduled",
       "status": "scheduled",
       "created_at": "2023-02-08T14:34:03.741-08:00",
-      "updated_at": "2023-02-21T06:25:45.662-08:00",
+      "updated_at": "2023-02-21T07:58:08.986-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -258,6 +258,86 @@
       "started_at": "2023-02-08T14:34:03.722-08:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "j34hk5vpw89g",
+          "status": "scheduled",
+          "body": "We will be undergoing scheduled maintenance during this time.",
+          "incident_id": "5q6wkqhl8yx8",
+          "created_at": "2023-02-21T07:58:08.982-08:00",
+          "updated_at": "2023-02-21T07:58:08.982-08:00",
+          "display_at": "2023-02-21T07:58:08.982-08:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "md5ddnfxqw6t",
+              "name": "Acquirers - Elavon",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2lwzc7k0f33q",
+              "name": "Acquirers - Chase Paymentech",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k7n48rhgv5lh",
+              "name": "Acquirers - TSYS (Vital)",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "zf6c01sl8prx",
+              "name": "Acquirers - Desjardins",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "9bd3lt5dj8yk",
+              "name": "Acquirers - Interac Online",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "d4bgz01l6nt2",
+              "name": "Onboarding",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "mhw3b8p57qf1",
           "status": "scheduled",
@@ -274,10 +354,10 @@
         {
           "id": "jsf48vlxl2m9",
           "status": "scheduled",
-          "body": "Dear Worldline Customer,\n\nWe will be conducting maintenance activities with a focus on Payfac service updates and to continue to focus on improving the performance, stability and security of our solution. These activities will take place on Tuesday, Feburary 21st, 2022 from 7am-2pm PT. Minimal impact is expected as a result of this maintenance.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@worldline.com or by calling 1-833-226-2672.\n\nThank you,\nWorldline Customer Support",
+          "body": "Dear Worldline Customer,\n\nWe will be conducting maintenance activities with a focus on Payfac service updates and to continue to focus on improving the performance, stability and security of our solution. These activities will take place on Tuesday, Feburary 21st, 2022 from 10am-2pm PT. Minimal impact is expected as a result of this maintenance.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@worldline.com or by calling 1-833-226-2672.\n\nThank you,\nWorldline Customer Support",
           "incident_id": "5q6wkqhl8yx8",
           "created_at": "2023-02-08T14:34:03.826-08:00",
-          "updated_at": "2023-02-08T14:34:03.826-08:00",
+          "updated_at": "2023-02-21T07:57:58.740-08:00",
           "display_at": "2023-02-08T14:34:03.826-08:00",
           "affected_components": [
             {
