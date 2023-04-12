@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-04-11T22:00:55.686-07:00"
+    "updated_at": "2023-04-12T03:00:42.383-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2023-04-11T22:00:55.561-07:00",
+      "updated_at": "2023-04-12T03:00:42.261-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -80,9 +80,9 @@
     {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2023-04-11T22:00:55.583-07:00",
+      "updated_at": "2023-04-12T03:00:42.279-07:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -170,9 +170,9 @@
     {
       "id": "jbg5nd57jz6q",
       "name": "Merchant Portal",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2023-04-11T22:00:55.609-07:00",
+      "updated_at": "2023-04-12T03:00:42.296-07:00",
       "position": 6,
       "description": "https://web.na.bambora.com/admin",
       "showcase": false,
@@ -244,183 +244,9 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [
-    {
-      "id": "jtvbt45cs00q",
-      "name": "Scheduled Maintenance",
-      "status": "in_progress",
-      "created_at": "2023-03-28T14:47:12.513-07:00",
-      "updated_at": "2023-04-11T22:00:55.672-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/0wz1l94d6tcx",
-      "started_at": "2023-03-28T14:47:12.506-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "4jscbnnkdkzn",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "jtvbt45cs00q",
-          "created_at": "2023-04-11T22:00:55.667-07:00",
-          "updated_at": "2023-04-11T22:00:55.667-07:00",
-          "display_at": "2023-04-11T22:00:55.667-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "jn3qknr2znhd",
-              "name": "Batch and Bank to Bank Payments",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5t3txg2g0d8z",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "jtvbt45cs00q",
-          "created_at": "2023-04-11T21:00:12.445-07:00",
-          "updated_at": "2023-04-11T21:00:12.445-07:00",
-          "display_at": "2023-04-11T21:00:12.445-07:00",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "b5j40x8g99mn",
-          "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance during this time.",
-          "incident_id": "jtvbt45cs00q",
-          "created_at": "2023-03-29T08:19:31.840-07:00",
-          "updated_at": "2023-03-29T08:19:31.840-07:00",
-          "display_at": "2023-03-29T08:19:31.840-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "jn3qknr2znhd",
-              "name": "Batch and Bank to Bank Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "cw8pyjr5800y",
-          "status": "scheduled",
-          "body": "Dear Worldline Customer,\n\nWorldline will be conducting Scheduled Maintenance to perform Firewall Maitenance as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on Wednesday April 11th 2023 between 10:00PM-3:00AM PT. Little to no impact is expected as a result of this maintenance window.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@worldline.com or by calling 1-833-226-2672. \n\nThank you,\nWorldline Customer Support",
-          "incident_id": "jtvbt45cs00q",
-          "created_at": "2023-03-28T14:47:12.567-07:00",
-          "updated_at": "2023-03-29T08:19:23.846-07:00",
-          "display_at": "2023-03-28T14:47:12.567-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "jn3qknr2znhd",
-              "name": "Batch and Bank to Bank Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "under_maintenance",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2023-04-11T22:00:55.561-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jn3qknr2znhd",
-          "name": "Batch and Bank to Bank Payments",
-          "status": "under_maintenance",
-          "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2023-04-11T22:00:55.583-07:00",
-          "position": 3,
-          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jbg5nd57jz6q",
-          "name": "Merchant Portal",
-          "status": "under_maintenance",
-          "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2023-04-11T22:00:55.609-07:00",
-          "position": 6,
-          "description": "https://web.na.bambora.com/admin",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2023-04-11T22:00:00.000-07:00",
-      "scheduled_until": "2023-04-12T03:00:00.000-07:00"
-    }
-  ],
+  "scheduled_maintenances": [],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
