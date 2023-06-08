@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-06-07T03:01:06.993-07:00"
+    "updated_at": "2023-06-08T10:43:14.233-07:00"
   },
   "components": [
     {
@@ -244,7 +244,83 @@
     }
   ],
   "incidents": [],
-  "scheduled_maintenances": [],
+  "scheduled_maintenances": [
+    {
+      "id": "w7b8b3qcdm62",
+      "name": "Maintenance Activities",
+      "status": "scheduled",
+      "created_at": "2023-06-08T10:32:34.274-07:00",
+      "updated_at": "2023-06-08T10:32:34.313-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/7mn35ylkp97y",
+      "started_at": "2023-06-08T10:32:34.269-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "jx5dgtb40lhb",
+          "status": "scheduled",
+          "body": "Dear Worldline Customer,\n\nWorldline will be conducting Scheduled Maintenance as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on June 20th between 10PM to 3AM PT. Little to no impact is expected as a result of this maintenance window.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@worldline.com or by calling 1-833-226-2672. \n\nThank you,\nWorldline Customer Support",
+          "incident_id": "w7b8b3qcdm62",
+          "created_at": "2023-06-08T10:32:34.311-07:00",
+          "updated_at": "2023-06-08T10:32:34.311-07:00",
+          "display_at": "2023-06-08T10:32:34.311-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "operational",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2023-06-07T03:01:06.914-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jn3qknr2znhd",
+          "name": "Batch and Bank to Bank Payments",
+          "status": "operational",
+          "created_at": "2018-09-28T13:19:54.879-07:00",
+          "updated_at": "2023-05-24T17:00:40.963-07:00",
+          "position": 3,
+          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2023-06-20T22:00:00.000-07:00",
+      "scheduled_until": "2023-06-21T03:00:00.000-07:00"
+    }
+  ],
   "status": {
     "indicator": "none",
     "description": "All Systems Operational"
