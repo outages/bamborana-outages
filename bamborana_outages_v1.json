@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-06-19T13:05:36.093-07:00"
+    "updated_at": "2023-06-19T14:38:30.658-07:00"
   },
   "components": [
     {
@@ -80,9 +80,9 @@
     {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2023-06-16T11:15:26.339-07:00",
+      "updated_at": "2023-06-19T14:38:30.607-07:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -243,60 +243,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "g584tlhjqfz0",
-      "name": "Impact related to TD Bank outage",
-      "status": "investigating",
-      "created_at": "2023-06-16T11:15:26.306-07:00",
-      "updated_at": "2023-06-16T11:15:26.390-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/kmsp7zgsx01z",
-      "started_at": "2023-06-16T11:15:26.300-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "9s72hvmlch76",
-          "status": "investigating",
-          "body": "We are currently investigating any impact related to the outage with TD bank for how this will effect our bank to bank transfers.\n\nMore information will be shared regarding potential impact after our investigation has been completed.",
-          "incident_id": "g584tlhjqfz0",
-          "created_at": "2023-06-16T11:15:26.386-07:00",
-          "updated_at": "2023-06-16T11:15:26.386-07:00",
-          "display_at": "2023-06-16T11:15:26.386-07:00",
-          "affected_components": [
-            {
-              "code": "jn3qknr2znhd",
-              "name": "Batch and Bank to Bank Payments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "jn3qknr2znhd",
-          "name": "Batch and Bank to Bank Payments",
-          "status": "degraded_performance",
-          "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2023-06-16T11:15:26.339-07:00",
-          "position": 3,
-          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "w7b8b3qcdm62",
@@ -357,9 +304,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2023-06-16T11:15:26.339-07:00",
+          "updated_at": "2023-06-19T14:38:30.607-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -375,7 +322,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
