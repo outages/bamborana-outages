@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-06-20T21:00:06.502-07:00"
+    "updated_at": "2023-06-20T22:00:07.596-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2023-06-07T03:01:06.914-07:00",
+      "updated_at": "2023-06-20T22:00:07.434-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -80,9 +80,9 @@
     {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2023-06-19T14:38:30.607-07:00",
+      "updated_at": "2023-06-20T22:00:07.476-07:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -248,9 +248,9 @@
     {
       "id": "w7b8b3qcdm62",
       "name": "Maintenance Activities",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2023-06-08T10:32:34.274-07:00",
-      "updated_at": "2023-06-20T21:00:06.484-07:00",
+      "updated_at": "2023-06-20T22:00:07.581-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -258,6 +258,32 @@
       "started_at": "2023-06-08T10:32:34.269-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "xrwg823t17gq",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "w7b8b3qcdm62",
+          "created_at": "2023-06-20T22:00:07.574-07:00",
+          "updated_at": "2023-06-20T22:00:07.574-07:00",
+          "display_at": "2023-06-20T22:00:07.574-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "yd4fnhjkb467",
           "status": "scheduled",
@@ -302,9 +328,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2023-06-07T03:01:06.914-07:00",
+          "updated_at": "2023-06-20T22:00:07.434-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -317,9 +343,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2023-06-19T14:38:30.607-07:00",
+          "updated_at": "2023-06-20T22:00:07.476-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -335,7 +361,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
