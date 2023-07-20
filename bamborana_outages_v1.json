@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-07-19T13:08:17.364-07:00"
+    "updated_at": "2023-07-20T10:10:53.937-07:00"
   },
   "components": [
     {
@@ -250,7 +250,7 @@
       "name": "Maintenance Activities",
       "status": "scheduled",
       "created_at": "2023-07-11T15:12:09.371-07:00",
-      "updated_at": "2023-07-11T15:12:09.428-07:00",
+      "updated_at": "2023-07-20T10:09:36.867-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -259,12 +259,38 @@
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
         {
+          "id": "z5cfn9t6kyp0",
+          "status": "scheduled",
+          "body": "We will be undergoing scheduled maintenance during this time.",
+          "incident_id": "6b2pj2g25zz4",
+          "created_at": "2023-07-20T10:09:36.865-07:00",
+          "updated_at": "2023-07-20T10:09:36.865-07:00",
+          "display_at": "2023-07-20T10:09:36.865-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "lrvwsh919pgt",
+              "name": "Fraud Defence",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "tysyfb9jlfwh",
           "status": "scheduled",
-          "body": "Dear Worldline Customer,\n\nWorldline will be conducting Scheduled Maintenance as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on June 25th between 10PM to 3AM PT. Little to no impact is expected as a result of this maintenance window.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@worldline.com or by calling 1-833-226-2672. \n\nThank you,\nWorldline Customer Support",
+          "body": "Dear Worldline Customer,\n\nWorldline will be conducting Scheduled Maintenance as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on July 25th between 10PM to 3AM PT. Little to no impact is expected as a result of this maintenance window.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@worldline.com or by calling 1-833-226-2672. \n\nThank you,\nWorldline Customer Support",
           "incident_id": "6b2pj2g25zz4",
           "created_at": "2023-07-11T15:12:09.425-07:00",
-          "updated_at": "2023-07-11T15:12:09.425-07:00",
+          "updated_at": "2023-07-20T10:09:32.085-07:00",
           "display_at": "2023-07-11T15:12:09.425-07:00",
           "affected_components": [
             {
@@ -319,6 +345,81 @@
       ],
       "scheduled_for": "2023-07-25T22:00:00.000-07:00",
       "scheduled_until": "2023-07-26T03:00:00.000-07:00"
+    },
+    {
+      "id": "lz51pt27slzc",
+      "name": "Maintenance Activities",
+      "status": "scheduled",
+      "created_at": "2023-07-20T10:10:53.871-07:00",
+      "updated_at": "2023-07-20T10:10:53.933-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/lfqlxyq7fbr1",
+      "started_at": "2023-07-20T10:10:53.865-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "lp1ns3rt8tzm",
+          "status": "scheduled",
+          "body": "Dear Worldline Customer,\n\nWorldline will be conducting Scheduled Maintenance as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on August 1st between 10PM to 3AM PT. Little to no impact is expected as a result of this maintenance window.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@worldline.com or by calling 1-833-226-2672. \n\nThank you,\nWorldline Customer Support",
+          "incident_id": "lz51pt27slzc",
+          "created_at": "2023-07-20T10:10:53.930-07:00",
+          "updated_at": "2023-07-20T10:10:53.930-07:00",
+          "display_at": "2023-07-20T10:10:53.930-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "operational",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2023-06-21T03:00:11.947-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jn3qknr2znhd",
+          "name": "Batch and Bank to Bank Payments",
+          "status": "operational",
+          "created_at": "2018-09-28T13:19:54.879-07:00",
+          "updated_at": "2023-06-21T03:00:11.967-07:00",
+          "position": 3,
+          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2023-08-01T22:00:00.000-07:00",
+      "scheduled_until": "2023-08-02T03:00:00.000-07:00"
     }
   ],
   "status": {
