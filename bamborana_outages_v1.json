@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-07-25T22:00:21.768-07:00"
+    "updated_at": "2023-07-26T03:00:19.067-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2023-07-25T22:00:21.617-07:00",
+      "updated_at": "2023-07-26T03:00:18.980-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -155,9 +155,9 @@
     {
       "id": "lrvwsh919pgt",
       "name": "Fraud Defence",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-10-15T20:10:52.835-07:00",
-      "updated_at": "2023-07-25T22:00:21.643-07:00",
+      "updated_at": "2023-07-26T03:00:19.006-07:00",
       "position": 5,
       "description": "Fraud defence related products and services such as eID verify and CAV.",
       "showcase": false,
@@ -289,9 +289,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2023-07-25T22:00:21.617-07:00",
+          "updated_at": "2023-07-26T03:00:18.980-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -319,150 +319,10 @@
       ],
       "scheduled_for": "2023-08-01T22:00:00.000-07:00",
       "scheduled_until": "2023-08-02T03:00:00.000-07:00"
-    },
-    {
-      "id": "6b2pj2g25zz4",
-      "name": "Maintenance Activities",
-      "status": "in_progress",
-      "created_at": "2023-07-11T15:12:09.371-07:00",
-      "updated_at": "2023-07-25T22:00:21.691-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/qt7ym492spxq",
-      "started_at": "2023-07-11T15:12:09.366-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "gr0fh0137zy4",
-          "status": "in_progress",
-          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-          "incident_id": "6b2pj2g25zz4",
-          "created_at": "2023-07-25T22:00:21.687-07:00",
-          "updated_at": "2023-07-25T22:00:21.687-07:00",
-          "display_at": "2023-07-25T22:00:21.687-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            },
-            {
-              "code": "lrvwsh919pgt",
-              "name": "Fraud Defence",
-              "old_status": "operational",
-              "new_status": "under_maintenance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "bv4zdll4rkc8",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "6b2pj2g25zz4",
-          "created_at": "2023-07-25T21:00:03.581-07:00",
-          "updated_at": "2023-07-25T21:00:03.581-07:00",
-          "display_at": "2023-07-25T21:00:03.581-07:00",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "z5cfn9t6kyp0",
-          "status": "scheduled",
-          "body": "We will be undergoing scheduled maintenance during this time.",
-          "incident_id": "6b2pj2g25zz4",
-          "created_at": "2023-07-20T10:09:36.865-07:00",
-          "updated_at": "2023-07-20T10:09:36.865-07:00",
-          "display_at": "2023-07-20T10:09:36.865-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "lrvwsh919pgt",
-              "name": "Fraud Defence",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "tysyfb9jlfwh",
-          "status": "scheduled",
-          "body": "Dear Worldline Customer,\n\nWorldline will be conducting Scheduled Maintenance as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on July 25th between 10PM to 3AM PT. Little to no impact is expected as a result of this maintenance window.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@worldline.com or by calling 1-833-226-2672. \n\nThank you,\nWorldline Customer Support",
-          "incident_id": "6b2pj2g25zz4",
-          "created_at": "2023-07-11T15:12:09.425-07:00",
-          "updated_at": "2023-07-20T10:09:32.085-07:00",
-          "display_at": "2023-07-11T15:12:09.425-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "lrvwsh919pgt",
-              "name": "Fraud Defence",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "under_maintenance",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2023-07-25T22:00:21.617-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "lrvwsh919pgt",
-          "name": "Fraud Defence",
-          "status": "under_maintenance",
-          "created_at": "2018-10-15T20:10:52.835-07:00",
-          "updated_at": "2023-07-25T22:00:21.643-07:00",
-          "position": 5,
-          "description": "Fraud defence related products and services such as eID verify and CAV.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2023-07-25T22:00:00.000-07:00",
-      "scheduled_until": "2023-07-26T03:00:00.000-07:00"
     }
   ],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
