@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-07-26T10:43:12.237-07:00"
+    "updated_at": "2023-07-26T11:31:11.761-07:00"
   },
   "components": [
     {
@@ -250,7 +250,7 @@
       "name": "Emergency Maintenance Activities",
       "status": "scheduled",
       "created_at": "2023-07-26T10:31:47.083-07:00",
-      "updated_at": "2023-07-26T10:31:47.147-07:00",
+      "updated_at": "2023-07-26T11:31:11.759-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -380,8 +380,8 @@
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2023-07-26T18:00:00.000-07:00",
-      "scheduled_until": "2023-07-26T19:00:00.000-07:00"
+      "scheduled_for": "2023-07-26T20:00:00.000-07:00",
+      "scheduled_until": "2023-07-26T21:00:00.000-07:00"
     },
     {
       "id": "lz51pt27slzc",
