@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-07-26T18:59:57.831-07:00"
+    "updated_at": "2023-07-26T20:00:57.422-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2023-07-26T03:00:18.980-07:00",
+      "updated_at": "2023-07-26T20:00:57.197-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -80,9 +80,9 @@
     {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2023-06-21T03:00:11.967-07:00",
+      "updated_at": "2023-07-26T20:00:57.223-07:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -125,9 +125,9 @@
     {
       "id": "d4bgz01l6nt2",
       "name": "Onboarding",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-09-28T13:30:37.183-07:00",
-      "updated_at": "2023-05-23T13:00:06.425-07:00",
+      "updated_at": "2023-07-26T20:00:57.253-07:00",
       "position": 4,
       "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
       "showcase": false,
@@ -155,9 +155,9 @@
     {
       "id": "lrvwsh919pgt",
       "name": "Fraud Defence",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-10-15T20:10:52.835-07:00",
-      "updated_at": "2023-07-26T03:00:19.006-07:00",
+      "updated_at": "2023-07-26T20:00:57.280-07:00",
       "position": 5,
       "description": "Fraud defence related products and services such as eID verify and CAV.",
       "showcase": false,
@@ -170,9 +170,9 @@
     {
       "id": "jbg5nd57jz6q",
       "name": "Merchant Portal",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2023-07-26T09:41:13.249-07:00",
+      "updated_at": "2023-07-26T20:00:57.314-07:00",
       "position": 6,
       "description": "https://web.na.bambora.com/admin",
       "showcase": false,
@@ -246,11 +246,86 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
+      "id": "lz51pt27slzc",
+      "name": "Maintenance Activities",
+      "status": "scheduled",
+      "created_at": "2023-07-20T10:10:53.871-07:00",
+      "updated_at": "2023-07-20T10:10:53.933-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/lfqlxyq7fbr1",
+      "started_at": "2023-07-20T10:10:53.865-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "lp1ns3rt8tzm",
+          "status": "scheduled",
+          "body": "Dear Worldline Customer,\n\nWorldline will be conducting Scheduled Maintenance as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on August 1st between 10PM to 3AM PT. Little to no impact is expected as a result of this maintenance window.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@worldline.com or by calling 1-833-226-2672. \n\nThank you,\nWorldline Customer Support",
+          "incident_id": "lz51pt27slzc",
+          "created_at": "2023-07-20T10:10:53.930-07:00",
+          "updated_at": "2023-07-20T10:10:53.930-07:00",
+          "display_at": "2023-07-20T10:10:53.930-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "under_maintenance",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2023-07-26T20:00:57.197-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jn3qknr2znhd",
+          "name": "Batch and Bank to Bank Payments",
+          "status": "under_maintenance",
+          "created_at": "2018-09-28T13:19:54.879-07:00",
+          "updated_at": "2023-07-26T20:00:57.223-07:00",
+          "position": 3,
+          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2023-08-01T22:00:00.000-07:00",
+      "scheduled_until": "2023-08-02T03:00:00.000-07:00"
+    },
+    {
       "id": "yzzbhkcvpmtk",
       "name": "Emergency Maintenance Activities",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2023-07-26T10:31:47.083-07:00",
-      "updated_at": "2023-07-26T18:59:57.818-07:00",
+      "updated_at": "2023-07-26T20:00:57.402-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -258,6 +333,50 @@
       "started_at": "2023-07-26T10:31:47.071-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "cf30mhfhf9sx",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "yzzbhkcvpmtk",
+          "created_at": "2023-07-26T20:00:57.394-07:00",
+          "updated_at": "2023-07-26T20:00:57.394-07:00",
+          "display_at": "2023-07-26T20:00:57.394-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "d4bgz01l6nt2",
+              "name": "Onboarding",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "lrvwsh919pgt",
+              "name": "Fraud Defence",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "6c2n97s68w9b",
           "status": "scheduled",
@@ -364,9 +483,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2023-07-26T03:00:18.980-07:00",
+          "updated_at": "2023-07-26T20:00:57.197-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -379,9 +498,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2023-06-21T03:00:11.967-07:00",
+          "updated_at": "2023-07-26T20:00:57.223-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -394,9 +513,9 @@
         {
           "id": "d4bgz01l6nt2",
           "name": "Onboarding",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-28T13:30:37.183-07:00",
-          "updated_at": "2023-05-23T13:00:06.425-07:00",
+          "updated_at": "2023-07-26T20:00:57.253-07:00",
           "position": 4,
           "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
           "showcase": false,
@@ -409,9 +528,9 @@
         {
           "id": "lrvwsh919pgt",
           "name": "Fraud Defence",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-10-15T20:10:52.835-07:00",
-          "updated_at": "2023-07-26T03:00:19.006-07:00",
+          "updated_at": "2023-07-26T20:00:57.280-07:00",
           "position": 5,
           "description": "Fraud defence related products and services such as eID verify and CAV.",
           "showcase": false,
@@ -424,9 +543,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2023-07-26T09:41:13.249-07:00",
+          "updated_at": "2023-07-26T20:00:57.314-07:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -439,85 +558,10 @@
       ],
       "scheduled_for": "2023-07-26T20:00:00.000-07:00",
       "scheduled_until": "2023-07-26T21:00:00.000-07:00"
-    },
-    {
-      "id": "lz51pt27slzc",
-      "name": "Maintenance Activities",
-      "status": "scheduled",
-      "created_at": "2023-07-20T10:10:53.871-07:00",
-      "updated_at": "2023-07-20T10:10:53.933-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/lfqlxyq7fbr1",
-      "started_at": "2023-07-20T10:10:53.865-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "lp1ns3rt8tzm",
-          "status": "scheduled",
-          "body": "Dear Worldline Customer,\n\nWorldline will be conducting Scheduled Maintenance as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on August 1st between 10PM to 3AM PT. Little to no impact is expected as a result of this maintenance window.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@worldline.com or by calling 1-833-226-2672. \n\nThank you,\nWorldline Customer Support",
-          "incident_id": "lz51pt27slzc",
-          "created_at": "2023-07-20T10:10:53.930-07:00",
-          "updated_at": "2023-07-20T10:10:53.930-07:00",
-          "display_at": "2023-07-20T10:10:53.930-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "jn3qknr2znhd",
-              "name": "Batch and Bank to Bank Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "operational",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2023-07-26T03:00:18.980-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "jn3qknr2znhd",
-          "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
-          "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2023-06-21T03:00:11.967-07:00",
-          "position": 3,
-          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2023-08-01T22:00:00.000-07:00",
-      "scheduled_until": "2023-08-02T03:00:00.000-07:00"
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
