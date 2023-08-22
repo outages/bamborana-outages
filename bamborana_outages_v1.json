@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-08-22T16:06:23.538-07:00"
+    "updated_at": "2023-08-22T16:09:48.088-07:00"
   },
   "components": [
     {
@@ -249,7 +249,7 @@
       "name": "API and Hosted Checkout Form field data validation issues",
       "status": "identified",
       "created_at": "2023-08-22T14:49:49.481-07:00",
-      "updated_at": "2023-08-22T16:06:23.530-07:00",
+      "updated_at": "2023-08-22T16:09:48.081-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -260,11 +260,11 @@
         {
           "id": "29876flmzvyg",
           "status": "identified",
-          "body": "We are working on a fix for the impacted API and Hosted Checkout Form fields which will be deployed during an upcoming maintenance window.\n\nIntegrators/cardholders should ensure that they are passing valid data in all fields to avoid failing data validation. Cardholders may also be able to resolve the issue by clearing their browser cache.",
+          "body": "We are working on a fix for the impacted API and Hosted Checkout Form fields which will be deployed during an upcoming maintenance window on 8/23/23.\n\nIntegrators/cardholders should ensure that they are passing valid data in all fields to avoid failing data validation. Cardholders may also be able to resolve the issue by clearing their browser cache.",
           "incident_id": "rqsnvpv2jsb6",
           "created_at": "2023-08-22T16:06:23.527-07:00",
-          "updated_at": "2023-08-22T16:06:23.527-07:00",
-          "display_at": "2023-08-22T16:06:23.527-07:00",
+          "updated_at": "2023-08-22T16:09:48.077-07:00",
+          "display_at": "2023-08-22T16:06:23.000-07:00",
           "affected_components": [
             {
               "code": "lmm3y57mtffz",
