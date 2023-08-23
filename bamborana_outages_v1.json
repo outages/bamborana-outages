@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-08-23T08:59:58.542-07:00"
+    "updated_at": "2023-08-23T10:00:38.265-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "degraded_performance",
+      "status": "under_maintenance",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2023-08-22T14:49:49.504-07:00",
+      "updated_at": "2023-08-23T10:00:38.093-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -80,9 +80,9 @@
     {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2023-08-22T13:00:24.853-07:00",
+      "updated_at": "2023-08-23T10:00:38.115-07:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -125,9 +125,9 @@
     {
       "id": "d4bgz01l6nt2",
       "name": "Onboarding",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-09-28T13:30:37.183-07:00",
-      "updated_at": "2023-08-22T13:00:24.966-07:00",
+      "updated_at": "2023-08-23T10:00:38.140-07:00",
       "position": 4,
       "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
       "showcase": false,
@@ -155,9 +155,9 @@
     {
       "id": "lrvwsh919pgt",
       "name": "Fraud Defence",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-10-15T20:10:52.835-07:00",
-      "updated_at": "2023-08-22T13:00:25.025-07:00",
+      "updated_at": "2023-08-23T10:00:38.157-07:00",
       "position": 5,
       "description": "Fraud defence related products and services such as eID verify and CAV.",
       "showcase": false,
@@ -215,9 +215,9 @@
     {
       "id": "x73lwmcxxgmk",
       "name": "Customer Care",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-10-15T20:11:49.056-07:00",
-      "updated_at": "2023-05-23T13:00:06.641-07:00",
+      "updated_at": "2023-08-23T10:00:38.176-07:00",
       "position": 7,
       "description": "Customer care channels including email and telephone.",
       "showcase": false,
@@ -322,9 +322,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "under_maintenance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2023-08-22T14:49:49.504-07:00",
+          "updated_at": "2023-08-23T10:00:38.093-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -341,9 +341,9 @@
     {
       "id": "znvy1lzvd4fg",
       "name": "Emergency Maintenance Activities",
-      "status": "scheduled",
+      "status": "in_progress",
       "created_at": "2023-08-22T16:23:04.093-07:00",
-      "updated_at": "2023-08-23T08:59:58.536-07:00",
+      "updated_at": "2023-08-23T10:00:38.251-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -351,6 +351,50 @@
       "started_at": "2023-08-22T16:23:04.086-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "774m2yndfvnk",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "znvy1lzvd4fg",
+          "created_at": "2023-08-23T10:00:38.244-07:00",
+          "updated_at": "2023-08-23T10:00:38.244-07:00",
+          "display_at": "2023-08-23T10:00:38.244-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "d4bgz01l6nt2",
+              "name": "Onboarding",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "lrvwsh919pgt",
+              "name": "Fraud Defence",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            },
+            {
+              "code": "x73lwmcxxgmk",
+              "name": "Customer Care",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "31j943rfwq3p",
           "status": "scheduled",
@@ -457,9 +501,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "under_maintenance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2023-08-22T14:49:49.504-07:00",
+          "updated_at": "2023-08-23T10:00:38.093-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -472,9 +516,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2023-08-22T13:00:24.853-07:00",
+          "updated_at": "2023-08-23T10:00:38.115-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -487,9 +531,9 @@
         {
           "id": "d4bgz01l6nt2",
           "name": "Onboarding",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-28T13:30:37.183-07:00",
-          "updated_at": "2023-08-22T13:00:24.966-07:00",
+          "updated_at": "2023-08-23T10:00:38.140-07:00",
           "position": 4,
           "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
           "showcase": false,
@@ -502,9 +546,9 @@
         {
           "id": "lrvwsh919pgt",
           "name": "Fraud Defence",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-10-15T20:10:52.835-07:00",
-          "updated_at": "2023-08-22T13:00:25.025-07:00",
+          "updated_at": "2023-08-23T10:00:38.157-07:00",
           "position": 5,
           "description": "Fraud defence related products and services such as eID verify and CAV.",
           "showcase": false,
@@ -517,9 +561,9 @@
         {
           "id": "x73lwmcxxgmk",
           "name": "Customer Care",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-10-15T20:11:49.056-07:00",
-          "updated_at": "2023-05-23T13:00:06.641-07:00",
+          "updated_at": "2023-08-23T10:00:38.176-07:00",
           "position": 7,
           "description": "Customer care channels including email and telephone.",
           "showcase": false,
@@ -535,7 +579,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
