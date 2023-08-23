@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-08-23T10:00:38.265-07:00"
+    "updated_at": "2023-08-23T11:56:42.653-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "under_maintenance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2023-08-23T10:00:38.093-07:00",
+      "updated_at": "2023-08-23T11:56:42.617-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -243,100 +243,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "rqsnvpv2jsb6",
-      "name": "API and Hosted Checkout Form field data validation issues",
-      "status": "identified",
-      "created_at": "2023-08-22T14:49:49.481-07:00",
-      "updated_at": "2023-08-22T16:09:48.081-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/xdhh91vhyxnl",
-      "started_at": "2023-08-22T14:49:49.476-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "29876flmzvyg",
-          "status": "identified",
-          "body": "We are working on a fix for the impacted API and Hosted Checkout Form fields which will be deployed during an upcoming maintenance window on 8/23/23.\n\nIntegrators/cardholders should ensure that they are passing valid data in all fields to avoid failing data validation. Cardholders may also be able to resolve the issue by clearing their browser cache.",
-          "incident_id": "rqsnvpv2jsb6",
-          "created_at": "2023-08-22T16:06:23.527-07:00",
-          "updated_at": "2023-08-22T16:09:48.077-07:00",
-          "display_at": "2023-08-22T16:06:23.000-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "5qz44k20s2v4",
-          "status": "identified",
-          "body": "We have identified an issue causing errors when passing unexpected text in specific fields when calling our APIs or using the Hosted Checkout Form. We are working to resolve the issue and will provide an update once available.",
-          "incident_id": "rqsnvpv2jsb6",
-          "created_at": "2023-08-22T15:25:11.099-07:00",
-          "updated_at": "2023-08-22T15:25:11.099-07:00",
-          "display_at": "2023-08-22T15:25:11.099-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "v2wdmtgzbhrj",
-          "status": "investigating",
-          "body": "We are investigating reports of degraded performance with the Hosted Checkout Form. We will provide an update once available.",
-          "incident_id": "rqsnvpv2jsb6",
-          "created_at": "2023-08-22T14:49:49.535-07:00",
-          "updated_at": "2023-08-22T14:49:49.535-07:00",
-          "display_at": "2023-08-22T14:49:49.535-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "under_maintenance",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2023-08-23T10:00:38.093-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ]
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "znvy1lzvd4fg",
@@ -501,9 +408,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "under_maintenance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2023-08-23T10:00:38.093-07:00",
+          "updated_at": "2023-08-23T11:56:42.617-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
