@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-09-21T14:43:26.057-07:00"
+    "updated_at": "2023-09-28T12:48:24.316-07:00"
   },
   "components": [
     {
@@ -250,7 +250,7 @@
       "name": "Maintenance Activities",
       "status": "scheduled",
       "created_at": "2023-09-21T14:40:34.138-07:00",
-      "updated_at": "2023-09-21T14:40:34.200-07:00",
+      "updated_at": "2023-09-28T12:48:24.314-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -258,6 +258,80 @@
       "started_at": "2023-09-21T14:40:34.121-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "lj99k77kjvqz",
+          "status": "scheduled",
+          "body": "Please be advised, this maintenance window has been rescheduled to October 17th. Changes have been applied and will reflect in StatusPage. \nThanks!",
+          "incident_id": "j1nxvn97jq17",
+          "created_at": "2023-09-28T12:47:55.434-07:00",
+          "updated_at": "2023-09-28T12:47:55.434-07:00",
+          "display_at": "2023-09-28T12:47:55.434-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "md5ddnfxqw6t",
+              "name": "Acquirers - Elavon",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2lwzc7k0f33q",
+              "name": "Acquirers - Chase Paymentech",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k7n48rhgv5lh",
+              "name": "Acquirers - TSYS (Vital)",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "zf6c01sl8prx",
+              "name": "Acquirers - Desjardins",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "9bd3lt5dj8yk",
+              "name": "Acquirers - Interac Online",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "2rxk55tml7jx",
           "status": "scheduled",
@@ -485,8 +559,8 @@
           "only_show_if_degraded": false
         }
       ],
-      "scheduled_for": "2023-10-03T22:00:00.000-07:00",
-      "scheduled_until": "2023-10-04T03:00:00.000-07:00"
+      "scheduled_for": "2023-10-17T22:00:00.000-07:00",
+      "scheduled_until": "2023-10-18T03:00:00.000-07:00"
     }
   ],
   "status": {
