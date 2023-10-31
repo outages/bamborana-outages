@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2023-10-31T10:43:12.483-07:00"
+    "updated_at": "2023-10-31T10:47:49.626-07:00"
   },
   "components": [
     {
@@ -249,7 +249,7 @@
       "name": "Degradation in services impacting transaction times.",
       "status": "investigating",
       "created_at": "2023-10-31T10:11:57.319-07:00",
-      "updated_at": "2023-10-31T10:11:57.558-07:00",
+      "updated_at": "2023-10-31T10:47:49.619-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -257,6 +257,68 @@
       "started_at": "2023-10-31T10:11:57.301-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "cfv44tnk8t0b",
+          "status": "investigating",
+          "body": "We are continuing to investigate degraded performance.\n\nImpact is mostly being seen for transaction types such as Voids, Refunds and Pre-Auth Completion, or transactions using Secure Payment Profiles.  \n\nMore information will be provided as we investigate further.",
+          "incident_id": "10l7qqj2bhjp",
+          "created_at": "2023-10-31T10:47:49.617-07:00",
+          "updated_at": "2023-10-31T10:47:49.617-07:00",
+          "display_at": "2023-10-31T10:47:49.617-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "md5ddnfxqw6t",
+              "name": "Acquirers - Elavon",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "2lwzc7k0f33q",
+              "name": "Acquirers - Chase Paymentech",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "k7n48rhgv5lh",
+              "name": "Acquirers - TSYS (Vital)",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "zf6c01sl8prx",
+              "name": "Acquirers - Desjardins",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "xwyd1wl56278",
           "status": "investigating",
