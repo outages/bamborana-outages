@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-01-11T07:45:12.202-08:00"
+    "updated_at": "2024-01-11T08:13:17.412-08:00"
   },
   "components": [
     {
@@ -25,9 +25,9 @@
     {
       "id": "3j21h38n1rd1",
       "name": "TD",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-17T14:58:10.538-07:00",
-      "updated_at": "2024-01-11T06:39:15.362-08:00",
+      "updated_at": "2024-01-11T08:13:17.356-08:00",
       "position": 1,
       "description": "Credit card processing for TD merchants",
       "showcase": false,
@@ -249,7 +249,7 @@
       "name": "Transaction Failures",
       "status": "monitoring",
       "created_at": "2024-01-11T06:39:15.317-08:00",
-      "updated_at": "2024-01-11T07:45:12.199-08:00",
+      "updated_at": "2024-01-11T08:13:17.393-08:00",
       "monitoring_at": "2024-01-11T07:45:12.183-08:00",
       "resolved_at": null,
       "impact": "minor",
@@ -257,6 +257,32 @@
       "started_at": "2024-01-11T06:39:15.307-08:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "gccqcmkbc8wy",
+          "status": "monitoring",
+          "body": "Transactions are processing successfully since the update. We are continuing to monitor results.",
+          "incident_id": "9kb4tw1xmhcg",
+          "created_at": "2024-01-11T08:13:17.390-08:00",
+          "updated_at": "2024-01-11T08:13:17.390-08:00",
+          "display_at": "2024-01-11T08:13:17.390-08:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zynfdq5hmqqv",
           "status": "monitoring",
@@ -355,9 +381,9 @@
         {
           "id": "3j21h38n1rd1",
           "name": "TD",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-17T14:58:10.538-07:00",
-          "updated_at": "2024-01-11T06:39:15.362-08:00",
+          "updated_at": "2024-01-11T08:13:17.356-08:00",
           "position": 1,
           "description": "Credit card processing for TD merchants",
           "showcase": false,
@@ -802,9 +828,9 @@
         {
           "id": "3j21h38n1rd1",
           "name": "TD",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-17T14:58:10.538-07:00",
-          "updated_at": "2024-01-11T06:39:15.362-08:00",
+          "updated_at": "2024-01-11T08:13:17.356-08:00",
           "position": 1,
           "description": "Credit card processing for TD merchants",
           "showcase": false,
@@ -1093,9 +1119,9 @@
         {
           "id": "3j21h38n1rd1",
           "name": "TD",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-17T14:58:10.538-07:00",
-          "updated_at": "2024-01-11T06:39:15.362-08:00",
+          "updated_at": "2024-01-11T08:13:17.356-08:00",
           "position": 1,
           "description": "Credit card processing for TD merchants",
           "showcase": false,
