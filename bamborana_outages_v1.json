@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-02-29T10:43:09.279-08:00"
+    "updated_at": "2024-02-29T11:37:06.197-08:00"
   },
   "components": [
     {
@@ -125,9 +125,9 @@
     {
       "id": "d4bgz01l6nt2",
       "name": "Onboarding",
-      "status": "partial_outage",
+      "status": "operational",
       "created_at": "2018-09-28T13:30:37.183-07:00",
-      "updated_at": "2024-02-29T09:59:47.718-08:00",
+      "updated_at": "2024-02-29T11:37:06.145-08:00",
       "position": 4,
       "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
       "showcase": false,
@@ -244,59 +244,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "nyq8v8464zf8",
-      "name": "Unexpected Errors In Onboarding Application Flows",
-      "status": "identified",
-      "created_at": "2024-02-29T09:59:47.684-08:00",
-      "updated_at": "2024-02-29T09:59:47.769-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "major",
-      "shortlink": "https://stspg.io/q4s6y2b9d6wz",
-      "started_at": "2024-02-29T09:59:47.679-08:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "r4b22z81jksd",
-          "status": "identified",
-          "body": "We have identified an issue with the onboarding application flow. Users can still access the Onboarding application flow, but cannot proceed past entering their date of birth. We have found the root cause and are working on a solution.",
-          "incident_id": "nyq8v8464zf8",
-          "created_at": "2024-02-29T09:59:47.766-08:00",
-          "updated_at": "2024-02-29T09:59:47.766-08:00",
-          "display_at": "2024-02-29T09:59:47.766-08:00",
-          "affected_components": [
-            {
-              "code": "d4bgz01l6nt2",
-              "name": "Onboarding",
-              "old_status": "operational",
-              "new_status": "partial_outage"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "d4bgz01l6nt2",
-          "name": "Onboarding",
-          "status": "partial_outage",
-          "created_at": "2018-09-28T13:30:37.183-07:00",
-          "updated_at": "2024-02-29T09:59:47.718-08:00",
-          "position": 4,
-          "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
     {
       "id": "1fv79zq0ff73",
       "name": "Incorrect Merchant Descriptors",
@@ -572,9 +519,9 @@
         {
           "id": "d4bgz01l6nt2",
           "name": "Onboarding",
-          "status": "partial_outage",
+          "status": "operational",
           "created_at": "2018-09-28T13:30:37.183-07:00",
-          "updated_at": "2024-02-29T09:59:47.718-08:00",
+          "updated_at": "2024-02-29T11:37:06.145-08:00",
           "position": 4,
           "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
           "showcase": false,
@@ -680,7 +627,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Minor Service Outage"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
