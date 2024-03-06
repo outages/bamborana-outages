@@ -2,17 +2,17 @@
   "page": {
     "id": "dm5h7g8csh93",
     "name": "Bambora North America",
-    "url": "https://status.na.bambora.com",
+    "url": "http://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-06T06:43:07.574-08:00"
+    "updated_at": "2024-03-06T07:20:38.121-08:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2024-03-06T06:30:56.252-08:00",
+      "updated_at": "2024-03-06T07:20:38.071-08:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -80,9 +80,9 @@
     {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
-      "status": "under_maintenance",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2024-03-06T06:30:56.307-08:00",
+      "updated_at": "2024-03-06T07:20:38.081-08:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -247,16 +247,42 @@
     {
       "id": "cw6gctybq59j",
       "name": "Some Payment Services Delayed",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2024-03-06T03:40:43.155-08:00",
-      "updated_at": "2024-03-06T04:37:36.446-08:00",
-      "monitoring_at": null,
+      "updated_at": "2024-03-06T07:20:38.119-08:00",
+      "monitoring_at": "2024-03-06T07:20:38.106-08:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/zmyy4j8b9t52",
       "started_at": "2024-03-06T03:40:43.148-08:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "nwdsb6zszz60",
+          "status": "monitoring",
+          "body": "A fix has been implemented and Recurring Billing and Batch Processing are currently running to process scheduled transactions. We will provide an update once the services have completed.",
+          "incident_id": "cw6gctybq59j",
+          "created_at": "2024-03-06T07:20:38.106-08:00",
+          "updated_at": "2024-03-06T07:20:38.106-08:00",
+          "display_at": "2024-03-06T07:20:38.106-08:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "under_maintenance",
+              "new_status": "degraded_performance"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "under_maintenance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "zmjwv8tg377y",
           "status": "identified",
@@ -314,9 +340,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-03-06T06:30:56.252-08:00",
+          "updated_at": "2024-03-06T07:20:38.071-08:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -329,9 +355,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2024-03-06T06:30:56.307-08:00",
+          "updated_at": "2024-03-06T07:20:38.081-08:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -481,9 +507,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-03-06T06:30:56.252-08:00",
+          "updated_at": "2024-03-06T07:20:38.071-08:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -496,9 +522,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2024-03-06T06:30:56.307-08:00",
+          "updated_at": "2024-03-06T07:20:38.081-08:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -667,9 +693,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-03-06T06:30:56.252-08:00",
+          "updated_at": "2024-03-06T07:20:38.071-08:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -712,9 +738,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2024-03-06T06:30:56.307-08:00",
+          "updated_at": "2024-03-06T07:20:38.081-08:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -1065,9 +1091,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-03-06T06:30:56.252-08:00",
+          "updated_at": "2024-03-06T07:20:38.071-08:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -1110,9 +1136,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "under_maintenance",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2024-03-06T06:30:56.307-08:00",
+          "updated_at": "2024-03-06T07:20:38.081-08:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -1263,7 +1289,7 @@
     }
   ],
   "status": {
-    "indicator": "maintenance",
-    "description": "Service Under Maintenance"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
