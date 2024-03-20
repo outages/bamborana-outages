@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-03-20T03:30:06.045-07:00"
+    "updated_at": "2024-03-20T03:43:12.179-07:00"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "2k8htkqk5ghw",
       "name": "Acquirers",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-28T13:22:15.087-07:00",
       "updated_at": "2018-11-09T14:47:59.115-08:00",
       "position": 2,
@@ -65,9 +65,9 @@
     {
       "id": "tpvhhtslhvh3",
       "name": "First Data",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2024-03-20T03:30:05.990-07:00",
+      "updated_at": "2024-03-20T03:42:31.182-07:00",
       "position": 2,
       "description": "Credit card processing for First Data merchants",
       "showcase": false,
@@ -245,106 +245,6 @@
   ],
   "incidents": [
     {
-      "id": "h9d2xmf50k0z",
-      "name": "Interruption to payment processing",
-      "status": "monitoring",
-      "created_at": "2024-03-20T03:29:43.293-07:00",
-      "updated_at": "2024-03-20T03:30:06.037-07:00",
-      "monitoring_at": "2024-03-20T03:29:43.329-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/thbrtv6p5k2x",
-      "started_at": "2024-03-20T03:29:43.286-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "3f70rz4dhhgz",
-          "status": "monitoring",
-          "body": "We are continuing to monitor for any further issues.",
-          "incident_id": "h9d2xmf50k0z",
-          "created_at": "2024-03-20T03:30:06.035-07:00",
-          "updated_at": "2024-03-20T03:30:06.035-07:00",
-          "display_at": "2024-03-20T03:30:06.035-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "tpvhhtslhvh3",
-              "name": "Acquirers - First Data",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "n8q1nhn956p4",
-          "status": "monitoring",
-          "body": "Degraded performance was seen during our maintenance widow leading to an interruption to some payment processing between 2AM-5:45AM EST.\nA fix was implemented and payment processing has returned to normal.  \n\nWe will continue to monitor closely for any changes.",
-          "incident_id": "h9d2xmf50k0z",
-          "created_at": "2024-03-20T03:29:43.329-07:00",
-          "updated_at": "2024-03-20T03:29:43.329-07:00",
-          "display_at": "2024-03-20T03:29:43.329-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            },
-            {
-              "code": "tpvhhtslhvh3",
-              "name": "Acquirers - First Data",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "operational",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-03-20T03:00:56.249-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        },
-        {
-          "id": "tpvhhtslhvh3",
-          "name": "First Data",
-          "status": "degraded_performance",
-          "created_at": "2018-09-28T13:22:39.441-07:00",
-          "updated_at": "2024-03-20T03:30:05.990-07:00",
-          "position": 2,
-          "description": "Credit card processing for First Data merchants",
-          "showcase": false,
-          "start_date": null,
-          "group_id": "2k8htkqk5ghw",
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
       "id": "1fv79zq0ff73",
       "name": "Incorrect Merchant Descriptors",
       "status": "identified",
@@ -402,9 +302,9 @@
         {
           "id": "tpvhhtslhvh3",
           "name": "First Data",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-28T13:22:39.441-07:00",
-          "updated_at": "2024-03-20T03:30:05.990-07:00",
+          "updated_at": "2024-03-20T03:42:31.182-07:00",
           "position": 2,
           "description": "Credit card processing for First Data merchants",
           "showcase": false,
@@ -559,9 +459,9 @@
         {
           "id": "tpvhhtslhvh3",
           "name": "First Data",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-28T13:22:39.441-07:00",
-          "updated_at": "2024-03-20T03:30:05.990-07:00",
+          "updated_at": "2024-03-20T03:42:31.182-07:00",
           "position": 2,
           "description": "Credit card processing for First Data merchants",
           "showcase": false,
@@ -865,9 +765,9 @@
         {
           "id": "tpvhhtslhvh3",
           "name": "First Data",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-28T13:22:39.441-07:00",
-          "updated_at": "2024-03-20T03:30:05.990-07:00",
+          "updated_at": "2024-03-20T03:42:31.182-07:00",
           "position": 2,
           "description": "Credit card processing for First Data merchants",
           "showcase": false,
@@ -1033,7 +933,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
