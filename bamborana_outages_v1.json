@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-06-17T14:43:02.584-07:00"
+    "updated_at": "2024-06-18T10:30:00.447-07:00"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "2k8htkqk5ghw",
       "name": "Acquirers",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:22:15.087-07:00",
       "updated_at": "2018-11-09T14:47:59.115-08:00",
       "position": 2,
@@ -65,9 +65,9 @@
     {
       "id": "tpvhhtslhvh3",
       "name": "First Data",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:22:39.441-07:00",
-      "updated_at": "2024-06-12T03:00:02.393-07:00",
+      "updated_at": "2024-06-18T10:28:58.760-07:00",
       "position": 2,
       "description": "Credit card processing for First Data merchants",
       "showcase": false,
@@ -245,6 +245,59 @@
   ],
   "incidents": [
     {
+      "id": "7g52br6337wn",
+      "name": "Degraded Service for Fiserv Acquirier Merchants",
+      "status": "investigating",
+      "created_at": "2024-06-18T10:28:58.732-07:00",
+      "updated_at": "2024-06-18T10:30:00.442-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/l7mnxwsj345j",
+      "started_at": "2024-06-18T10:28:58.000-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "y2xf65d1k82q",
+          "status": "investigating",
+          "body": "We are investigating a potential issue with our Fiserv (First Data) acquirer connection. Currently, this issue does not impact transaction processing.",
+          "incident_id": "7g52br6337wn",
+          "created_at": "2024-06-18T10:28:58.795-07:00",
+          "updated_at": "2024-06-18T10:30:00.368-07:00",
+          "display_at": "2024-06-18T10:28:58.000-07:00",
+          "affected_components": [
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "tpvhhtslhvh3",
+          "name": "First Data",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:22:39.441-07:00",
+          "updated_at": "2024-06-18T10:28:58.760-07:00",
+          "position": 2,
+          "description": "Credit card processing for First Data merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
       "id": "1fv79zq0ff73",
       "name": "Incorrect Merchant Descriptors",
       "status": "identified",
@@ -302,9 +355,9 @@
         {
           "id": "tpvhhtslhvh3",
           "name": "First Data",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:22:39.441-07:00",
-          "updated_at": "2024-06-12T03:00:02.393-07:00",
+          "updated_at": "2024-06-18T10:28:58.760-07:00",
           "position": 2,
           "description": "Credit card processing for First Data merchants",
           "showcase": false,
@@ -459,9 +512,9 @@
         {
           "id": "tpvhhtslhvh3",
           "name": "First Data",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:22:39.441-07:00",
-          "updated_at": "2024-06-12T03:00:02.393-07:00",
+          "updated_at": "2024-06-18T10:28:58.760-07:00",
           "position": 2,
           "description": "Credit card processing for First Data merchants",
           "showcase": false,
@@ -765,9 +818,9 @@
         {
           "id": "tpvhhtslhvh3",
           "name": "First Data",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:22:39.441-07:00",
-          "updated_at": "2024-06-12T03:00:02.393-07:00",
+          "updated_at": "2024-06-18T10:28:58.760-07:00",
           "position": 2,
           "description": "Credit card processing for First Data merchants",
           "showcase": false,
@@ -933,7 +986,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
