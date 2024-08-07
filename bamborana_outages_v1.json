@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-08-07T06:43:01.345-07:00"
+    "updated_at": "2024-08-07T08:20:36.224-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2024-08-07T06:42:02.420-07:00",
+      "updated_at": "2024-08-07T08:20:36.176-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -243,61 +243,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "wd8zkcnjz2zl",
-      "name": "Degraded performance after SSL certification rotation.",
-      "status": "monitoring",
-      "created_at": "2024-08-07T06:42:02.393-07:00",
-      "updated_at": "2024-08-07T06:42:02.469-07:00",
-      "monitoring_at": "2024-08-07T06:42:02.460-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/m7rzm04b2l30",
-      "started_at": "2024-08-07T06:42:02.388-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "jhyy3z176d07",
-          "status": "monitoring",
-          "body": "We recently identified degraded performance to our platform after rotating our SSL certificates earlier this morning.  \n\nA configuration issue was identified and we believe the issues have been resolved - Our Technology team continues to monitor for any changes.  \n\n\nIf you have stored our SSL certificates in the past, you can access the updated Certs for na.bambora.com and beansteam.com below:\n\nhttps://help.na.bambora.com/hc/en-us/articles/29842335082771-August-6th-2024-na-bambora-com-SSL-Cert-Renewal\n\nhttps://help.na.bambora.com/hc/en-us/articles/29842224974099-August-6th-2024-beanstream-com-SSL-Cert-Renewal",
-          "incident_id": "wd8zkcnjz2zl",
-          "created_at": "2024-08-07T06:42:02.460-07:00",
-          "updated_at": "2024-08-07T06:42:02.460-07:00",
-          "display_at": "2024-08-07T06:42:02.460-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-08-07T06:42:02.420-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "38mzk7y8knyd",
@@ -501,9 +447,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-08-07T06:42:02.420-07:00",
+          "updated_at": "2024-08-07T08:20:36.176-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -807,9 +753,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-08-07T06:42:02.420-07:00",
+          "updated_at": "2024-08-07T08:20:36.176-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -1005,7 +951,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
