@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-08-21T18:42:59.799-07:00"
+    "updated_at": "2024-08-21T19:00:21.818-07:00"
   },
   "components": [
     {
@@ -247,9 +247,9 @@
     {
       "id": "vws9ryfq3cgc",
       "name": "Hosted Checkout and Custom Checkout Errors",
-      "status": "investigating",
+      "status": "identified",
       "created_at": "2024-08-21T17:48:49.486-07:00",
-      "updated_at": "2024-08-21T18:22:10.479-07:00",
+      "updated_at": "2024-08-21T19:00:21.808-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -257,6 +257,26 @@
       "started_at": "2024-08-21T17:48:49.481-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "kxp91l75yg3c",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "vws9ryfq3cgc",
+          "created_at": "2024-08-21T19:00:21.804-07:00",
+          "updated_at": "2024-08-21T19:00:21.804-07:00",
+          "display_at": "2024-08-21T19:00:21.804-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "kt2w37xmf356",
           "status": "investigating",
