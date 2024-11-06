@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-11-06T05:53:53.058-08:00"
+    "updated_at": "2024-11-06T10:14:38.385-08:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2024-11-06T05:00:55.586-08:00",
+      "updated_at": "2024-11-06T10:14:38.337-08:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -245,79 +245,6 @@
   ],
   "incidents": [
     {
-      "id": "pzvx3j28bhfh",
-      "name": "Custom Checkout Error",
-      "status": "monitoring",
-      "created_at": "2024-11-06T05:00:55.549-08:00",
-      "updated_at": "2024-11-06T05:53:53.055-08:00",
-      "monitoring_at": "2024-11-06T05:53:53.038-08:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/8w737gnkzbfy",
-      "started_at": "2024-11-06T05:00:55.545-08:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "dm22wx20ft6j",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results. Users still experiencing issues with the Custom Checkout form may need to clear their browser cache and reload the page.",
-          "incident_id": "pzvx3j28bhfh",
-          "created_at": "2024-11-06T05:53:53.038-08:00",
-          "updated_at": "2024-11-06T05:53:53.038-08:00",
-          "display_at": "2024-11-06T05:53:53.038-08:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "r5l083ps7r1f",
-          "status": "investigating",
-          "body": "We have received reports of some users encountering errors with the Custom Checkout solution.  We are investigating the issue and will provide an update once available.",
-          "incident_id": "pzvx3j28bhfh",
-          "created_at": "2024-11-06T05:00:55.636-08:00",
-          "updated_at": "2024-11-06T05:00:55.636-08:00",
-          "display_at": "2024-11-06T05:00:55.636-08:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-11-06T05:00:55.586-08:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
       "id": "kqgvwvhbg4yw",
       "name": "Customer Care has limited access the BIC portal",
       "status": "identified",
@@ -482,9 +409,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-11-06T05:00:55.586-08:00",
+          "updated_at": "2024-11-06T10:14:38.337-08:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -788,9 +715,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2024-11-06T05:00:55.586-08:00",
+          "updated_at": "2024-11-06T10:14:38.337-08:00",
           "position": 1,
           "description": null,
           "showcase": false,
