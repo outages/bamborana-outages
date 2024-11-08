@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2024-11-07T20:37:47.292-08:00"
+    "updated_at": "2024-11-07T21:09:21.042-08:00"
   },
   "components": [
     {
@@ -244,75 +244,6 @@
     }
   ],
   "incidents": [
-    {
-      "id": "xbmw8qj7748b",
-      "name": "3DS is currently down our team is investigating the issue.",
-      "status": "monitoring",
-      "created_at": "2024-11-07T18:15:44.862-08:00",
-      "updated_at": "2024-11-07T20:37:40.913-08:00",
-      "monitoring_at": "2024-11-07T20:37:29.895-08:00",
-      "resolved_at": null,
-      "impact": "none",
-      "shortlink": "https://stspg.io/kl5514fqnflf",
-      "started_at": "2024-11-07T18:15:44.856-08:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "20vz755h55fb",
-          "status": "monitoring",
-          "body": "We are reporting some successful 3DS attempts, however the incident is still ongoing and our team continues to monitor the outage",
-          "incident_id": "xbmw8qj7748b",
-          "created_at": "2024-11-07T20:37:29.895-08:00",
-          "updated_at": "2024-11-07T20:37:29.895-08:00",
-          "display_at": "2024-11-07T20:37:29.895-08:00",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kwxd0v6q3cd1",
-          "status": "identified",
-          "body": "We continue to actively monitor this 3DS outage",
-          "incident_id": "xbmw8qj7748b",
-          "created_at": "2024-11-07T19:46:47.637-08:00",
-          "updated_at": "2024-11-07T19:46:47.637-08:00",
-          "display_at": "2024-11-07T19:46:47.637-08:00",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "1jclj2cxsg2p",
-          "status": "investigating",
-          "body": "We are continuing to monitor this outage",
-          "incident_id": "xbmw8qj7748b",
-          "created_at": "2024-11-07T19:02:11.043-08:00",
-          "updated_at": "2024-11-07T20:37:40.910-08:00",
-          "display_at": "2024-11-07T19:02:11.000-08:00",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "jj9s8jtjw62n",
-          "status": "investigating",
-          "body": "3DS is currently down due to DNS our team is investigating the issue",
-          "incident_id": "xbmw8qj7748b",
-          "created_at": "2024-11-07T18:15:44.898-08:00",
-          "updated_at": "2024-11-07T18:15:44.898-08:00",
-          "display_at": "2024-11-07T18:15:44.898-08:00",
-          "affected_components": null,
-          "deliver_notifications": false,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [],
-      "reminder_intervals": null
-    },
     {
       "id": "kqgvwvhbg4yw",
       "name": "Customer Care has limited access the BIC portal",
