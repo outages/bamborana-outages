@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-01-28T12:08:59.288-08:00"
+    "updated_at": "2025-01-28T12:20:31.199-08:00"
   },
   "components": [
     {
@@ -246,25 +246,25 @@
   "incidents": [
     {
       "id": "n47jxwv15h8s",
-      "name": "TD Merchants - Mastercard Transactions Declining",
+      "name": "TD Processor - Mastercard Transactions Declining",
       "status": "identified",
       "created_at": "2025-01-28T12:08:59.188-08:00",
-      "updated_at": "2025-01-28T12:08:59.285-08:00",
+      "updated_at": "2025-01-28T12:13:58.396-08:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "major",
       "shortlink": "https://stspg.io/l7jx0v093tmd",
-      "started_at": "2025-01-28T12:08:59.180-08:00",
+      "started_at": "2025-01-28T12:08:59.000-08:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
         {
           "id": "9gr7m7r3vz8b",
           "status": "identified",
-          "body": "We have received reports of Mastercard transactions declining for some of our TD OLM Merchants. \nThe cause for this issue has been found to be external to our gateway services, and our Partners at TD are working towards finding a resolution. \nWe will provide more updates once they become available.",
+          "body": "We have received reports that Mastercard transactions have been sporadically declining for some of our TD processing Merchants. \nThe cause for this issue has been found to be external to our gateway services, and our Partners at TD are working towards finding a resolution. \nWe will provide more updates once they become available.",
           "incident_id": "n47jxwv15h8s",
           "created_at": "2025-01-28T12:08:59.283-08:00",
-          "updated_at": "2025-01-28T12:08:59.283-08:00",
-          "display_at": "2025-01-28T12:08:59.283-08:00",
+          "updated_at": "2025-01-28T12:13:58.326-08:00",
+          "display_at": "2025-01-28T12:08:59.000-08:00",
           "affected_components": [
             {
               "code": "lmm3y57mtffz",
