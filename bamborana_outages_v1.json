@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-02-06T09:57:18.115-08:00"
+    "updated_at": "2025-02-06T10:17:30.212-08:00"
   },
   "components": [
     {
@@ -170,9 +170,9 @@
     {
       "id": "jbg5nd57jz6q",
       "name": "Merchant Portal",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2025-02-06T08:56:45.033-08:00",
+      "updated_at": "2025-02-06T10:17:30.158-08:00",
       "position": 6,
       "description": "https://web.na.bambora.com/admin",
       "showcase": false,
@@ -243,81 +243,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "hlqptn55smx1",
-      "name": "Email Receipts failing to send",
-      "status": "monitoring",
-      "created_at": "2025-02-06T08:56:45.002-08:00",
-      "updated_at": "2025-02-06T09:57:18.111-08:00",
-      "monitoring_at": "2025-02-06T09:57:18.095-08:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/86d80rvhwm02",
-      "started_at": "2025-02-06T08:56:44.997-08:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "kxxvpqg0md5k",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are monitoring the results. We will be re-sending email receipts which failed to send.",
-          "incident_id": "hlqptn55smx1",
-          "created_at": "2025-02-06T09:57:18.095-08:00",
-          "updated_at": "2025-02-06T09:57:18.095-08:00",
-          "display_at": "2025-02-06T09:57:18.095-08:00",
-          "affected_components": [
-            {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "kl79dnhmstkg",
-          "status": "investigating",
-          "body": "We are aware of an issue impacting our Email Receipts feature causing them to fail to send. We are investigating the issue and will provide an update shortly.",
-          "incident_id": "hlqptn55smx1",
-          "created_at": "2025-02-06T08:56:45.086-08:00",
-          "updated_at": "2025-02-06T08:56:45.086-08:00",
-          "display_at": "2025-02-06T08:56:45.086-08:00",
-          "affected_components": [
-            {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "jbg5nd57jz6q",
-          "name": "Merchant Portal",
-          "status": "degraded_performance",
-          "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-02-06T08:56:45.033-08:00",
-          "position": 6,
-          "description": "https://web.na.bambora.com/admin",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "w1s53qn9dt27",
@@ -564,9 +490,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-02-06T08:56:45.033-08:00",
+          "updated_at": "2025-02-06T10:17:30.158-08:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -870,9 +796,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-02-06T08:56:45.033-08:00",
+          "updated_at": "2025-02-06T10:17:30.158-08:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -1176,9 +1102,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-02-06T08:56:45.033-08:00",
+          "updated_at": "2025-02-06T10:17:30.158-08:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -1239,7 +1165,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
