@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-02-12T10:48:05.425-08:00"
+    "updated_at": "2025-02-12T11:36:19.586-08:00"
   },
   "components": [
     {
@@ -170,9 +170,9 @@
     {
       "id": "jbg5nd57jz6q",
       "name": "Merchant Portal",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2025-02-12T09:55:09.013-08:00",
+      "updated_at": "2025-02-12T11:36:19.534-08:00",
       "position": 6,
       "description": "https://web.na.bambora.com/admin",
       "showcase": false,
@@ -245,79 +245,6 @@
   ],
   "incidents": [
     {
-      "id": "6yt208fyd9pl",
-      "name": "Link Builder not generating Checkout Links",
-      "status": "identified",
-      "created_at": "2025-02-12T09:55:08.982-08:00",
-      "updated_at": "2025-02-12T10:48:05.415-08:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/8qp7vd02czv3",
-      "started_at": "2025-02-12T09:55:08.975-08:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "4238w3wjc44w",
-          "status": "identified",
-          "body": "Our team has identified the root cause of the issue and is currently working to implement a hotfix.",
-          "incident_id": "6yt208fyd9pl",
-          "created_at": "2025-02-12T10:48:05.411-08:00",
-          "updated_at": "2025-02-12T10:48:05.411-08:00",
-          "display_at": "2025-02-12T10:48:05.411-08:00",
-          "affected_components": [
-            {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dw4b22qzhc9b",
-          "status": "investigating",
-          "body": "Some users have reported issues with our Link builder service not generating a Checkout link.  We are currently investigating this issue and will provide updates as soon as we are able.",
-          "incident_id": "6yt208fyd9pl",
-          "created_at": "2025-02-12T09:55:09.061-08:00",
-          "updated_at": "2025-02-12T09:55:09.061-08:00",
-          "display_at": "2025-02-12T09:55:09.061-08:00",
-          "affected_components": [
-            {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "jbg5nd57jz6q",
-          "name": "Merchant Portal",
-          "status": "degraded_performance",
-          "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-02-12T09:55:09.013-08:00",
-          "position": 6,
-          "description": "https://web.na.bambora.com/admin",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    },
-    {
       "id": "461rkw5th0cp",
       "name": "Email Notifications Failing to Send",
       "status": "monitoring",
@@ -375,9 +302,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-02-12T09:55:09.013-08:00",
+          "updated_at": "2025-02-12T11:36:19.534-08:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -637,9 +564,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-02-12T09:55:09.013-08:00",
+          "updated_at": "2025-02-12T11:36:19.534-08:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -943,9 +870,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-02-12T09:55:09.013-08:00",
+          "updated_at": "2025-02-12T11:36:19.534-08:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -1006,7 +933,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
