@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-03-12T10:58:51.028-07:00"
+    "updated_at": "2025-03-12T13:18:38.868-07:00"
   },
   "components": [
     {
@@ -249,7 +249,7 @@
       "name": "Hosted Checkout experiencing partial degradation of service for some merchants",
       "status": "identified",
       "created_at": "2025-03-12T08:40:41.917-07:00",
-      "updated_at": "2025-03-12T08:40:42.021-07:00",
+      "updated_at": "2025-03-12T13:18:38.858-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
@@ -260,11 +260,11 @@
         {
           "id": "wbmkv9t3st4p",
           "status": "identified",
-          "body": "We have received reports that some merchants are experiencing issues with our Hosted Checkout feature. \nIf your Hosted Checkout is missing payment fields, please contact our customer support for further guidance on support.na@wordline.com or 1-833-226-2672",
+          "body": "We have received reports that some merchants are experiencing issues with our Hosted Checkout feature. \nIf your Hosted Checkout is missing payment fields, please contact our customer support for further guidance on support.na@worldline.com or 1-833-226-2672",
           "incident_id": "jh023185hww6",
           "created_at": "2025-03-12T08:40:42.017-07:00",
-          "updated_at": "2025-03-12T08:40:42.017-07:00",
-          "display_at": "2025-03-12T08:40:42.017-07:00",
+          "updated_at": "2025-03-12T13:18:38.854-07:00",
+          "display_at": "2025-03-12T08:40:42.000-07:00",
           "affected_components": [
             {
               "code": "lmm3y57mtffz",
