@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-04-08T09:30:14.351-07:00"
+    "updated_at": "2025-04-08T09:52:26.860-07:00"
   },
   "components": [
     {
@@ -80,9 +80,9 @@
     {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2025-03-26T03:00:21.390-07:00",
+      "updated_at": "2025-04-08T09:52:26.806-07:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -245,50 +245,30 @@
   ],
   "incidents": [
     {
-      "id": "461rkw5th0cp",
-      "name": "Email Notifications Failing to Send",
-      "status": "monitoring",
-      "created_at": "2025-02-07T11:29:21.098-08:00",
-      "updated_at": "2025-02-07T12:05:05.758-08:00",
-      "monitoring_at": "2025-02-07T12:05:05.740-08:00",
+      "id": "pmvtmf62mwhm",
+      "name": "Batch Files Stuck in an Importing State",
+      "status": "investigating",
+      "created_at": "2025-04-08T09:52:26.766-07:00",
+      "updated_at": "2025-04-08T09:52:26.857-07:00",
+      "monitoring_at": null,
       "resolved_at": null,
       "impact": "minor",
-      "shortlink": "https://stspg.io/wbrjxd1tz300",
-      "started_at": "2025-02-07T11:29:21.093-08:00",
+      "shortlink": "https://stspg.io/6rshvndsd80y",
+      "started_at": "2025-04-08T09:52:26.760-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
         {
-          "id": "m6fs0nvfg7dw",
-          "status": "monitoring",
-          "body": "We have determined that the Email Notifications which failed to send are isolated to a small number of Credit Card Expiration Email Notifications for our Payment Profiles service. This will require a fix which will be deployed in a future release.",
-          "incident_id": "461rkw5th0cp",
-          "created_at": "2025-02-07T12:05:05.740-08:00",
-          "updated_at": "2025-02-07T12:05:05.740-08:00",
-          "display_at": "2025-02-07T12:05:05.740-08:00",
+          "id": "s3hdxd0fd26h",
+          "status": "investigating",
+          "body": "We are investigating an issue where some merchants are seeing Batch File uploads getting stuck in an importing state, preventing any new Batch Files from being uploaded on the account. We will provide an update once available.",
+          "incident_id": "pmvtmf62mwhm",
+          "created_at": "2025-04-08T09:52:26.853-07:00",
+          "updated_at": "2025-04-08T09:52:26.853-07:00",
+          "display_at": "2025-04-08T09:52:26.853-07:00",
           "affected_components": [
             {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "2jj9xcv43n29",
-          "status": "identified",
-          "body": "We are aware of an issue which caused Email Notifications including Email Receipts and Payment Profile Credit Card Expiry emails to fail to send earlier today at 3AM PST for a period of approximately 3 minutes. We will provide an update once available.",
-          "incident_id": "461rkw5th0cp",
-          "created_at": "2025-02-07T11:29:21.178-08:00",
-          "updated_at": "2025-02-07T11:29:21.178-08:00",
-          "display_at": "2025-02-07T11:29:21.178-08:00",
-          "affected_components": [
-            {
-              "code": "jbg5nd57jz6q",
-              "name": "Merchant Portal",
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
               "old_status": "operational",
               "new_status": "degraded_performance"
             }
@@ -300,13 +280,13 @@
       ],
       "components": [
         {
-          "id": "jbg5nd57jz6q",
-          "name": "Merchant Portal",
-          "status": "operational",
-          "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-03-26T03:00:21.653-07:00",
-          "position": 6,
-          "description": "https://web.na.bambora.com/admin",
+          "id": "jn3qknr2znhd",
+          "name": "Batch and Bank to Bank Payments",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:19:54.879-07:00",
+          "updated_at": "2025-04-08T09:52:26.806-07:00",
+          "position": 3,
+          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
           "start_date": null,
           "group_id": null,
@@ -474,9 +454,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2025-03-26T03:00:21.390-07:00",
+          "updated_at": "2025-04-08T09:52:26.806-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -780,9 +760,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2025-03-26T03:00:21.390-07:00",
+          "updated_at": "2025-04-08T09:52:26.806-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -933,7 +913,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
