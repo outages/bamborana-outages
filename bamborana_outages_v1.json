@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-07-17T07:11:15.887-07:00"
+    "updated_at": "2025-07-17T08:02:25.701-07:00"
   },
   "components": [
     {
@@ -276,6 +276,312 @@
     }
   ],
   "scheduled_maintenances": [
+    {
+      "id": "vcb540v4nbnv",
+      "name": "Maintenance Activities",
+      "status": "scheduled",
+      "created_at": "2025-07-17T08:02:25.606-07:00",
+      "updated_at": "2025-07-17T08:02:25.697-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/bcbn8d1mdw41",
+      "started_at": "2025-07-17T08:02:25.585-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "b9vjs7xn54x4",
+          "status": "scheduled",
+          "body": "Dear Worldline Customer,\n\nWe would like to inform you we have scheduled an emergency maintenance window to apply a redundancy fix to our disaster recovery site. These activities will take place July 17th between 10:00 PM to 1:00 AM PT. During this time, we do not expect any processing downtime.\n\nMaintenance Window Details:\nDate: 07/17/2025\nStart Time: 10:00 PM PT\nEnd Time: 1:00 AM PT\nImpact: No processing downtime.\n\nWe apologize for any inconvenience and appreciate your patience. If you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@worldline.com or by calling 1-833-226-2672.",
+          "incident_id": "vcb540v4nbnv",
+          "created_at": "2025-07-17T08:02:25.693-07:00",
+          "updated_at": "2025-07-17T08:02:25.693-07:00",
+          "display_at": "2025-07-17T08:02:25.693-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "md5ddnfxqw6t",
+              "name": "Acquirers - Elavon",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2lwzc7k0f33q",
+              "name": "Acquirers - Chase Paymentech",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k7n48rhgv5lh",
+              "name": "Acquirers - TSYS (Vital)",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "zf6c01sl8prx",
+              "name": "Acquirers - Desjardins",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "9bd3lt5dj8yk",
+              "name": "Acquirers - Interac Online",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "d4bgz01l6nt2",
+              "name": "Onboarding",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "lrvwsh919pgt",
+              "name": "Fraud Defence",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "operational",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2025-07-16T03:00:22.251-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "3j21h38n1rd1",
+          "name": "TD",
+          "status": "operational",
+          "created_at": "2018-09-17T14:58:10.538-07:00",
+          "updated_at": "2025-07-16T03:00:22.280-07:00",
+          "position": 1,
+          "description": "Credit card processing for TD merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "tpvhhtslhvh3",
+          "name": "First Data",
+          "status": "operational",
+          "created_at": "2018-09-28T13:22:39.441-07:00",
+          "updated_at": "2025-07-16T03:00:22.306-07:00",
+          "position": 2,
+          "description": "Credit card processing for First Data merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jn3qknr2znhd",
+          "name": "Batch and Bank to Bank Payments",
+          "status": "operational",
+          "created_at": "2018-09-28T13:19:54.879-07:00",
+          "updated_at": "2025-07-16T03:00:22.328-07:00",
+          "position": 3,
+          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "yn0x5x1xp24s",
+          "name": "Global Payments",
+          "status": "operational",
+          "created_at": "2018-09-28T13:26:14.363-07:00",
+          "updated_at": "2025-07-16T03:00:22.352-07:00",
+          "position": 3,
+          "description": "Credit card processing for Global Payments merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "md5ddnfxqw6t",
+          "name": "Elavon",
+          "status": "operational",
+          "created_at": "2018-09-28T13:26:57.554-07:00",
+          "updated_at": "2025-07-16T03:00:22.382-07:00",
+          "position": 4,
+          "description": "Credit card payments for Elavon merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "d4bgz01l6nt2",
+          "name": "Onboarding",
+          "status": "operational",
+          "created_at": "2018-09-28T13:30:37.183-07:00",
+          "updated_at": "2025-07-16T03:00:22.410-07:00",
+          "position": 4,
+          "description": "Onboarding related products and services including the Onboarding API and hosted screens.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "2lwzc7k0f33q",
+          "name": "Chase Paymentech",
+          "status": "operational",
+          "created_at": "2018-09-28T13:27:29.111-07:00",
+          "updated_at": "2025-07-16T03:00:22.444-07:00",
+          "position": 5,
+          "description": "Credit card payments for Chase Paymentech merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "lrvwsh919pgt",
+          "name": "Fraud Defence",
+          "status": "operational",
+          "created_at": "2018-10-15T20:10:52.835-07:00",
+          "updated_at": "2025-07-16T03:00:22.472-07:00",
+          "position": 5,
+          "description": "Fraud defence related products and services such as eID verify and CAV.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "jbg5nd57jz6q",
+          "name": "Merchant Portal",
+          "status": "operational",
+          "created_at": "2018-09-12T15:38:07.395-07:00",
+          "updated_at": "2025-07-16T03:00:22.500-07:00",
+          "position": 6,
+          "description": "https://web.na.bambora.com/admin",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "k7n48rhgv5lh",
+          "name": "TSYS (Vital)",
+          "status": "operational",
+          "created_at": "2018-09-28T13:28:13.647-07:00",
+          "updated_at": "2025-07-16T03:00:22.537-07:00",
+          "position": 6,
+          "description": "Credit card processing for TSYS merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "zf6c01sl8prx",
+          "name": "Desjardins",
+          "status": "operational",
+          "created_at": "2018-09-28T13:28:43.233-07:00",
+          "updated_at": "2025-07-16T03:00:22.568-07:00",
+          "position": 7,
+          "description": "Credit card processing for Desjardins merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        },
+        {
+          "id": "9bd3lt5dj8yk",
+          "name": "Interac Online",
+          "status": "operational",
+          "created_at": "2018-09-28T13:30:04.805-07:00",
+          "updated_at": "2025-07-16T03:00:22.605-07:00",
+          "position": 8,
+          "description": "Interac Online processing for CT-Payment merchants",
+          "showcase": false,
+          "start_date": null,
+          "group_id": "2k8htkqk5ghw",
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2025-07-17T22:00:00.000-07:00",
+      "scheduled_until": "2025-07-18T01:00:00.000-07:00"
+    },
     {
       "id": "h135nqspmmn8",
       "name": "Maintenance Activities",
