@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-07-22T08:36:00.859-07:00"
+    "updated_at": "2025-07-22T10:36:34.977-07:00"
   },
   "components": [
     {
@@ -249,7 +249,7 @@
       "name": "July 15th outage",
       "status": "monitoring",
       "created_at": "2025-07-16T12:01:57.112-07:00",
-      "updated_at": "2025-07-18T14:13:17.169-07:00",
+      "updated_at": "2025-07-22T10:36:34.964-07:00",
       "monitoring_at": "2025-07-16T12:01:57.150-07:00",
       "resolved_at": null,
       "impact": "none",
@@ -257,6 +257,19 @@
       "started_at": "2025-07-16T12:01:57.106-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "8rhkm2lp4r88",
+          "status": "monitoring",
+          "body": "Our technology teams are continuing to work on updating our systems, so that the transaction records during the outage period will be available for viewing. We are processing these updates in batches and we will be sharing further information on our progress.",
+          "incident_id": "snf77d3x83xr",
+          "created_at": "2025-07-22T10:36:34.960-07:00",
+          "updated_at": "2025-07-22T10:36:34.960-07:00",
+          "display_at": "2025-07-22T10:36:34.960-07:00",
+          "affected_components": null,
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "mzpw0z96hckz",
           "status": "monitoring",
