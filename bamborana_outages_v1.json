@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-09-15T02:51:03.584-07:00"
+    "updated_at": "2025-09-15T04:02:01.892-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2025-09-15T02:16:49.743-07:00",
+      "updated_at": "2025-09-15T04:02:01.836-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -247,16 +247,56 @@
     {
       "id": "vv6ygyks564p",
       "name": "Degraded performance affecting Apple Pay Transactions",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-09-15T02:16:49.706-07:00",
-      "updated_at": "2025-09-15T02:16:49.801-07:00",
-      "monitoring_at": null,
+      "updated_at": "2025-09-15T04:02:01.889-07:00",
+      "monitoring_at": "2025-09-15T04:02:01.872-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/k03mmnmh2j4t",
       "started_at": "2025-09-15T02:16:49.700-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "s3mxsp57tyf7",
+          "status": "monitoring",
+          "body": "After a network issue was resolved we have begun to see Apple pay transaction processing return to normal.\n\nWe will continue to monitor for any changes.",
+          "incident_id": "vv6ygyks564p",
+          "created_at": "2025-09-15T04:02:01.872-07:00",
+          "updated_at": "2025-09-15T04:02:01.872-07:00",
+          "display_at": "2025-09-15T04:02:01.872-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "1rtsv7c0908t",
+          "status": "investigating",
+          "body": "We are still experiencing intermittent timeouts affecting Apple Pay transactions.  \n\nOur team continues to investigate.",
+          "incident_id": "vv6ygyks564p",
+          "created_at": "2025-09-15T03:53:21.821-07:00",
+          "updated_at": "2025-09-15T03:53:21.821-07:00",
+          "display_at": "2025-09-15T03:53:21.821-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "hz00sx5c4d4h",
           "status": "investigating",
@@ -282,9 +322,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2025-09-15T02:16:49.743-07:00",
+          "updated_at": "2025-09-15T04:02:01.836-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -491,9 +531,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2025-09-15T02:16:49.743-07:00",
+          "updated_at": "2025-09-15T04:02:01.836-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -797,9 +837,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2025-09-15T02:16:49.743-07:00",
+          "updated_at": "2025-09-15T04:02:01.836-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -995,7 +1035,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
