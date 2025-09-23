@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-09-23T08:20:30.764-07:00"
+    "updated_at": "2025-09-23T08:36:48.920-07:00"
   },
   "components": [
     {
@@ -40,7 +40,7 @@
     {
       "id": "2k8htkqk5ghw",
       "name": "Acquirers",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-28T13:22:15.087-07:00",
       "updated_at": "2018-11-09T14:47:59.115-08:00",
       "position": 2,
@@ -140,9 +140,9 @@
     {
       "id": "2lwzc7k0f33q",
       "name": "Chase Paymentech",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-28T13:27:29.111-07:00",
-      "updated_at": "2025-09-23T08:16:29.978-07:00",
+      "updated_at": "2025-09-23T08:36:48.869-07:00",
       "position": 5,
       "description": "Credit card payments for Chase Paymentech merchants",
       "showcase": false,
@@ -247,16 +247,56 @@
     {
       "id": "c5std6b34l97",
       "name": "Degraded performance though Chase Paymentech",
-      "status": "investigating",
+      "status": "monitoring",
       "created_at": "2025-09-23T08:16:29.934-07:00",
-      "updated_at": "2025-09-23T08:16:30.036-07:00",
-      "monitoring_at": null,
+      "updated_at": "2025-09-23T08:36:48.917-07:00",
+      "monitoring_at": "2025-09-23T08:36:48.901-07:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/w3m7138vbwjr",
       "started_at": "2025-09-23T08:16:29.925-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "zdk2ykvm30bj",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we have seen approval rates return to a normal level.\n\nOur team continues to monitor for any changes.",
+          "incident_id": "c5std6b34l97",
+          "created_at": "2025-09-23T08:36:48.901-07:00",
+          "updated_at": "2025-09-23T08:36:48.901-07:00",
+          "display_at": "2025-09-23T08:36:48.901-07:00",
+          "affected_components": [
+            {
+              "code": "2lwzc7k0f33q",
+              "name": "Acquirers - Chase Paymentech",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "8pks35jxgp4d",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is currently being applied.\n\nWe have begun to see approved transactions as we continue to implement the fix",
+          "incident_id": "c5std6b34l97",
+          "created_at": "2025-09-23T08:31:55.944-07:00",
+          "updated_at": "2025-09-23T08:31:55.944-07:00",
+          "display_at": "2025-09-23T08:31:55.944-07:00",
+          "affected_components": [
+            {
+              "code": "2lwzc7k0f33q",
+              "name": "Acquirers - Chase Paymentech",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "ls71dv9983tb",
           "status": "investigating",
@@ -282,9 +322,9 @@
         {
           "id": "2lwzc7k0f33q",
           "name": "Chase Paymentech",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-28T13:27:29.111-07:00",
-          "updated_at": "2025-09-23T08:16:29.978-07:00",
+          "updated_at": "2025-09-23T08:36:48.869-07:00",
           "position": 5,
           "description": "Credit card payments for Chase Paymentech merchants",
           "showcase": false,
@@ -596,9 +636,9 @@
         {
           "id": "2lwzc7k0f33q",
           "name": "Chase Paymentech",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-28T13:27:29.111-07:00",
-          "updated_at": "2025-09-23T08:16:29.978-07:00",
+          "updated_at": "2025-09-23T08:36:48.869-07:00",
           "position": 5,
           "description": "Credit card payments for Chase Paymentech merchants",
           "showcase": false,
@@ -902,9 +942,9 @@
         {
           "id": "2lwzc7k0f33q",
           "name": "Chase Paymentech",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-28T13:27:29.111-07:00",
-          "updated_at": "2025-09-23T08:16:29.978-07:00",
+          "updated_at": "2025-09-23T08:36:48.869-07:00",
           "position": 5,
           "description": "Credit card payments for Chase Paymentech merchants",
           "showcase": false,
@@ -995,7 +1035,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
