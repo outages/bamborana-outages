@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-10-21T05:56:01.927-07:00"
+    "updated_at": "2025-10-21T06:56:49.671-07:00"
   },
   "components": [
     {
@@ -243,101 +243,7 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [
-    {
-      "id": "jscm4t5mz6q8",
-      "name": "Customer Care Expecting Interruptions By Phone",
-      "status": "monitoring",
-      "created_at": "2025-10-20T10:15:03.000-07:00",
-      "updated_at": "2025-10-20T11:27:39.315-07:00",
-      "monitoring_at": "2025-10-20T11:27:39.296-07:00",
-      "resolved_at": null,
-      "impact": "minor",
-      "shortlink": "https://stspg.io/fnt3ctnjnlw4",
-      "started_at": "2025-10-20T10:15:03.000-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "hpkp3s59w4s9",
-          "status": "monitoring",
-          "body": "A fix has been implemented and we are once again successfully receiving calls.",
-          "incident_id": "jscm4t5mz6q8",
-          "created_at": "2025-10-20T11:27:39.296-07:00",
-          "updated_at": "2025-10-20T11:27:39.296-07:00",
-          "display_at": "2025-10-20T11:27:39.296-07:00",
-          "affected_components": [
-            {
-              "code": "x73lwmcxxgmk",
-              "name": "Customer Care",
-              "old_status": "degraded_performance",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "dxzldd8djz12",
-          "status": "identified",
-          "body": "Our telephony provider has identified the issue and has applied several mitigation measures to deal with the increase impact from the AWS outage. They are seeing recovery after the application of mitigation measures on their side to deal with AWS outage.\nThere might still be transient issues with calls.\n\nTo contact us, please email us at support.na@worldline.com.",
-          "incident_id": "jscm4t5mz6q8",
-          "created_at": "2025-10-20T11:10:39.250-07:00",
-          "updated_at": "2025-10-20T11:10:39.250-07:00",
-          "display_at": "2025-10-20T11:10:39.250-07:00",
-          "affected_components": [
-            {
-              "code": "x73lwmcxxgmk",
-              "name": "Customer Care",
-              "old_status": "degraded_performance",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "hypzcpljl44w",
-          "status": "investigating",
-          "body": "Customer Care is currently experiencing degraded service due to Talkdesk/AWS degradation and may be unreachable by phone. We are working with our telephony provider to resolve the issue as soon as possible. \n\nWe are still reachable by email at support.na@worldline.com.",
-          "incident_id": "jscm4t5mz6q8",
-          "created_at": "2025-10-20T10:15:03.696-07:00",
-          "updated_at": "2025-10-20T10:23:21.630-07:00",
-          "display_at": "2025-10-20T10:15:03.000-07:00",
-          "affected_components": [
-            {
-              "code": "x73lwmcxxgmk",
-              "name": "Customer Care",
-              "old_status": "operational",
-              "new_status": "degraded_performance"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "x73lwmcxxgmk",
-          "name": "Customer Care",
-          "status": "operational",
-          "created_at": "2018-10-15T20:11:49.056-07:00",
-          "updated_at": "2025-10-20T11:27:39.261-07:00",
-          "position": 7,
-          "description": "Customer care channels including email and telephone.",
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "reminder_intervals": null
-    }
-  ],
+  "incidents": [],
   "scheduled_maintenances": [
     {
       "id": "qx3rk193qdh6",
