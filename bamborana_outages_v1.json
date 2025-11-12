@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-11-12T15:02:27.208-08:00"
+    "updated_at": "2025-11-12T15:30:40.086-08:00"
   },
   "components": [
     {
@@ -170,9 +170,9 @@
     {
       "id": "jbg5nd57jz6q",
       "name": "Merchant Portal",
-      "status": "degraded_performance",
+      "status": "operational",
       "created_at": "2018-09-12T15:38:07.395-07:00",
-      "updated_at": "2025-11-12T13:57:20.614-08:00",
+      "updated_at": "2025-11-12T15:30:40.034-08:00",
       "position": 6,
       "description": "https://web.na.bambora.com/admin",
       "showcase": false,
@@ -247,16 +247,36 @@
     {
       "id": "np3w0rwjtmsf",
       "name": "Reporting/Analysis Pages Time Out",
-      "status": "identified",
+      "status": "monitoring",
       "created_at": "2025-11-12T13:57:20.583-08:00",
-      "updated_at": "2025-11-12T15:02:27.199-08:00",
-      "monitoring_at": null,
+      "updated_at": "2025-11-12T15:30:40.083-08:00",
+      "monitoring_at": "2025-11-12T15:30:40.066-08:00",
       "resolved_at": null,
       "impact": "minor",
       "shortlink": "https://stspg.io/m88c9gzbd617",
       "started_at": "2025-11-12T13:57:20.579-08:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "vj67rcgl4gly",
+          "status": "monitoring",
+          "body": "A fix has been implemented and we are monitoring the results.",
+          "incident_id": "np3w0rwjtmsf",
+          "created_at": "2025-11-12T15:30:40.066-08:00",
+          "updated_at": "2025-11-12T15:30:40.066-08:00",
+          "display_at": "2025-11-12T15:30:40.066-08:00",
+          "affected_components": [
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "degraded_performance",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "f3rmf47d1y4j",
           "status": "identified",
@@ -322,9 +342,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-11-12T13:57:20.614-08:00",
+          "updated_at": "2025-11-12T15:30:40.034-08:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -584,9 +604,9 @@
         {
           "id": "jbg5nd57jz6q",
           "name": "Merchant Portal",
-          "status": "degraded_performance",
+          "status": "operational",
           "created_at": "2018-09-12T15:38:07.395-07:00",
-          "updated_at": "2025-11-12T13:57:20.614-08:00",
+          "updated_at": "2025-11-12T15:30:40.034-08:00",
           "position": 6,
           "description": "https://web.na.bambora.com/admin",
           "showcase": false,
@@ -647,7 +667,7 @@
     }
   ],
   "status": {
-    "indicator": "minor",
-    "description": "Partially Degraded Service"
+    "indicator": "none",
+    "description": "All Systems Operational"
   }
 }
