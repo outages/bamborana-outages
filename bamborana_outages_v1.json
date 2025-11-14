@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-11-14T05:30:58.857-08:00"
+    "updated_at": "2025-11-14T08:36:51.183-08:00"
   },
   "components": [
     {
@@ -243,7 +243,61 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "511vlfjljpxp",
+      "name": "Batches Showing 'In Process'",
+      "status": "identified",
+      "created_at": "2025-11-14T08:31:16.426-08:00",
+      "updated_at": "2025-11-14T08:31:16.490-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/5y3c2btkt9jw",
+      "started_at": "2025-11-14T08:31:16.421-08:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "qhrpmdcb2377",
+          "status": "identified",
+          "body": "Batches are showing `In Process` in the Portal but are actually `Completed`. The issue has been identified, and a fix is being implemented.",
+          "incident_id": "511vlfjljpxp",
+          "created_at": "2025-11-14T08:31:16.486-08:00",
+          "updated_at": "2025-11-14T08:31:16.486-08:00",
+          "display_at": "2025-11-14T08:31:16.486-08:00",
+          "affected_components": [
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jn3qknr2znhd",
+          "name": "Batch and Bank to Bank Payments",
+          "status": "operational",
+          "created_at": "2018-09-28T13:19:54.879-07:00",
+          "updated_at": "2025-11-13T09:59:25.945-08:00",
+          "position": 3,
+          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "pf636syyq242",
