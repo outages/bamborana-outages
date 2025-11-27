@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-11-27T09:16:05.002-08:00"
+    "updated_at": "2025-11-27T11:38:05.537-08:00"
   },
   "components": [
     {
@@ -243,7 +243,61 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "mlscjsq4xnrn",
+      "name": "Batches Showing 'Complete' Prior to Completion",
+      "status": "investigating",
+      "created_at": "2025-11-27T11:38:05.470-08:00",
+      "updated_at": "2025-11-27T11:38:05.534-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "none",
+      "shortlink": "https://stspg.io/h5wgsrlp71ph",
+      "started_at": "2025-11-27T11:38:05.464-08:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "mybq17fpxvrg",
+          "status": "investigating",
+          "body": "We are aware of a visual bug where a few batch files uploaded display the 'Completed' status before they are completed. \nOur teams are working on a fix to this that will be deployed by the end of the week of December 5th.\nThere are no day-to-day impacts for batch processing.",
+          "incident_id": "mlscjsq4xnrn",
+          "created_at": "2025-11-27T11:38:05.530-08:00",
+          "updated_at": "2025-11-27T11:38:05.530-08:00",
+          "display_at": "2025-11-27T11:38:05.530-08:00",
+          "affected_components": [
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jn3qknr2znhd",
+          "name": "Batch and Bank to Bank Payments",
+          "status": "operational",
+          "created_at": "2018-09-28T13:19:54.879-07:00",
+          "updated_at": "2025-11-19T03:00:23.424-08:00",
+          "position": 3,
+          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "dsdwwg7m9qhx",
