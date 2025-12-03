@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2025-12-02T08:41:46.892-08:00"
+    "updated_at": "2025-12-02T16:44:45.925-08:00"
   },
   "components": [
     {
@@ -80,9 +80,9 @@
     {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
-      "status": "operational",
+      "status": "degraded_performance",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2025-11-19T03:00:23.424-08:00",
+      "updated_at": "2025-12-02T16:19:22.864-08:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -245,14 +245,87 @@
   ],
   "incidents": [
     {
+      "id": "gcd3vlx32jzm",
+      "name": "Error Importing Batch Files",
+      "status": "identified",
+      "created_at": "2025-12-02T16:19:22.827-08:00",
+      "updated_at": "2025-12-02T16:44:45.914-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "minor",
+      "shortlink": "https://stspg.io/nfdlvsd8985m",
+      "started_at": "2025-12-02T16:19:22.822-08:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "z2q62q9x1jld",
+          "status": "identified",
+          "body": "The issue has been identified and a fix is being implemented.",
+          "incident_id": "gcd3vlx32jzm",
+          "created_at": "2025-12-02T16:44:45.911-08:00",
+          "updated_at": "2025-12-02T16:44:45.911-08:00",
+          "display_at": "2025-12-02T16:44:45.911-08:00",
+          "affected_components": [
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "degraded_performance",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "r6hygxbqq5wj",
+          "status": "investigating",
+          "body": "In some cases, we're getting reports of an error “Service is busy importing another file. Try again later.”\nWe are investigating and will provide an update shortly.",
+          "incident_id": "gcd3vlx32jzm",
+          "created_at": "2025-12-02T16:19:22.923-08:00",
+          "updated_at": "2025-12-02T16:19:22.923-08:00",
+          "display_at": "2025-12-02T16:19:22.923-08:00",
+          "affected_components": [
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "degraded_performance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jn3qknr2znhd",
+          "name": "Batch and Bank to Bank Payments",
+          "status": "degraded_performance",
+          "created_at": "2018-09-28T13:19:54.879-07:00",
+          "updated_at": "2025-12-02T16:19:22.864-08:00",
+          "position": 3,
+          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    },
+    {
       "id": "mlscjsq4xnrn",
       "name": "Batches Showing 'Complete' Prior to Completion",
       "status": "investigating",
       "created_at": "2025-11-27T11:38:05.470-08:00",
-      "updated_at": "2025-11-27T11:38:05.534-08:00",
+      "updated_at": "2025-12-02T16:19:22.888-08:00",
       "monitoring_at": null,
       "resolved_at": null,
-      "impact": "none",
+      "impact": "minor",
       "shortlink": "https://stspg.io/h5wgsrlp71ph",
       "started_at": "2025-11-27T11:38:05.464-08:00",
       "page_id": "dm5h7g8csh93",
@@ -282,9 +355,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2025-11-19T03:00:23.424-08:00",
+          "updated_at": "2025-12-02T16:19:22.864-08:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -454,9 +527,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "degraded_performance",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2025-11-19T03:00:23.424-08:00",
+          "updated_at": "2025-12-02T16:19:22.864-08:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -607,7 +680,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "minor",
+    "description": "Partially Degraded Service"
   }
 }
