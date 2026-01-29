@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-01-29T01:01:27.550-08:00"
+    "updated_at": "2026-01-29T13:11:10.243-08:00"
   },
   "components": [
     {
@@ -245,6 +245,60 @@
   ],
   "incidents": [],
   "scheduled_maintenances": [
+    {
+      "id": "npq265s6f5cs",
+      "name": "Maintenance Activities (UAT)",
+      "status": "scheduled",
+      "created_at": "2026-01-29T12:59:44.257-08:00",
+      "updated_at": "2026-01-29T12:59:44.320-08:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/g6kp1nkrp103",
+      "started_at": "2026-01-29T12:59:44.252-08:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "h6qmp7l5m9d8",
+          "status": "scheduled",
+          "body": "Dear Worldline Customer,\n\nWe will be conducting maintenance activities on our UAT platform as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on February 3, 2026 + February 10, 2026.  At some point during these maintenance periods, we expect that you will observe either impaired performance or downtime. The amount of time where you may be impacted is expected to total less than 15 minutes.\n\nThe UAT environment exists for your ongoing testing.  It is updated approximately two weeks prior to every production release.  The production release will be launched on February 17, 2026.\n\nPlease reach out to our Customer Support team, or your Account Manager, if you have any questions.  Customer support can be reached by emailing support.na@worldline.com or by calling 1-833-226-2672.\n\nThank you,\nWorldline Customer Support",
+          "incident_id": "npq265s6f5cs",
+          "created_at": "2026-01-29T12:59:44.317-08:00",
+          "updated_at": "2026-01-29T12:59:44.317-08:00",
+          "display_at": "2026-01-29T12:59:44.317-08:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "operational",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2026-01-28T03:00:21.128-08:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2026-02-03T05:00:00.000-08:00",
+      "scheduled_until": "2026-02-03T17:00:00.000-08:00"
+    },
     {
       "id": "th18zx5yy4ms",
       "name": "Maintenance Activities",
