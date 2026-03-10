@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-03-10T04:53:46.865-07:00"
+    "updated_at": "2026-03-10T07:27:05.298-07:00"
   },
   "components": [
     {
@@ -250,7 +250,7 @@
       "name": "Maintenance Activities",
       "status": "scheduled",
       "created_at": "2026-02-24T15:38:26.087-08:00",
-      "updated_at": "2026-02-24T15:38:26.198-08:00",
+      "updated_at": "2026-03-10T07:26:30.539-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -261,10 +261,10 @@
         {
           "id": "l0rd6mxg5sc8",
           "status": "scheduled",
-          "body": "Dear Worldline Customer,\n\nWe would like to inform you we have scheduled a maintenance window to focus on improving the performance, stability and security of our solution. These activities will take place March 10th between 10:00 PM to 3:00 AM PT. During this time, there may be a total of 15 minutes intermittent processing downtime.\n\nMaintenance Window Details:\nDate: 03/10/2026\nStart Time: 10:00 PM PT\nEnd Time: 3:00 AM PT\nImpact: Up to 15 minutes of intermittent processing downtime.\n\nWe apologize for any inconvenience and appreciate your patience. If you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@worldline.com or by calling 1-833-226-2672",
+          "body": "Dear Shift4 Customer,\n\nWe would like to inform you we have scheduled a maintenance window to focus on improving the performance, stability and security of our solution. These activities will take place March 10th between 10:00 PM to 3:00 AM PT. During this time, there may be a total of 15 minutes intermittent processing downtime.\n\nMaintenance Window Details:\nDate: 03/10/2026\nStart Time: 10:00 PM PT\nEnd Time: 3:00 AM PT\nImpact: Up to 15 minutes of intermittent processing downtime.\n\nWe apologize for any inconvenience and appreciate your patience. If you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@worldline.com or by calling 1-833-226-2672",
           "incident_id": "vjdd0fy8r5fy",
           "created_at": "2026-02-24T15:38:26.194-08:00",
-          "updated_at": "2026-02-24T15:38:26.194-08:00",
+          "updated_at": "2026-03-10T07:26:30.535-07:00",
           "display_at": "2026-02-24T15:38:26.194-08:00",
           "affected_components": [
             {
@@ -862,7 +862,7 @@
       "name": "BIC Platform TLS Certificate Transition (May 12, 2026)",
       "status": "scheduled",
       "created_at": "2026-02-17T13:57:10.232-08:00",
-      "updated_at": "2026-02-17T13:57:10.318-08:00",
+      "updated_at": "2026-03-10T07:27:05.289-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -873,10 +873,10 @@
         {
           "id": "fyvstp822ssy",
           "status": "scheduled",
-          "body": "The BIC platform will transition to a new TLS certificate trust chain on May 12, 2026, in response to major browser and operating system vendors retiring legacy root CA certificates.\n\nWhat does this mean?\n\nOn May 12, 2026, the BIC platform will begin using new TLS certificates signed by DigiCert, replacing the current certificate chain issued by Sectigo and USERTrust. This change is required to maintain secure connectivity and uninterrupted payment processing.\n\nWhat action is required?\n\nPlease confirm your systems are prepared with the appropriate root certificate installed to maintain uninterrupted access to the BIC platform ahead of the transition date.\n\nMost browsers and operating systems require no action by default.\nIf you manually manage certificate trust stores, ensure the following root certificate is installed: DigiCert TLS RSA4096 Root G5\nIf your integration manually deploys server certificates (e.g., *.na.bambora.com or *.beanstream.com), update to the new certificates. We strongly recommend against manual deployment.\n\nIf you are using the na.bambora.com endpoint and are not manually storing the certificate, it will continue to work. If your integration points to www.beanstream.com, please review beanstream.com SSL Cert Renewal. \n\nTesting and availability \n\nThe UAT environment will be updated with the new certificate chain on April 27, 2026.\nCertificates and related updates will be published on the Developers Portal prior to May 12. \n\nWhat you need to know\n\nThis change is technical in nature. If you are unable to verify your integration, please consult your developer or software/web provider. \nSSL/TLS best practice is to trust only the root certificate. Do not download or store server certificates. \nIf you manage your certificate trust store manually and take no action by the deadline, connections to the BIC platform may fail. \n\nIf you have issues with the required changes, please reach out to our Customer Care team for assistance by replying to this email.\n\nYour partner in payments,\nWorldline",
+          "body": "The BIC platform will transition to a new TLS certificate trust chain on May 12, 2026, in response to major browser and operating system vendors retiring legacy root CA certificates.\n\nWhat does this mean?\n\nOn May 12, 2026, the BIC platform will begin using new TLS certificates signed by DigiCert, replacing the current certificate chain issued by Sectigo and USERTrust. This change is required to maintain secure connectivity and uninterrupted payment processing.\n\nWhat action is required?\n\nPlease confirm your systems are prepared with the appropriate root certificate installed to maintain uninterrupted access to the BIC platform ahead of the transition date.\n\nMost browsers and operating systems require no action by default.\nIf you manually manage certificate trust stores, ensure the following root certificate is installed: DigiCert TLS RSA4096 Root G5\nIf your integration manually deploys server certificates (e.g., *.na.bambora.com or *.beanstream.com), update to the new certificates. We strongly recommend against manual deployment.\n\nIf you are using the na.bambora.com endpoint and are not manually storing the certificate, it will continue to work. If your integration points to www.beanstream.com, please review beanstream.com SSL Cert Renewal. \n\nTesting and availability \n\nThe UAT environment will be updated with the new certificate chain on April 27, 2026.\nCertificates and related updates will be published on the Developers Portal prior to May 12. \n\nWhat you need to know\n\nThis change is technical in nature. If you are unable to verify your integration, please consult your developer or software/web provider. \nSSL/TLS best practice is to trust only the root certificate. Do not download or store server certificates. \nIf you manage your certificate trust store manually and take no action by the deadline, connections to the BIC platform may fail. \n\nIf you have issues with the required changes, please reach out to our Customer Care team for assistance by replying to this email.\n\nYour partner in payments,\nShift4",
           "incident_id": "dzvt3k72gtn7",
           "created_at": "2026-02-17T13:57:10.315-08:00",
-          "updated_at": "2026-02-17T13:57:10.315-08:00",
+          "updated_at": "2026-03-10T07:27:05.283-07:00",
           "display_at": "2026-02-17T13:57:10.315-08:00",
           "affected_components": [
             {
