@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-03-31T14:21:18.723-07:00"
+    "updated_at": "2026-03-31T15:19:41.521-07:00"
   },
   "components": [
     {
@@ -862,7 +862,7 @@
       "name": "Maintenance Activities",
       "status": "scheduled",
       "created_at": "2026-03-31T14:03:12.956-07:00",
-      "updated_at": "2026-03-31T14:03:13.055-07:00",
+      "updated_at": "2026-03-31T15:19:41.506-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -871,12 +871,104 @@
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
         {
+          "id": "qv83p3hzz49n",
+          "status": "scheduled",
+          "body": "Please be advised. Window Details have been updated.",
+          "incident_id": "h34fy1p8q695",
+          "created_at": "2026-03-31T15:19:41.502-07:00",
+          "updated_at": "2026-03-31T15:19:41.502-07:00",
+          "display_at": "2026-03-31T15:19:41.502-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jbg5nd57jz6q",
+              "name": "Merchant Portal",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "3j21h38n1rd1",
+              "name": "Acquirers - TD",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "tpvhhtslhvh3",
+              "name": "Acquirers - First Data",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "yn0x5x1xp24s",
+              "name": "Acquirers - Global Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "md5ddnfxqw6t",
+              "name": "Acquirers - Elavon",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "2lwzc7k0f33q",
+              "name": "Acquirers - Chase Paymentech",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "k7n48rhgv5lh",
+              "name": "Acquirers - TSYS (Vital)",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "zf6c01sl8prx",
+              "name": "Acquirers - Desjardins",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "9bd3lt5dj8yk",
+              "name": "Acquirers - Interac Online",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "d4bgz01l6nt2",
+              "name": "Onboarding",
+              "old_status": "operational",
+              "new_status": "operational"
+            },
+            {
+              "code": "lrvwsh919pgt",
+              "name": "Fraud Defence",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
           "id": "jh7wjbdq9m08",
           "status": "scheduled",
-          "body": "Shift4 will be conducting Scheduled Maintenance on our platform as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on April 14th, 2025 between 10AM-1PM PT. There is no expected impact to regular operation of the solution as a result of this maintenance window.\n\nMaintenance Window Details:\nDate: 11/12/2025\nStart Time: 10:00 AM PT\nEnd Time: 1:00 PM PT\nImpact: No expected impact to regular operation of the solution.\n\nWe apologize for any inconvenience and appreciate your patience. If you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@worldline.com or by calling 1-833-226-2672.",
+          "body": "Shift4 will be conducting Scheduled Maintenance on our platform as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on April 14th, 2026 between 10AM-1PM PT. There is no expected impact to regular operation of the solution as a result of this maintenance window.\n\nMaintenance Window Details:\nDate: 04/14/2026\nStart Time: 10:00 AM PT\nEnd Time: 1:00 PM PT\nImpact: No expected impact to regular operation of the solution.\n\nWe apologize for any inconvenience and appreciate your patience. If you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@worldline.com or by calling 1-833-226-2672.",
           "incident_id": "h34fy1p8q695",
           "created_at": "2026-03-31T14:03:13.051-07:00",
-          "updated_at": "2026-03-31T14:03:13.051-07:00",
+          "updated_at": "2026-03-31T15:18:39.497-07:00",
           "display_at": "2026-03-31T14:03:13.051-07:00",
           "affected_components": [
             {
