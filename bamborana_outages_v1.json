@@ -4,15 +4,15 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-05-05T09:20:30.327-07:00"
+    "updated_at": "2026-05-05T10:00:07.287-07:00"
   },
   "components": [
     {
       "id": "lmm3y57mtffz",
       "name": "Credit and Debit Card Payments",
-      "status": "operational",
+      "status": "under_maintenance",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2026-04-29T03:00:07.215-07:00",
+      "updated_at": "2026-05-05T10:00:07.176-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -246,73 +246,6 @@
   "incidents": [],
   "scheduled_maintenances": [
     {
-      "id": "8lt2kf89xydd",
-      "name": "Maintenance Activities (UAT)",
-      "status": "scheduled",
-      "created_at": "2026-04-28T13:20:58.100-07:00",
-      "updated_at": "2026-05-05T09:00:07.847-07:00",
-      "monitoring_at": null,
-      "resolved_at": null,
-      "impact": "maintenance",
-      "shortlink": "https://stspg.io/7hlbsjw7zl85",
-      "started_at": "2026-04-28T13:20:58.095-07:00",
-      "page_id": "dm5h7g8csh93",
-      "incident_updates": [
-        {
-          "id": "tg40cv6bs34f",
-          "status": "scheduled",
-          "body": "Maintenance will begin as scheduled in 60 minutes.",
-          "incident_id": "8lt2kf89xydd",
-          "created_at": "2026-05-05T09:00:07.719-07:00",
-          "updated_at": "2026-05-05T09:00:07.719-07:00",
-          "display_at": "2026-05-05T09:00:07.719-07:00",
-          "affected_components": null,
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        },
-        {
-          "id": "s4qlk51fwgn7",
-          "status": "scheduled",
-          "body": "Dear Shift4 Customer,\n\nWe will be conducting maintenance activities on our UAT platform as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on May 5th and May 12th.  At some point during these maintenance periods, we expect that you will observe either impaired performance or downtime. The amount of time where you may be impacted is expected to total less than 15 minutes.\n\nThe UAT environment exists for your ongoing testing.  It is updated approximately two to three weeks prior to every production release.  The production release will be launched on May 26th, 2026.\n\nPlease reach out to our Customer Support team, or your Account Manager, if you have any questions.  Customer support can be reached by emailing support.na@worldline.com or by calling 1-833-226-2672.\n\nThank you,\nShift4 Customer Support",
-          "incident_id": "8lt2kf89xydd",
-          "created_at": "2026-04-28T13:20:58.154-07:00",
-          "updated_at": "2026-04-28T13:20:58.154-07:00",
-          "display_at": "2026-04-28T13:20:58.154-07:00",
-          "affected_components": [
-            {
-              "code": "lmm3y57mtffz",
-              "name": "Credit and Debit Card Payments",
-              "old_status": "operational",
-              "new_status": "operational"
-            }
-          ],
-          "deliver_notifications": true,
-          "custom_tweet": null,
-          "tweet_id": null
-        }
-      ],
-      "components": [
-        {
-          "id": "lmm3y57mtffz",
-          "name": "Credit and Debit Card Payments",
-          "status": "operational",
-          "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2026-04-29T03:00:07.215-07:00",
-          "position": 1,
-          "description": null,
-          "showcase": false,
-          "start_date": null,
-          "group_id": null,
-          "page_id": "dm5h7g8csh93",
-          "group": false,
-          "only_show_if_degraded": false
-        }
-      ],
-      "scheduled_for": "2026-05-05T10:00:00.000-07:00",
-      "scheduled_until": "2026-05-05T13:00:00.000-07:00"
-    },
-    {
       "id": "vrd3xklnggjd",
       "name": "Maintenance Activities",
       "status": "scheduled",
@@ -422,9 +355,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2026-04-29T03:00:07.215-07:00",
+          "updated_at": "2026-05-05T10:00:07.176-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -728,9 +661,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2026-04-29T03:00:07.215-07:00",
+          "updated_at": "2026-05-05T10:00:07.176-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -1218,9 +1151,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2026-04-29T03:00:07.215-07:00",
+          "updated_at": "2026-05-05T10:00:07.176-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -1524,9 +1457,9 @@
         {
           "id": "lmm3y57mtffz",
           "name": "Credit and Debit Card Payments",
-          "status": "operational",
+          "status": "under_maintenance",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2026-04-29T03:00:07.215-07:00",
+          "updated_at": "2026-05-05T10:00:07.176-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -1719,10 +1652,97 @@
       ],
       "scheduled_for": "2026-05-19T10:00:00.000-07:00",
       "scheduled_until": "2026-05-19T13:00:00.000-07:00"
+    },
+    {
+      "id": "8lt2kf89xydd",
+      "name": "Maintenance Activities (UAT)",
+      "status": "in_progress",
+      "created_at": "2026-04-28T13:20:58.100-07:00",
+      "updated_at": "2026-05-05T10:00:07.256-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/7hlbsjw7zl85",
+      "started_at": "2026-04-28T13:20:58.095-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "25m69gtk6bf3",
+          "status": "in_progress",
+          "body": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+          "incident_id": "8lt2kf89xydd",
+          "created_at": "2026-05-05T10:00:07.247-07:00",
+          "updated_at": "2026-05-05T10:00:07.247-07:00",
+          "display_at": "2026-05-05T10:00:07.247-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "under_maintenance"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "tg40cv6bs34f",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "8lt2kf89xydd",
+          "created_at": "2026-05-05T09:00:07.719-07:00",
+          "updated_at": "2026-05-05T09:00:07.719-07:00",
+          "display_at": "2026-05-05T09:00:07.719-07:00",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "s4qlk51fwgn7",
+          "status": "scheduled",
+          "body": "Dear Shift4 Customer,\n\nWe will be conducting maintenance activities on our UAT platform as we continue to focus on improving the performance, stability and security of our solution. These activities will take place on May 5th and May 12th.  At some point during these maintenance periods, we expect that you will observe either impaired performance or downtime. The amount of time where you may be impacted is expected to total less than 15 minutes.\n\nThe UAT environment exists for your ongoing testing.  It is updated approximately two to three weeks prior to every production release.  The production release will be launched on May 26th, 2026.\n\nPlease reach out to our Customer Support team, or your Account Manager, if you have any questions.  Customer support can be reached by emailing support.na@worldline.com or by calling 1-833-226-2672.\n\nThank you,\nShift4 Customer Support",
+          "incident_id": "8lt2kf89xydd",
+          "created_at": "2026-04-28T13:20:58.154-07:00",
+          "updated_at": "2026-04-28T13:20:58.154-07:00",
+          "display_at": "2026-04-28T13:20:58.154-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "under_maintenance",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2026-05-05T10:00:07.176-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2026-05-05T10:00:00.000-07:00",
+      "scheduled_until": "2026-05-05T13:00:00.000-07:00"
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "maintenance",
+    "description": "Service Under Maintenance"
   }
 }
