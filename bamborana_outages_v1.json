@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-06-17T15:54:09.331-07:00"
+    "updated_at": "2026-06-17T22:49:02.287-07:00"
   },
   "components": [
     {
@@ -12,7 +12,7 @@
       "name": "Credit and Debit Card Payments",
       "status": "operational",
       "created_at": "2018-09-12T15:38:07.373-07:00",
-      "updated_at": "2026-06-17T03:00:10.613-07:00",
+      "updated_at": "2026-06-17T18:17:12.402-07:00",
       "position": 1,
       "description": null,
       "showcase": false,
@@ -82,7 +82,7 @@
       "name": "Batch and Bank to Bank Payments",
       "status": "operational",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2026-06-17T03:00:10.851-07:00",
+      "updated_at": "2026-06-17T18:17:12.417-07:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -357,7 +357,7 @@
           "name": "Credit and Debit Card Payments",
           "status": "operational",
           "created_at": "2018-09-12T15:38:07.373-07:00",
-          "updated_at": "2026-06-17T03:00:10.613-07:00",
+          "updated_at": "2026-06-17T18:17:12.402-07:00",
           "position": 1,
           "description": null,
           "showcase": false,
@@ -402,7 +402,7 @@
           "name": "Batch and Bank to Bank Payments",
           "status": "operational",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2026-06-17T03:00:10.851-07:00",
+          "updated_at": "2026-06-17T18:17:12.417-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
