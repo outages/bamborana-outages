@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-06-18T13:59:08.517-07:00"
+    "updated_at": "2026-06-18T15:33:04.259-07:00"
   },
   "components": [
     {
@@ -550,6 +550,60 @@
       ],
       "scheduled_for": "2026-05-12T00:00:00.000-07:00",
       "scheduled_until": "2026-05-12T01:00:00.000-07:00"
+    },
+    {
+      "id": "smccyc3j0lwf",
+      "name": "Scheduled Maintenance",
+      "status": "scheduled",
+      "created_at": "2026-06-18T15:30:33.830-07:00",
+      "updated_at": "2026-06-18T15:30:33.913-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "maintenance",
+      "shortlink": "https://stspg.io/61vfcxrszj6n",
+      "started_at": "2026-06-18T15:30:33.821-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "d6p64wrydhdw",
+          "status": "scheduled",
+          "body": "Dear Shift4 Customer,\n\nData center management will be conducting maintenance activities on Tuesday June 22, 2026 from 10pm - 2am PT.  At some point during this maintenance period, we expect that you will observe either impaired performance or downtime.  The amount of time where you may be impacted is expected to total less than 15 minutes.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@shift4.com or by calling 1-833-226-2672.\n\nThank you,\nShift4 Customer Support",
+          "incident_id": "smccyc3j0lwf",
+          "created_at": "2026-06-18T15:30:33.909-07:00",
+          "updated_at": "2026-06-18T15:30:33.909-07:00",
+          "display_at": "2026-06-18T15:30:33.909-07:00",
+          "affected_components": [
+            {
+              "code": "lmm3y57mtffz",
+              "name": "Credit and Debit Card Payments",
+              "old_status": "operational",
+              "new_status": "operational"
+            }
+          ],
+          "deliver_notifications": false,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "lmm3y57mtffz",
+          "name": "Credit and Debit Card Payments",
+          "status": "operational",
+          "created_at": "2018-09-12T15:38:07.373-07:00",
+          "updated_at": "2026-06-17T18:17:12.402-07:00",
+          "position": 1,
+          "description": null,
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "scheduled_for": "2026-06-22T22:00:00.000-07:00",
+      "scheduled_until": "2026-06-23T02:00:00.000-07:00"
     }
   ],
   "status": {
