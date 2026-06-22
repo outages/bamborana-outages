@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-06-22T07:04:08.844-07:00"
+    "updated_at": "2026-06-22T08:13:57.017-07:00"
   },
   "components": [
     {
@@ -556,7 +556,7 @@
       "name": "Emergency Maintenance Activities",
       "status": "scheduled",
       "created_at": "2026-06-19T12:57:48.828-07:00",
-      "updated_at": "2026-06-19T12:57:48.945-07:00",
+      "updated_at": "2026-06-22T08:13:57.001-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -567,10 +567,10 @@
         {
           "id": "bh9rkhck65bx",
           "status": "scheduled",
-          "body": "Dear Shift4 Customer,\n\nData center management will be conducting maintenance activities on Tuesday June 22, 2026 from 10pm - 2am PT.  At some point during this maintenance period, we expect that you will observe either impaired performance or downtime.  The amount of time where you may be impacted is expected to total less than 15 minutes.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@shift4.com or by calling 1-833-226-2672.\n\nThank you,\nShift4 Customer Support",
+          "body": "Dear Shift4 Customer,\n\nData center management will be conducting maintenance activities on Monday June 22, 2026 from 10pm - 2am PT.  At some point during this maintenance period, we expect that you will observe either impaired performance or downtime.  The amount of time where you may be impacted is expected to total less than 15 minutes.\n\nPlease reach out to our Customer Support team if you have any questions by emailing support.na@shift4.com or by calling 1-833-226-2672.\n\nThank you,\nShift4 Customer Support",
           "incident_id": "rys55fqwz2x5",
           "created_at": "2026-06-19T12:57:48.940-07:00",
-          "updated_at": "2026-06-19T12:57:48.940-07:00",
+          "updated_at": "2026-06-22T08:13:56.994-07:00",
           "display_at": "2026-06-19T12:57:48.940-07:00",
           "affected_components": [
             {
