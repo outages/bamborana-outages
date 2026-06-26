@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-06-25T23:56:05.784-07:00"
+    "updated_at": "2026-06-26T06:03:59.511-07:00"
   },
   "components": [
     {
@@ -657,7 +657,7 @@
       "name": "Maintenance Activities",
       "status": "scheduled",
       "created_at": "2026-06-23T09:17:25.883-07:00",
-      "updated_at": "2026-06-23T09:17:25.992-07:00",
+      "updated_at": "2026-06-26T04:42:33.927-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -668,10 +668,10 @@
         {
           "id": "b62p9whk5t5x",
           "status": "scheduled",
-          "body": "Dear Shift4 Customer,\n\nWe would like to inform you we have scheduled a maintenance window to focus on improving the performance, stability and security of our solution. These activities will take place July 7th between 10:00 AM to 1:00 AM PT. During this time, there may be a total of 15 minutes intermittent processing downtime.\n\nMaintenance Window Details:\n\nDate: 07/07/2026\n\nStart Time: 10:00 AM PT\n\nEnd Time: 1:00 PM PT\n\nImpact: Up to 15 minutes of intermittent processing downtime. We apologize for any inconvenience and appreciate your patience.\n\nIf you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@shift4.com or by calling 1-833-226-2672",
+          "body": "Dear Shift4 Customer,\n\nWe would like to inform you we have scheduled a maintenance window to focus on improving the performance, stability and security of our solution. These activities will take place July 7th between 10:00 AM to 1:00 PM PT. During this time, there may be a total of 15 minutes intermittent processing downtime.\n\nMaintenance Window Details:\n\nDate: 07/07/2026\n\nStart Time: 10:00 AM PT\n\nEnd Time: 1:00 PM PT\n\nImpact: Up to 15 minutes of intermittent processing downtime. We apologize for any inconvenience and appreciate your patience.\n\nIf you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@shift4.com or by calling 1-833-226-2672",
           "incident_id": "6kbrlstpywbj",
           "created_at": "2026-06-23T09:17:25.987-07:00",
-          "updated_at": "2026-06-23T09:17:25.987-07:00",
+          "updated_at": "2026-06-26T04:42:33.922-07:00",
           "display_at": "2026-06-23T09:17:25.987-07:00",
           "affected_components": [
             {
