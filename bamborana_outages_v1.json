@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-06-30T13:11:18.728-07:00"
+    "updated_at": "2026-06-30T13:33:50.822-07:00"
   },
   "components": [
     {
@@ -862,12 +862,12 @@
       "name": "Maintenance Activities",
       "status": "scheduled",
       "created_at": "2026-06-30T13:11:18.624-07:00",
-      "updated_at": "2026-06-30T13:11:18.724-07:00",
+      "updated_at": "2026-06-30T13:33:50.818-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
       "shortlink": "https://stspg.io/4jrygktt34j2",
-      "started_at": "2026-06-30T13:11:18.590-07:00",
+      "started_at": "2026-06-30T13:11:18.719-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
         {
@@ -876,7 +876,7 @@
           "body": "Dear Shift4 Customer,\n\nWe would like to inform you we have scheduled a maintenance window to focus on improving the performance, stability and security of our solution. These activities will take place July 14th between 10:00 PM to 3:00 AM PT. During this time, there may be a total of 15 minutes intermittent processing downtime.\n\nMaintenance Window Details:\n\nDate: 07/14/2026\n\nStart Time: 10:00 PM PT\n\nEnd Time: 3:00 AM PT\n\nImpact: Up to 15 minutes of intermittent processing downtime. We apologize for any inconvenience and appreciate your patience.\n\nIf you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@shift4.com or by calling 1-833-226-2672.",
           "incident_id": "5pxb5t9rvq5b",
           "created_at": "2026-06-30T13:11:18.719-07:00",
-          "updated_at": "2026-06-30T13:11:18.719-07:00",
+          "updated_at": "2026-06-30T13:33:50.732-07:00",
           "display_at": "2026-06-30T13:11:18.719-07:00",
           "affected_components": [
             {
