@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-07-06T03:34:16.224-07:00"
+    "updated_at": "2026-07-06T09:04:24.919-07:00"
   },
   "components": [
     {
@@ -80,9 +80,9 @@
     {
       "id": "jn3qknr2znhd",
       "name": "Batch and Bank to Bank Payments",
-      "status": "operational",
+      "status": "major_outage",
       "created_at": "2018-09-28T13:19:54.879-07:00",
-      "updated_at": "2026-06-23T02:00:08.748-07:00",
+      "updated_at": "2026-07-06T08:17:02.091-07:00",
       "position": 3,
       "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
       "showcase": false,
@@ -243,7 +243,81 @@
       "only_show_if_degraded": false
     }
   ],
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "3rfk7tq4lfd3",
+      "name": "Payroll Batch Delays",
+      "status": "investigating",
+      "created_at": "2026-07-06T08:17:02.063-07:00",
+      "updated_at": "2026-07-06T09:04:24.909-07:00",
+      "monitoring_at": null,
+      "resolved_at": null,
+      "impact": "critical",
+      "shortlink": "https://stspg.io/z65bxpmm1dq2",
+      "started_at": "2026-07-06T08:17:02.057-07:00",
+      "page_id": "dm5h7g8csh93",
+      "incident_updates": [
+        {
+          "id": "1gvhr5g2mrz4",
+          "status": "investigating",
+          "body": "We are continuing to investigate this issue.",
+          "incident_id": "3rfk7tq4lfd3",
+          "created_at": "2026-07-06T09:04:24.906-07:00",
+          "updated_at": "2026-07-06T09:04:24.906-07:00",
+          "display_at": "2026-07-06T09:04:24.906-07:00",
+          "affected_components": [
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "major_outage",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
+        {
+          "id": "szw8mtclpcrt",
+          "status": "investigating",
+          "body": "We are investigating some batches have not been paid out for payroll. \nWe are currently working with our partners to identify what has caused this.",
+          "incident_id": "3rfk7tq4lfd3",
+          "created_at": "2026-07-06T08:17:02.133-07:00",
+          "updated_at": "2026-07-06T08:17:02.133-07:00",
+          "display_at": "2026-07-06T08:17:02.133-07:00",
+          "affected_components": [
+            {
+              "code": "jn3qknr2znhd",
+              "name": "Batch and Bank to Bank Payments",
+              "old_status": "operational",
+              "new_status": "major_outage"
+            }
+          ],
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        }
+      ],
+      "components": [
+        {
+          "id": "jn3qknr2znhd",
+          "name": "Batch and Bank to Bank Payments",
+          "status": "major_outage",
+          "created_at": "2018-09-28T13:19:54.879-07:00",
+          "updated_at": "2026-07-06T08:17:02.091-07:00",
+          "position": 3,
+          "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
+          "showcase": false,
+          "start_date": null,
+          "group_id": null,
+          "page_id": "dm5h7g8csh93",
+          "group": false,
+          "only_show_if_degraded": false
+        }
+      ],
+      "reminder_intervals": null
+    }
+  ],
   "scheduled_maintenances": [
     {
       "id": "dzvt3k72gtn7",
@@ -400,9 +474,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "major_outage",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2026-06-23T02:00:08.748-07:00",
+          "updated_at": "2026-07-06T08:17:02.091-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -706,9 +780,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "major_outage",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2026-06-23T02:00:08.748-07:00",
+          "updated_at": "2026-07-06T08:17:02.091-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -1012,9 +1086,9 @@
         {
           "id": "jn3qknr2znhd",
           "name": "Batch and Bank to Bank Payments",
-          "status": "operational",
+          "status": "major_outage",
           "created_at": "2018-09-28T13:19:54.879-07:00",
-          "updated_at": "2026-06-23T02:00:08.748-07:00",
+          "updated_at": "2026-07-06T08:17:02.091-07:00",
           "position": 3,
           "description": "Batch and bank to bank related products and services including Batch Payment and Reporting APIs.",
           "showcase": false,
@@ -1165,7 +1239,7 @@
     }
   ],
   "status": {
-    "indicator": "none",
-    "description": "All Systems Operational"
+    "indicator": "major",
+    "description": "Partial System Outage"
   }
 }
