@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-08-06T04:34:00.119-07:00"
+    "updated_at": "2026-08-06T06:59:05.048-07:00"
   },
   "components": [
     {
@@ -556,7 +556,7 @@
       "name": "Maintenance Activities",
       "status": "scheduled",
       "created_at": "2026-08-05T14:13:37.493-07:00",
-      "updated_at": "2026-08-05T14:13:37.583-07:00",
+      "updated_at": "2026-08-06T06:10:59.216-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -567,10 +567,10 @@
         {
           "id": "j8pc0n9kjcjw",
           "status": "scheduled",
-          "body": "Dear Shift4 Customer,\n\nWe would like to inform you we have scheduled a maintenance window to focus on improving the performance, stability and security of our solution. These activities will take place August 18th between 10:00 PM to 1:00 PM PT. During this time, there may be a total of 15 minutes intermittent processing downtime.\n\nImpact: Up to 15 minutes of intermittent processing downtime. We apologize for any inconvenience and appreciate your patience.\n\nIf you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@shift4.com or by calling 1-833-226-2672",
+          "body": "Dear Shift4 Customer,\n\nWe would like to inform you we have scheduled a maintenance window to focus on improving the performance, stability and security of our solution. These activities will take place August 18th between 10:00 AM to 1:00 PM PT. \n\nImpact: Up to 15 minutes of intermittent processing downtime. We apologize for any inconvenience and appreciate your patience.\n\nIf you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@shift4.com or by calling 1-833-226-2672",
           "incident_id": "ngczdpj1gwg3",
           "created_at": "2026-08-05T14:13:37.578-07:00",
-          "updated_at": "2026-08-05T14:13:37.578-07:00",
+          "updated_at": "2026-08-06T06:10:59.209-07:00",
           "display_at": "2026-08-05T14:13:37.578-07:00",
           "affected_components": [
             {
@@ -862,7 +862,7 @@
       "name": "Maintenance Activities",
       "status": "scheduled",
       "created_at": "2026-08-05T14:15:57.265-07:00",
-      "updated_at": "2026-08-05T14:15:57.350-07:00",
+      "updated_at": "2026-08-06T06:11:16.690-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -873,10 +873,10 @@
         {
           "id": "n1gsj8frgk14",
           "status": "scheduled",
-          "body": "Dear Shift4 Customer,\n\nWe would like to inform you we have scheduled a maintenance window to focus on improving the performance, stability and security of our solution. These activities will take place August 20th between 10:00 PM to 1:00 PM PT. During this time, there may be a total of 15 minutes intermittent processing downtime.\n\nImpact: Up to 15 minutes of intermittent processing downtime. We apologize for any inconvenience and appreciate your patience.\n\nIf you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@shift4.com or by calling 1-833-226-2672",
+          "body": "Dear Shift4 Customer,\n\nWe would like to inform you we have scheduled a maintenance window to focus on improving the performance, stability and security of our solution. These activities will take place August 20th between 10:00 AM to 1:00 PM PT. \n\nImpact: Up to 15 minutes of intermittent processing downtime. We apologize for any inconvenience and appreciate your patience.\n\nIf you have urgent questions or concerns, please reach out to our Customer Support team via email support.na@shift4.com or by calling 1-833-226-2672",
           "incident_id": "78vj9qb1td9s",
           "created_at": "2026-08-05T14:15:57.346-07:00",
-          "updated_at": "2026-08-05T14:15:57.346-07:00",
+          "updated_at": "2026-08-06T06:11:16.681-07:00",
           "display_at": "2026-08-05T14:15:57.346-07:00",
           "affected_components": [
             {
