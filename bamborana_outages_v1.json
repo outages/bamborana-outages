@@ -4,7 +4,7 @@
     "name": "Bambora North America",
     "url": "https://status.na.bambora.com",
     "time_zone": "America/Los_Angeles",
-    "updated_at": "2026-10-19T21:41:00.566-07:00"
+    "updated_at": "2026-10-20T05:00:17.110-07:00"
   },
   "components": [
     {
@@ -650,7 +650,7 @@
       "name": "Maintenance Activities (UAT)",
       "status": "scheduled",
       "created_at": "2026-10-14T11:52:04.120-07:00",
-      "updated_at": "2026-10-14T11:52:04.238-07:00",
+      "updated_at": "2026-10-20T05:00:17.084-07:00",
       "monitoring_at": null,
       "resolved_at": null,
       "impact": "maintenance",
@@ -658,6 +658,19 @@
       "started_at": "2026-10-14T11:52:04.094-07:00",
       "page_id": "dm5h7g8csh93",
       "incident_updates": [
+        {
+          "id": "l7yw4l1ycz0s",
+          "status": "scheduled",
+          "body": "Maintenance will begin as scheduled in 60 minutes.",
+          "incident_id": "h582t701fd1g",
+          "created_at": "2026-10-20T05:00:15.929-07:00",
+          "updated_at": "2026-10-20T05:00:15.929-07:00",
+          "display_at": "2026-10-20T05:00:15.929-07:00",
+          "affected_components": null,
+          "deliver_notifications": true,
+          "custom_tweet": null,
+          "tweet_id": null
+        },
         {
           "id": "h9b7bn56vhy6",
           "status": "scheduled",
